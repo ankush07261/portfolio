@@ -1,0 +1,217 @@
+@keyframes cursor {
+    50% {
+        border-color: white;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+}
+
+@keyframes handwave {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+.about-me-page{
+    width: 100%;
+    height:100%;
+}
+.about-me-page p{
+    text-align: center;
+    margin: 1.25rem auto 0.5rem auto;
+    font-size: 1.2rem;
+}
+.container{
+    width: 90%;
+    display: flex;
+    gap:1rem;
+    align-items:center;
+    margin:  auto;
+    padding: 1rem;
+}
+.sub-container{
+    width:45%;
+    padding: 1rem;
+    height: 60vh;
+    display: flex;
+    align-items:center
+}
+.profile-image{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    box-shadow: 0rem 0rem 1.5rem rgb(255, 255, 188);
+    margin: auto 1rem auto auto;
+    border: 2px solid black;
+}
+.socials-container{
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height:fit-content;
+    margin: auto 1rem auto auto;
+    display: flex;
+    gap: 0.5rem;
+}
+.socials-container a{
+    text-decoration: none;
+}
+.socials-container a img{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.resume {
+    text-decoration: none;
+    color: yellow;
+    transition: 200ms ease-in-out;
+}
+.me-text-primary .hello{
+    font-size:1.4rem;
+    animation: handwave 2.5s infinite;
+    transform-origin: 70% 70%;
+}
+.resume:hover {
+    color: rgb(36, 36, 36);
+    background-color: yellowgreen;
+}
+.my-profile-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width:0;
+    height: 50vh;
+    height: relative;
+    border: 2px solid rgb(164, 164, 164);
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.about-me p{
+    text-align: left;
+    font-size: 1rem;
+}
+.fas{
+    display: flex;
+    font-size: 1.1rem;
+    gap:0.4rem;
+}
+.web-built{
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+.me-text-primary {
+    width: 90%;
+    font-size: large;
+}
+.highlight{
+    font-weight: bold;
+    color: yellowgreen;
+}
+.web-built{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.web-built p{
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 4s steps(40),
+        cursor 2s step-end infinite alternate;
+    animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        display: block;
+        width: 100%;
+        height: fit-content;
+        margin: 20% 0;
+        padding: 0;
+    }
+    .socials-container{
+        width:60%;
+        margin: 1rem auto 0 auto;
+    }
+    .line{
+        display:none;
+        z-index: 99;
+    }
+    .my-profile-image{
+        height:fit-content;
+        padding: 0;
+    }
+    .profile-image{
+        width: 12rem;
+        margin: 1rem auto;
+    }
+    .sub-container{
+        width: 100%;
+        padding: 0.2rem;
+    }
+    .about-me{
+        height:fit-content;
+        text-align: left;
+        margin-top: 0;
+        padding: 0 0.5rem;
+        font-size: 1.2rem;
+    }
+    .about-me p, .about-me p b, .about-me p i,
+    .about-me p .hello{
+        background-color: rgb(52, 52, 52);
+        padding: 1rem;
+        font-size: 1.2rem;
+        border-radius: 6px;
+    }
+    .highlight{
+        background-color: rgb(52, 52, 52);
+    }
+    .web-built p{
+        margin: 1.5rem auto 1rem auto;
+        font-size: 16px;
+        height: auto;
+    }
+}

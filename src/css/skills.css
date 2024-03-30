@@ -1,0 +1,78 @@
+.skill{
+    width: 96%;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: auto;
+} 
+.skill h1{
+    margin-top: 1rem;
+    letter-spacing: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+}
+.skill-container{
+    margin: 2rem auto 0rem auto;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 5%;
+    grid-auto-rows: auto;
+    padding-bottom: 2rem;
+}
+.skills{
+    padding-top: 0.5rem;
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 0.5rem;
+    background-color: black;
+    box-shadow: 0 0 0.6rem grey;
+}
+.skills h2{
+    background-color: transparent;
+}
+.skill-card{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 2fr));
+    gap: 1rem;
+    grid-auto-rows: auto;
+    padding: 0.6rem;
+    text-align: justify;
+    color: black;
+    gap: 1rem;
+    border-radius: 0.5rem;
+}
+.skill-card h3{
+    padding: 0.6rem;
+    margin: auto;
+    border: 2px solid yellowgreen;
+    border-radius: 6px;
+    color:yellow;
+    width: 8rem;
+    height: fit-content;
+    text-align: center;
+}
+.skill-card p{
+    color: black;
+}
+
+@media only screen and (max-width: 790px){
+    .skill{
+        width: 100%;
+        margin-bottom: 3rem;
+    } 
+    .skill-container{
+        width: 100%;
+        margin: 1rem auto;
+        padding: 0;
+    }
+    .skills{
+        width:96%;
+        margin: auto;
+    }
+    .webdev-skills{
+        margin-top: 1rem;
+    }
+}

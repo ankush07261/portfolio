@@ -1,0 +1,115 @@
+* {
+  width: 100%;
+}
+.nav-elements {
+  background-color: yellowgreen;
+  color: black;
+  transition: 0.2s ease-in-out;
+  text-wrap: nowrap;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  align-items: center;
+  overflow-y: hidden;
+}
+.navbar h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.profile-image-navbar {
+  width: 3.5rem;
+  aspect-ratio: 1 /1;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 870px) {
+  .navbar {
+    overflow-y: hidden;
+  }
+  .navbar-nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6%;
+    height: fit-content;
+  }
+  .nav-elements {
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    padding: 0.4rem;
+    color: black;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .nav-elements:hover {
+    background-color: yellow;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .navbar {
+    padding: 1rem;
+    overflow-x: hidden;
+    height: 4rem;
+  }
+  .navbar h2 {
+    font-size: 26px;
+  }
+  .menu {
+    display: inline-block;
+    width: fit-content;
+    padding: 0.5rem;
+    border: 2px solid yellowgreen;
+    border-radius: 4px;
+    background-color: transparent;
+  }
+  .btn-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  .navbar-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(22, 22, 22, 0.9) !important;
+    transition: 1s;
+    flex-direction: column;
+    transform: translateY(-105vh);
+    z-index: 999;
+    padding: 0.5rem;
+  }
+  .responsiveNav {
+    transform: none;
+  }
+  .nav-elements {
+    background-color: transparent !important;
+    color: yellow;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 32px;
+    padding: 0.4rem;
+    box-shadow: none !important;
+  }
+  .nav-elements:hover {
+    color: yellowgreen;
+    border-radius: 6px;
+    background-color: rgb(56, 56, 56);
+  }
+}

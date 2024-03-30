@@ -1,0 +1,65 @@
+.aboutMe-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-top: 2rem;
+    width: 60%;
+    padding: 2rem;
+    border: 2px solid yellow;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1rem yellowgreen;
+}
+.resume{
+    padding: 0.4rem;
+    text-decoration: none;
+    color:yellow;
+    border: 2px solid yellowgreen;
+    border-radius: 6px;
+    transition: 200ms ease-in-out;
+}
+.resume:hover {
+    color: rgb(36, 36, 36);
+    background-color: yellowgreen;
+}
+.me-text{
+    text-align: left;
+}
+.footer-container{
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+}
+ul{
+    margin-left: 2rem;
+}
+li{
+    margin: 0.5rem;
+    width: fit-content;
+    padding: 0;
+}
+b{
+    
+}
+@media only screen and (max-width: 860px){ 
+    .aboutMe-container{
+        padding: 0.2rem;
+        margin: 0;
+        width: 100%;
+    }
+    .text{
+        margin-top: 3rem;
+        margin-left: 2%;
+        width: 100%;
+        box-shadow: none;
+        padding: 0.2rem;
+        border: none;
+    }
+    .me-text{
+        padding: 0.4rem;
+        width: 94%;
+    }
+}

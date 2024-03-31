@@ -47,7 +47,7 @@ function Home() {
             <b>
               <a
                 className="resume"
-                href="https://drive.google.com/file/d/1a6TQws6-g9TCEym0-okK_gXJ5DWdl2d-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ipxvMGf3EHbw9IigBglDM5IBSXbgzI6z/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

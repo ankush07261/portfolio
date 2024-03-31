@@ -25,7 +25,7 @@ export const projects = [
     role: "Web developer",
     description:
       "Built, hosted and maintained the official website for the Enterprenuership Development Club in Jyothy Institute of Technology.",
-    duration: "24/07/2023 - 30/11/2023",
+    duration: "24/07/2023 - 31/01/2024",
   },
 ];
 

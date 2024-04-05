@@ -1,12 +1,14 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../css/navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import profileImage from "../assets/images/profilepicture.jpg";
 
 function Navbar() {
-  const [active, setActive] = useState("Home");
 
+  const location = useLocation();
   const navRef = useRef();
+
+  const [active, setActive] = useState(location.pathname);
 
   const showNav = () => {
     navRef.current.classList.toggle("responsiveNav");
@@ -32,9 +34,12 @@ function Navbar() {
             <Link
               to={route.path}
               className="nav-elements"
-              style={{backgroundColor: route.title === active ? route.bg  : route.nabg, boxShadow: route.title === active ? "0 0 1rem grey": null}}
+              style={{
+                backgroundColor: route.path === active ? route.bg : route.nabg,
+                boxShadow: route.path === active ? "0 0 1rem grey" : null,
+              }}
               onClick={() => {
-                setActive(route.title);
+                setActive(route.path);
                 showNav();
               }}
               key={index}

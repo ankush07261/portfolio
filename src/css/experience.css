@@ -1,88 +1,127 @@
-.myWork{
-    text-align: center;
+.myWork {
+  text-align: center;
 }
-.myWork h2{
-    width: 90%;
-    margin: 1rem auto;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid lightgoldenrodyellow;
+.myWork h2 {
+  width: 90%;
+  margin: 1rem auto;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid lightgoldenrodyellow;
 }
-.projects{
-    width: 90%;
-    margin:auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-    gap: 4rem;
-    grid-auto-rows: auto;
-    padding-bottom: 2rem;
+.projects {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 4rem;
+  grid-auto-rows: auto;
+  padding-bottom: 2rem;
 }
-.prof-projects .card{
+.professional-experience {
+  width: 100%;
+}
+.css-1fe7e6p-MuiTimelineSeparator-root,
+.css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+  text-align: left;
+}
+.css-55vwbm-MuiTimeline-root {
+  width: 80%;
+  margin: auto;
+}
+.css-1ms7hib-MuiTimelineItem-root {
+  width: 100%;
+}
+.css-1ms7hib-MuiTimelineItem-root p,
+.css-1ms7hib-MuiTimelineItem-root b,
+.css-1ms7hib-MuiTimelineItem-root h4,
+.css-1ms7hib-MuiTimelineItem-root h3 {
+  background-color: transparent;
+  color: lightgoldenrodyellow;
+}
+.experience-card {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0.2rem 0.2rem 0.8rem grey;
+  background-color: #141414;
+  padding: 1rem;
+}
+.css-1ms7hib-MuiTimelineItem-root::before {
+  display: none;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  background-color: transparent;
+  color: lightgoldenrodyellow;
+}
+.exp-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.card {
+  border: 3px solid black;
+  border-radius: 8px;
+  margin: auto;
+  transition: 0.2s ease-in-out;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 0 0.8rem grey;
+  max-width: 20rem;
+}
+.card img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid black;
+}
+.card p {
+  padding: 0 1rem 0.5rem 1rem;
+  text-wrap: wrap;
+  text-align: left;
+  color: black;
+  background-color: lightgoldenrodyellow;
+  border-radius: 6px;
+}
+.card p h3,
+h4,
+.card b {
+  text-align: justify;
+  color: black;
+  background-color: lightgoldenrodyellow;
+}
+.demo-card {
+  padding-bottom: 0.5rem;
+}
+h4 {
+  margin-top: 0.5rem;
+}
+.try-it {
+  text-decoration: none;
+  padding: 0.4rem 0.6rem;
+  background-color: green;
+  color: aliceblue;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.try-it:hover,
+.github-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+.github-link {
+  margin-left: 1rem;
+  text-decoration: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 6px;
+}
+@media only screen and (max-width: 860px) {
+  .css-55vwbm-MuiTimeline-root {
+    width: 96%;
     margin: auto;
-}
-.prof-projects{
-    display: flex;
-    /* grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr)); */
-    gap: 4rem;
-    text-align: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.card{
-    border: 3px solid black;
-    border-radius: 8px;
-    margin:auto;
-    transition: 0.2s ease-in-out;
-    background-color: lightgoldenrodyellow;
-    box-shadow: 0 0 0.8rem grey;
-    max-width: 20rem;
-}
-.card img{
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 5px 5px 0 0;
-    border-bottom: 2px solid black;
-}
-.card p{
-    padding: 0 1rem 0.5rem 1rem;
-    text-wrap: wrap;
-    text-align: left;
-    color: black;
-    background-color: lightgoldenrodyellow;
-    border-radius: 6px;
-}
-.card p h3, h4, .card b{
-    text-align: justify;
-    color: black;
-    background-color: lightgoldenrodyellow;
-}
-.demo-card{
-    padding-bottom: 0.5rem;
-}
-h4{
-    margin-top: 0.5rem;
-}
-.try-it{
-    text-decoration: none;
-    padding:0.4rem 0.6rem;
-    background-color: green;
-    color: aliceblue;
-    border: 1px solid black;
-    border-radius:6px;
-}
-.try-it:hover, .github-link:hover{
-    text-decoration: underline;
-    color: white;
-}
-.github-link{
-    margin-left: 1rem;
-    text-decoration: none;
-    background-color: black;
-    color: aliceblue;
-    padding: 0.4rem 0.6rem;
-    border: none;
-    border-radius: 6px;
-}
-.experience-card-container{
-    width: 100%;
-    background-color: red;
+  }
 }

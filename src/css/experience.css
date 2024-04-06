@@ -44,14 +44,13 @@
   background-color: #141414;
   padding: 1rem;
 }
-.experience-card p, .experience-card h3 {
+.experience-card p, .experience-card h3, .experience-card h4 {
   background-color: transparent;
 }
 .css-1ms7hib-MuiTimelineItem-root::before {
   display: none !important;
-  content:"";
-  width:0 !important;
-  height:0 !important;
+  /* content:Null; */
+  width: 0 !important;
 }
 .card-header {
   display: flex;

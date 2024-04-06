@@ -6,6 +6,10 @@
   color: lightgoldenrodyellow;
   font-size: 14px;
 }
+*::before{
+  content:"";
+  display: none;
+}
 h1{
   font-size: 24px;
 }

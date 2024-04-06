@@ -45,7 +45,9 @@
   padding: 1rem;
 }
 .css-1ms7hib-MuiTimelineItem-root::before {
-  display: none;
+  content:"";
+  width:0;
+  height:0;
 }
 .card-header {
   display: flex;

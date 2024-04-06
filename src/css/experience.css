@@ -44,6 +44,9 @@
   background-color: #141414;
   padding: 1rem;
 }
+.experience-card p, .experience-card h3 {
+  background-color: transparent;
+}
 .css-1ms7hib-MuiTimelineItem-root::before {
   display: none !important;
   content:"";

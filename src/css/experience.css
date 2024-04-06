@@ -45,10 +45,10 @@
   padding: 1rem;
 }
 .css-1ms7hib-MuiTimelineItem-root::before {
-  display: none;
+  display: none !important;
   content:"";
-  width:0;
-  height:0;
+  width:0 !important;
+  height:0 !important;
 }
 .card-header {
   display: flex;

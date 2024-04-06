@@ -69,7 +69,6 @@
   border-radius: 8px;
   margin: auto;
   transition: 0.2s ease-in-out;
-  background-color: lightgoldenrodyellow;
   box-shadow: 0 0 0.8rem grey;
   max-width: 20rem;
 }
@@ -83,16 +82,7 @@
   padding: 0 1rem 0.5rem 1rem;
   text-wrap: wrap;
   text-align: left;
-  color: black;
-  background-color: lightgoldenrodyellow;
   border-radius: 6px;
-}
-.card p h3,
-h4,
-.card b {
-  text-align: justify;
-  color: black;
-  background-color: lightgoldenrodyellow;
 }
 .demo-card {
   padding-bottom: 0.5rem;

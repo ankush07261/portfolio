@@ -29,9 +29,13 @@ function MyWork() {
           <Timeline>
             {project.map((project, index) => (
               <TimelineItem key={index}>
-                <TimelineSeparator>
-                  <TimelineDot sx={{ backgroundColor: "yellow" }} />
-                  <TimelineConnector sx={{ backgroundColor: "yellow" }} />
+                <TimelineSeparator sx={{ width:"14px" }}>
+                  <TimelineDot
+                    sx={{ backgroundColor: "yellow", margin: "0px" }}
+                  />
+                  <TimelineConnector
+                    sx={{ backgroundColor: "yellow", margin: "0px" }}
+                  />
                 </TimelineSeparator>
                 <TimelineContent>
                   <div className="experience-card">

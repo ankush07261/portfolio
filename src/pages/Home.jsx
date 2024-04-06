@@ -18,20 +18,25 @@ function Home() {
   return (
     <div className="about-me-page">
       <div className="container">
-        <div className="sub-container my-profile-image">
-          <img src={profileImage} alt="dp" className="profile-image" />
-          <div className="socials-container">
-            {links.map((link, index) => (
-              <a href={link.href} target="_blank" rel="noreferrer" key={index}>
-                <img
-                  src={link.img}
-                  alt="social-media"
-                  className="social"
-                  style={{ borderRadius: "4px" }}
-                />
-              </a>
-            ))}
-          </div>
+          <div className="sub-container my-profile-image">
+            <img src={profileImage} alt="dp" className="profile-image" />
+            <div className="socials-container">
+              {links.map((link, index) => (
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  key={index}
+                >
+                  <img
+                    src={link.img}
+                    alt="social-media"
+                    className="social"
+                    style={{ borderRadius: "4px" }}
+                  />
+                </a>
+              ))}
+            </div>
         </div>
         <div className="line"></div>
         <div className="sub-container about-me">
@@ -62,7 +67,7 @@ function Home() {
         </div>
       </div>
       <div className="web-built">
-        <p>This website is built using ReactJS.</p>
+        <p>This website is built using ReactJS and MUI components.</p>
       </div>
     </div>
   );

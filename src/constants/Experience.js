@@ -7,8 +7,9 @@ import React_crud from "../assets/images/MyWork-SS/Redux-CRUD.png";
 import randomQuote from "../assets/images/MyWork-SS/quoteGen.png";
 import imgCarousel from "../assets/images/MyWork-SS/imgCarousel.png";
 import TempBMI from "../assets/images/MyWork-SS/TempBMI.png";
-import EDCJIT from "../assets/images/MyWork-SS/edcjit.png";
-import cadabams from "../assets/images/MyWork-SS/cadabams.png";
+import EDCJIT from "../assets/images/MyWork-SS/edcjit.jpeg";
+import cadabams from "../assets/images/MyWork-SS/cadabams.jpeg";
+import destinationTechnologies from "../assets/images/MyWork-SS/destinationTechnologies.jpeg";
 
 export const projects = [
   {
@@ -25,7 +26,15 @@ export const projects = [
     role: "Web developer",
     description:
       "Built, hosted and maintained the official website for the Enterprenuership Development Club in Jyothy Institute of Technology.",
-    duration: "24/07/2023 - 31/01/2024",
+    duration: "24/07/2023 - 30/11/2023",
+  },
+  {
+    image: destinationTechnologies,
+    title: "Destination Technologies",
+    role: "Full stack trainee",
+    description:
+      "Executed hands-on training in the creation of web applications and hosting showcasing my proficiency in implementation.",
+    duration: "01/11/2023 - 30/11/2023",
   },
 ];
 

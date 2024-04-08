@@ -2,9 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 import "../css/navbar.css";
 import { Link, useLocation } from "react-router-dom";
 import profileImage from "../assets/images/profilepicture.jpg";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 function Navbar() {
-
   const location = useLocation();
   const navRef = useRef();
 
@@ -17,9 +18,19 @@ function Navbar() {
   const routes = [
     { path: "/", title: "Home", bg: "yellow", nabg: "yellowgreen" },
     { path: "/about-me", title: "About me", bg: "yellow", nabg: "yellowgreen" },
-    { path: "/experience", title: "Experience", bg: "yellow", nabg: "yellowgreen" },
+    {
+      path: "/experience",
+      title: "Experience",
+      bg: "yellow",
+      nabg: "yellowgreen",
+    },
     { path: "/skills", title: "Skills", bg: "yellow", nabg: "yellowgreen" },
-    { path: "/contact", title: "Contact me", bg: "yellow", nabg: "yellowgreen" },
+    {
+      path: "/contact",
+      title: "Contact me",
+      bg: "yellow",
+      nabg: "yellowgreen",
+    },
   ];
 
   return (
@@ -47,12 +58,12 @@ function Navbar() {
               {route.title}
             </Link>
           ))}
-          <button className="menu btn-close">
-            <i class="fa fa-close" onClick={showNav}></i>
+          <button className="menu btn-close" onClick={showNav}>
+            <CloseIcon />
           </button>
         </div>
         <button className="menu" onClick={showNav}>
-          <i class="fa fa-bars"></i>
+          <MenuIcon />
         </button>
       </div>
     </>

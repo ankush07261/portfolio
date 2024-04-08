@@ -184,6 +184,7 @@
   .socials-container {
     width: 60%;
     margin: 1rem auto 0 auto;
+    font-size: 18px;
   }
   .line {
     display: none;

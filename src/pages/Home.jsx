@@ -2,18 +2,24 @@ import React from "react";
 import "../css/home.css";
 import "../css/mobileBtns.css";
 import profileImage from "../assets/images/profilepicture.jpg";
-import gmail from "../assets/images/socials/gmail.jpg";
-import linkedin from "../assets/images/socials/linkedin.jpg";
-import github from "../assets/images/socials/github.jpg";
-import instagram from "../assets/images/socials/instagram.jpg";
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 
 function Home() {
   const links = [
-    { href: "mailto:ankushhegde30@gmail.com", img: gmail },
-    { href: "https://www.linkedin.com/in/ankush-hegde-9144b3194/", img: linkedin },
-    { href: "https://github.com/ankush07261", img: github },
-    { href: "https://www.instagram.com/ankush_hegde____/", img: instagram },
+    { href: "mailto:ankushhegde30@gmail.com", img: <EmailIcon sx={{scale:"1.5"}} /> },
+    {
+      href: "https://www.linkedin.com/in/ankush-hegde-9144b3194/",
+      img: <LinkedInIcon sx={{scale:"1.5"}} />,
+    },
+    { href: "https://github.com/ankush07261", img: <GitHubIcon sx={{scale:"1.5"}} /> },
+    {
+      href: "https://www.instagram.com/ankush_hegde____/",
+      img: <InstagramIcon sx={{scale:"1.5"}} />,
+    },
   ];
   return (
     <div className="about-me-page">
@@ -23,12 +29,7 @@ function Home() {
           <div className="socials-container">
             {links.map((link, index) => (
               <a href={link.href} target="_blank" rel="noreferrer" key={index}>
-                <img
-                  src={link.img}
-                  alt="social-media"
-                  className="social"
-                  style={{ borderRadius: "4px" }}
-                />
+                {link.img}
               </a>
             ))}
           </div>

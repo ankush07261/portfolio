@@ -1,9 +1,9 @@
 export const webDev = [
   {
-    title: "MongoDB",
+    title: "TypeScript",
   },
   {
-    title: "Javascript",
+    title: "MongoDB",
   },
   {
     title: "EJS",
@@ -19,6 +19,9 @@ export const webDev = [
   },
   {
     title: "NodeJS",
+  },
+  {
+    title: "Javascript",
   },
   {
     title: "HTML",

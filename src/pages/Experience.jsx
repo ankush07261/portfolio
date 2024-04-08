@@ -4,12 +4,6 @@ import { Link } from "react-router-dom";
 import { demoprojects, projects } from "../constants/Experience";
 import * as React from "react";
 import { useState } from "react";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
 
 function MyWork() {
   const [demo, setDemo] = useState(demoprojects);
@@ -26,18 +20,14 @@ function MyWork() {
         <h2>Professional Experience: </h2>
         <br />
         <div className="professional-experience">
-          <Timeline>
+          <ul className="experience-list">
             {project.map((project, index) => (
-              <TimelineItem key={index}>
-                <TimelineSeparator sx={{ width:"14px" }}>
-                  <TimelineDot
-                    sx={{ backgroundColor: "yellow", margin: "0px" }}
-                  />
-                  <TimelineConnector
-                    sx={{ backgroundColor: "yellow", margin: "0px" }}
-                  />
-                </TimelineSeparator>
-                <TimelineContent>
+              <li key={index}>
+                <div className="timeline-div">
+                  <span className="dot"></span>
+                  <span className="line-exp"></span>
+                </div>
+                
                   <div className="experience-card">
                     <div className="card-header">
                       <img
@@ -54,10 +44,10 @@ function MyWork() {
                       <p>{project.description}</p>
                     </p>
                   </div>
-                </TimelineContent>
-              </TimelineItem>
+                
+              </li>
             ))}
-          </Timeline>
+          </ul>
         </div>
 
         <br />

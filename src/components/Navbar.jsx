@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import "../css/navbar.css";
 import { Link, useLocation } from "react-router-dom";
 import profileImage from "../assets/images/profilepicture.jpg";

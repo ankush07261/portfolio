@@ -1,5 +1,7 @@
 .myWork {
   text-align: center;
+  width: 100%;
+  /* height: 100%; not sure if needed */
 }
 .myWork h2 {
   width: 90%;
@@ -18,6 +20,7 @@
 }
 .professional-experience {
   width: 100%;
+  /* height: 100%; not sure if needed */
 }
 /* .css-1fe7e6p-MuiTimelineSeparator-root,
 .css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
@@ -54,12 +57,12 @@
 }
 .timeline-div{
   width: 12px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 0.25rem
+  gap: 0.25rem;
+  height: 100%;
 }
 .dot{
   width: 12px;
@@ -70,7 +73,7 @@
 .line-exp{
   background-color: yellow;
   width: 4px;
-  height: 90%;
+  height: 160px;
   border-radius: 2px;
 }
 .experience-card {

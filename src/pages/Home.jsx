@@ -37,7 +37,7 @@ function Home() {
         <div className="line"></div>
         <div className="sub-container about-me">
           <p className="me-text-primary">
-            Hello there<span className="hello">👋🏻</span>,<br />
+            Hey there folks<span className="hello">👋🏻</span>,<br />
             <br />I am a{" "}
             <span className="highlight">Full-stack Web developer</span> who can
             build good interactive and responsive web applications.
@@ -45,7 +45,7 @@ function Home() {
             <br />I am also interested in{" "}
             <span className="highlight">Cybersecurity</span>. <br />
             <br />
-            <b>
+            <b className="resume-container">
               <a
                 className="resume"
                 href="https://drive.google.com/file/d/1UfjrblSlak3qC1Dk-MAxqtt4igIjrU7I/view?usp=sharing"
@@ -63,7 +63,7 @@ function Home() {
         </div>
       </div>
       <div className="web-built">
-        <p>This website is built using ReactJS and MUI components.</p>
+        <p>This website is built using ReactJS and MUI.</p>
       </div>
     </div>
   );

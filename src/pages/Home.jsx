@@ -10,15 +10,15 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const links = [
-    { href: "mailto:ankushhegde30@gmail.com", img: <EmailIcon sx={{scale:"1.5"}} /> },
+    { href: "mailto:ankushhegde30@gmail.com", img: <EmailIcon /> },
     {
       href: "https://www.linkedin.com/in/ankush-hegde-9144b3194/",
-      img: <LinkedInIcon sx={{scale:"1.5"}} />,
+      img: <LinkedInIcon />,
     },
-    { href: "https://github.com/ankush07261", img: <GitHubIcon sx={{scale:"1.5"}} /> },
+    { href: "https://github.com/ankush07261", img: <GitHubIcon /> },
     {
       href: "https://www.instagram.com/ankush_hegde____/",
-      img: <InstagramIcon sx={{scale:"1.5"}} />,
+      img: <InstagramIcon />,
     },
   ];
   return (

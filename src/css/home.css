@@ -62,17 +62,23 @@
   border: 2px solid black;
 }
 .socials-container {
-  text-align: center;
-  align-items: center;
   width: 50%;
   height: fit-content;
   margin: auto 1rem auto auto;
   display: flex;
-  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   background-color: transparent;
 }
 .socials-container a {
   text-decoration: none;
+  scale: 1.5;
+  width: fit-content;
+}
+.socials-container a:hover{
+  border-bottom: 2px solid;
+  border-radius: 2px;
 }
 .socials-container a img {
   height: 30px;

@@ -17,7 +17,7 @@ function MyWork() {
           Contact me &rArr;
         </Link>
 
-        <h2>Professional Experience: </h2>
+        <h1>Professional Experience:</h1>
         <br />
         <div className="professional-experience">
           <ul className="experience-list">
@@ -27,24 +27,23 @@ function MyWork() {
                   <span className="dot"></span>
                   <span className="line-exp"></span>
                 </div>
-                
-                  <div className="experience-card">
-                    <div className="card-header">
-                      <img
-                        className="exp-img"
-                        src={project.image}
-                        alt="project pic"
-                      />
-                      <h3>{project.title}</h3>
-                    </div>
-                    <p>
-                      <h4>Role: {project.role}</h4>
-                      <p>{project.duration}</p>
-                      <h4>Description:</h4>
-                      <p>{project.description}</p>
-                    </p>
+
+                <div className="experience-card">
+                  <div className="card-header">
+                    <img
+                      className="exp-img"
+                      src={project.image}
+                      alt="project pic"
+                    />
+                    <h3>{project.title}</h3>
                   </div>
-                
+                  <p>
+                    <h4>Role: {project.role}</h4>
+                    <p>{project.duration}</p>
+                    <h4>Description:</h4>
+                    <p>{project.description}</p>
+                  </p>
+                </div>
               </li>
             ))}
           </ul>

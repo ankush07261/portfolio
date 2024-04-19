@@ -133,6 +133,7 @@ h4 {
   color: aliceblue;
   border: 1px solid black;
   border-radius: 6px;
+  margin-right: 1rem;
 }
 .try-it:hover,
 .github-link:hover {
@@ -140,7 +141,6 @@ h4 {
   color: white;
 }
 .github-link {
-  margin-left: 1rem;
   text-decoration: none;
   background-color: black;
   color: aliceblue;

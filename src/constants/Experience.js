@@ -1,7 +1,7 @@
 import drumKit from "../assets/images/MyWork-SS/drumKit.png";
 import simonGame from "../assets/images/MyWork-SS/simonGame.png";
-// import todoList from '../assets/images/MyWork-SS/todoList.png'
-// import blogWebsite from '../assets/images/MyWork-SS/BlogPage.png'
+import todoList from '../assets/images/MyWork-SS/todoList.png'
+import blogWebsite from '../assets/images/MyWork-SS/BlogPage.png'
 import weatherAPI from "../assets/images/MyWork-SS/weatherAPI.png";
 import React_crud from "../assets/images/MyWork-SS/Redux-CRUD.png";
 import randomQuote from "../assets/images/MyWork-SS/quoteGen.png";
@@ -46,20 +46,18 @@ export const demoprojects = [
     gitURL: "https://github.com/ankush07261/Weather-application",
     liveURL: "https://ankush-weather-application.netlify.app/",
   },
-  // {
-  //     image: blogWebsite,
-  //     title: "Blog web application",
-  //     description:"Built using MongoDB, ExpressJS, EJS and Bootstrap.",
-  //     gitURL: "https://github.com/ankush07261/Blog-web-app",
-  //     liveURL: "",
-  // },
-  // {
-  //     image:todoList ,
-  //     title: "To-Do List",
-  //     description:"Built using MongoDB, ExpressJS and EJS.",
-  //     gitURL: "https://github.com/ankush07261/To-Do-List",
-  //     liveURL: "",
-  // },
+  {
+      image: blogWebsite,
+      title: "Blog web application",
+      description:"Built using MongoDB, ExpressJS, EJS and Bootstrap.",
+      gitURL: "https://github.com/ankush07261/Blog-web-app",
+  },
+  {
+      image:todoList ,
+      title: "To-Do List",
+      description:"Built using MongoDB, ExpressJS and EJS.",
+      gitURL: "https://github.com/ankush07261/To-Do-List",
+  },
   {
     image: React_crud,
     title: "User management system",

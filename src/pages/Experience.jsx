@@ -61,14 +61,19 @@ function MyWork() {
                 <br />
                 <p>{demo.description}</p>
                 <br />
-                <a
-                  href={demo.liveURL}
-                  className="try-it"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Open
-                </a>
+                {demo.liveURL ? (
+                  <a
+                    href={demo.liveURL}
+                    className="try-it"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Open
+                  </a>
+                ) : (
+                  ""
+                )}
+
                 <a
                   className="github-link"
                   href={demo.gitURL}

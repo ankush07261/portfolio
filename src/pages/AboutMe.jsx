@@ -1,7 +1,7 @@
-import React from 'react'
-import '../css/aboutMe.css';
-import '../css/mobileBtns.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "../css/aboutMe.css";
+import "../css/mobileBtns.css";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
@@ -29,23 +29,24 @@ function AboutMe() {
             German.
             <br />
             <br />
-            <i class="fas fa-map-marker-alt">Bangalore, India</i>
+            📍 Bangalore, India
+            <br />
             <br />
             <b>Why me?</b>
             <br />
             <ul>
               <li>
-                <b>Creative Thinking:</b>
+                <b>&#x1F4A1; Creative Thinking:</b>
                 <br />I implement creativity and analytical thinking to the
-                projects i work on.
+                projects i work on and add value to your company.
               </li>
               <li>
-                <b>Staying updated:</b>
+                <b>&#x1F4C8; Staying updated:</b>
                 <br />I stay updated with newer tech trends and love exploring
                 innovative solutions.
               </li>
               <li>
-                <b>Collaborative spirit:</b>
+                <b>&#x1F310; Collaborative spirit:</b>
                 <br />I believe that team work makes "dream work" and enjoy
                 working with diverse talents and perspectives.
               </li>
@@ -96,4 +97,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe
+export default AboutMe;

@@ -6,18 +6,14 @@ import * as React from "react";
 import { useState } from "react";
 
 function MyWork() {
-  const [demo, setDemo] = useState(demoprojects);
   const [project, setProject] = useState(projects);
 
   return (
     <>
       <div className="myWork">
         <br />
-        <Link to="/contact" className="mobile-nav-elements">
-          Contact me &rArr;
-        </Link>
 
-        <h1>Professional Experience:</h1>
+        <h1>PROFESSIONAL EXPERIENCE</h1>
         <br />
         <div className="professional-experience">
           <ul className="experience-list">
@@ -50,45 +46,9 @@ function MyWork() {
         </div>
 
         <br />
-        <h2>Other / Demo Projects ...</h2>
-        <br />
-        <div className="projects">
-          {demo.map((demo, index) => (
-            <div className="card demo-card" key={index}>
-              <img src={demo.image} alt="" />
-              <p>
-                <h3>{demo.title}</h3>
-                <br />
-                <p>{demo.description}</p>
-                <br />
-                {demo.liveURL ? (
-                  <a
-                    href={demo.liveURL}
-                    className="try-it"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Open
-                  </a>
-                ) : (
-                  ""
-                )}
-
-                <a
-                  className="github-link"
-                  href={demo.gitURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </a>
-              </p>
-            </div>
-          ))}
-        </div>
       </div>
-      <Link to="/contact" className="mobile-nav-elements">
-        Contact me &rArr;
+      <Link to="/projects" className="mobile-nav-elements">
+        Projects &rArr;
       </Link>
     </>
   );

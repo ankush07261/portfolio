@@ -6,6 +6,9 @@ export const webDev = [
     title: "MongoDB",
   },
   {
+    title: "SQL",
+  },
+  {
     title: "ExpressJS",
   },
   {
@@ -15,10 +18,10 @@ export const webDev = [
     title: "Next.JS",
   },
   {
-    title: "NodeJS",
+    title: "Django",
   },
   {
-    title: "Javascript",
+    title: "NodeJS",
   },
   {
     title: "EJS",
@@ -27,10 +30,10 @@ export const webDev = [
     title: "HTML",
   },
   {
-    title: "SQL",
+    title: "CSS",
   },
   {
-    title: "CSS",
+    title: "Javascript",
   },
   {
     title: "Bootstrap",

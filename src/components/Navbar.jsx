@@ -24,6 +24,12 @@ function Navbar() {
       bg: "yellow",
       nabg: "yellowgreen",
     },
+    {
+      path: "/projects",
+      title: "Projects",
+      bg: "yellow",
+      nabg: "yellowgreen",
+    },
     { path: "/skills", title: "Skills", bg: "yellow", nabg: "yellowgreen" },
     {
       path: "/contact",

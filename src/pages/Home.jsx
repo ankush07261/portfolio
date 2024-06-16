@@ -40,10 +40,8 @@ function Home() {
             Hey there folks<span className="hello">👋🏻</span>,<br />
             <br />I am a{" "}
             <span className="highlight">Full-stack Web developer</span> who can
-            build good interactive and responsive web applications.
-            <br />
-            <br />I am also interested in{" "}
-            <span className="highlight">Cybersecurity</span>. <br />
+            build good interactive and responsive web applications and also a{" "}
+            <span className="highlight">Cybersecurity</span> enthusiast. <br />
             <br />
             <b className="resume-container">
               <a

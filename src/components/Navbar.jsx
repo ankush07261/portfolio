@@ -16,25 +16,46 @@ function Navbar() {
   };
 
   const routes = [
-    { path: "/", title: "Home", bg: "yellow", nabg: "yellowgreen" },
-    { path: "/about-me", title: "About me", bg: "yellow", nabg: "yellowgreen" },
+    {
+      path: "/",
+      title: "Home",
+      bg: "yellow",
+      border: "2px solid yellow ",
+      nabg: "yellowgreen",
+    },
+    {
+      path: "/about-me",
+      title: "About me",
+      bg: "yellow",
+      border: "2px solid yellow ",
+      nabg: "yellowgreen",
+    },
     {
       path: "/experience",
       title: "Experience",
       bg: "yellow",
+      border: "2px solid yellow ",
       nabg: "yellowgreen",
     },
     {
       path: "/projects",
       title: "Projects",
       bg: "yellow",
+      border: "2px solid yellow ",
       nabg: "yellowgreen",
     },
-    { path: "/skills", title: "Skills", bg: "yellow", nabg: "yellowgreen" },
+    {
+      path: "/skills",
+      title: "Skills",
+      bg: "yellow",
+      border: "2px solid yellow ",
+      nabg: "yellowgreen",
+    },
     {
       path: "/contact",
       title: "Contact me",
       bg: "yellow",
+      border: "2px solid yellow ",
       nabg: "yellowgreen",
     },
   ];
@@ -52,8 +73,9 @@ function Navbar() {
               to={route.path}
               className="nav-elements"
               style={{
-                backgroundColor: route.path === active ? route.bg : route.nabg,
-                boxShadow: route.path === active ? "0 0 1rem grey" : null,
+                color: route.path === active ? route.bg : route.nabg,
+                // borderBottom: route.path === active ? route.border : null,
+                textShadow: route.path === active ? "0px 4px 6px black" : null,
               }}
               onClick={() => {
                 setActive(route.path);

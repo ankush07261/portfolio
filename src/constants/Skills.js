@@ -56,16 +56,16 @@ export const cyberSecurity = [
 ];
 export const others = [
   {
-    title: "Python",
-  },
-  {
-    title: "Java",
-  },
-  {
     title: "C++",
   },
   {
     title: "C",
+  },
+  {
+    title: "Python",
+  },
+  {
+    title: "Java",
   },
   {
     title: "C#",

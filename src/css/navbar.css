@@ -14,7 +14,7 @@
   align-items: center;
   overflow-y: hidden;
 }
-.navbar h2 {
+.profile-container-pic {
   display: flex;
   align-items: center;
   gap: 0.5rem;

@@ -9,7 +9,7 @@ const Projects = () => {
   const [demo, setDemo] = useState(demoprojects);
 
   return (
-    <>
+    <div className="skill-exp-page">
       <h1>PROJECTS</h1>
       <hr />
       <br />
@@ -50,7 +50,7 @@ const Projects = () => {
       <Link to="/skills" className="mobile-nav-elements">
         My Skills &rArr;
       </Link>
-    </>
+    </div>
   );
 };
 

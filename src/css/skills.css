@@ -15,7 +15,7 @@
     margin: 2rem auto 0rem auto;
     width:100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap: 5%;
     grid-auto-rows: auto;
     padding-bottom: 2rem;
@@ -35,7 +35,7 @@
     width: 100%;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 2fr));
     gap: 1rem;
     grid-auto-rows: auto;
     padding: 0.6rem;
@@ -62,6 +62,7 @@
     .skill{
         width: 100%;
         margin-bottom: 3rem;
+        padding: 0 0.2rem;
     } 
     .skill-container{
         width: 100%;
@@ -69,7 +70,6 @@
         padding: 0;
     }
     .skills{
-        width:96%;
         margin: auto;
     }
     .webdev-skills{

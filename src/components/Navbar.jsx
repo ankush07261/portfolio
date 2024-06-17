@@ -63,10 +63,10 @@ function Navbar() {
   return (
     <>
       <div className="navbar" id="navbar">
-        <div className="profile-container-pic">
+        <h2>
           <img src={profileImage} alt="dp" className="profile-image-navbar" />
-          <h2>Ankush Hegde</h2>
-        </div>
+          Ankush Hegde
+        </h2>
         <div className="navbar-nav" id="navbar-nav" ref={navRef}>
           {routes.map((route, index) => (
             <Link

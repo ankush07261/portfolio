@@ -73,6 +73,7 @@ function Skills() {
         </div>
       </div>
       <br />
+      <br />
       <Link to="/contact" className="mobile-nav-elements toExperience">
         Contact me &rArr;
       </Link>

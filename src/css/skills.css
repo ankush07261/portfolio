@@ -1,138 +1,149 @@
-.skill{
-    width: 80%;
-    padding-bottom: 1rem;
-    text-align: center;
-    margin: auto;
-} 
-.skill h1{
-    margin-top: 1rem;
-    letter-spacing: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid;
-    background-color: inherit;
+.skill {
+  width: 80%;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: auto;
 }
-.react-tabs__tab{
-    margin: 0 1px !important;
-    background-color: rgba(172, 255, 47, 0.15) !important;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+.skill h1 {
+  margin-top: 1rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+  background-color: inherit;
 }
-.react-tabs__tab-list{
-    text-decoration: none !important;
-    border: none !important;
-    margin: 0 auto 0 0.5rem !important;
-    font-weight: 600 !important;
+.react-tabs__tab {
+  margin: 0 1px !important;
+  background-color: rgba(172, 255, 47, 0.15) !important;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
-.react-tabs__tab-panel{
-    padding: 1rem;
-    width: 100% !important;
-    margin-top: 0;
+.react-tabs__tab-list {
+  text-decoration: none !important;
+  border: none !important;
+  margin: 0 auto 0 0.5rem !important;
+  font-weight: 600 !important;
 }
-.react-tabs__tab-panel--selected{
-    border: 2px solid greenyellow !important;
-    border-radius: 8px;
+.react-tabs__tab-panel {
+  padding: 1rem;
+  width: 100% !important;
+  margin-top: 0;
 }
-.react-tabs__tab--selected{
-    background-color: rgba(172, 255, 47, 0.87) !important;
-    border: none;
-    border-top-left-radius: 8px !important;
-    border-top-right-radius: 8px !important;
+.react-tabs__tab-panel--selected {
+  border: 2px solid greenyellow !important;
+  border-radius: 8px;
 }
-.skill-container{
-    margin: 2rem auto 0rem auto;
-    width:100%;
-    text-align: left;
-    padding-bottom: 2rem;
+.react-tabs__tab--selected {
+  background-color: rgba(172, 255, 47, 0.87) !important;
+  border: none;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
 }
-.skills{
-    padding-top: 0.5rem;
-    border: 2px solid lightgoldenrodyellow;
-    border-radius: 0.5rem;
-    background-color: black;
-    box-shadow: 0 0 0.6rem grey;
+.skill-container {
+  margin: 2rem auto 0rem auto;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 2rem;
 }
-.skills h2{
-    background-color: transparent;
+.skills {
+  padding-top: 0.5rem;
+  border: 2px solid lightgoldenrodyellow;
+  border-radius: 0.5rem;
+  background-color: black;
+  box-shadow: 0 0 0.6rem grey;
 }
-.skill-card{
-    margin: 0.5rem auto;
-    line-height: 1.5rem;
-    width: 100%;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
+.skills h2 {
+  background-color: transparent;
 }
-.skill-desc{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    gap: 0.4rem;
-    border: none;
-    align-items: center;
+.skill-card {
+  margin: 0.5rem auto;
+  line-height: 1.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
 }
-.skill-desc h4{
-    width: 10%;
-    text-align: right;
-    margin-left: 0;
+.skill-desc {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  border: none;
+  align-items: center;
+}
+.skill-desc h4 {
+  width: 10%;
+  text-align: right;
+  margin-left: 0;
 }
 
-.skill-card h4{
-    color:yellow;
-    height: fit-content;
-    font-weight: 600;
+.skill-card h4 {
+  color: yellow;
+  height: fit-content;
+  font-weight: 600;
 }
-.skill-card p{
-    color: black;
+.skill-card p {
+  color: black;
 }
-.w3-light-grey{
-    height: fit-content;
+.w3-light-grey {
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+  background-color: black !important;
+}
+.w3-container {
+  background-color: rgba(172, 255, 47, 0.65) !important;
+  color: black !important;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 790px) {
+  .skill {
+    width: 96%;
+    margin: 0 auto 3rem auto;
+    padding: 0 0.2rem;
+  }
+  .skill-container {
+    width: 100%;
+    margin: 1rem auto;
     padding: 0;
-    margin: 0;
-    background-color: black !important;
-}
-.w3-container{
-    background-color: rgba(172, 255, 47, 0.65) !important;
-    color: black !important;
+  }
+  .skills {
+    margin: auto;
+  }
+  .webdev-skills {
+    margin-top: 1rem;
+  }
+  .react-tabs__tab {
+    padding: 0.5rem !important;
+    margin: 0 1px !important;
+    font-size: 12px !important;
+  }
+  .react-tabs__tab-list {
+    width: 100% !important;
+    margin-left: 0.5rem !important;
+  }
+  .skill-desc {
+    display: block;
+  }
+  .w3-container {
+    font-size: 12px;
     font-weight: 500;
-}
-
-@media only screen and (max-width: 790px){
-    .skill{
-        width: 96%;
-        margin: 0 auto 3rem auto;
-        padding: 0 0.2rem;
-    } 
-    .skill-container{
-        width: 100%;
-        margin: 1rem auto;
-        padding: 0;
-    }
-    .skills{
-        margin: auto;
-    }
-    .webdev-skills{
-        margin-top: 1rem;
-    }
-    .react-tabs__tab{
-        padding: 0.5rem !important;
-        margin: 0 1px !important;
-        font-size: 12px !important;
-    }
-    .react-tabs__tab-list{
-        width: 100% !important;
-        margin-left: 0.5rem !important;
-    }
-    .skill-desc{
-        display: block;
-    }
-    .w3-container{
-        font-size: 12px;
-        font-weight: 500;
-        height: fit-content;
-    }
-    .skill-desc h4{
-        width: 50%;
-        text-align: left;
-    }
+    height: fit-content;
+  }
+  .skill-desc h4 {
+    width: 50%;
+    text-align: left;
+  }
+  .w3-container {
+    background-color: rgba(45, 255, 45, 0.868) !important;
+    color: black !important;
+  }
+  .skill-desc h4{
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+  }
+  .react-tabs__tab--selected{
+   background-color: rgba(45, 255, 45, 0.919) !important; 
+  }
 }

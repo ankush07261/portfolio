@@ -1,5 +1,5 @@
 .skill{
-    width: 96%;
+    width: 80%;
     padding-bottom: 1rem;
     text-align: center;
     margin: auto;
@@ -11,13 +11,37 @@
     border-bottom: 1px solid;
     background-color: inherit;
 }
+.react-tabs__tab{
+    margin: 0 1px !important;
+    background-color: rgba(172, 255, 47, 0.15) !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.react-tabs__tab-list{
+    text-decoration: none !important;
+    border: none !important;
+    margin: 0 auto 0 0.5rem !important;
+    font-weight: 600 !important;
+}
+.react-tabs__tab-panel{
+    padding: 1rem;
+    width: 100% !important;
+    margin-top: 0;
+}
+.react-tabs__tab-panel--selected{
+    border: 2px solid greenyellow !important;
+    border-radius: 8px;
+}
+.react-tabs__tab--selected{
+    background-color: rgba(172, 255, 47, 0.87) !important;
+    border: none;
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+}
 .skill-container{
     margin: 2rem auto 0rem auto;
     width:100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 5%;
-    grid-auto-rows: auto;
+    text-align: left;
     padding-bottom: 2rem;
 }
 .skills{
@@ -31,37 +55,52 @@
     background-color: transparent;
 }
 .skill-card{
-    background-color: black;
+    margin: 0.5rem auto;
+    line-height: 1.5rem;
     width: 100%;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 2fr));
-    gap: 1rem;
-    grid-auto-rows: auto;
-    padding: 0.6rem;
-    text-align: justify;
-    color: black;
-    gap: 1rem;
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
 }
+.skill-desc{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    border: none;
+    align-items: center;
+}
+.skill-desc h4{
+    width: 10%;
+    text-align: right;
+    margin-left: 0;
+}
+
 .skill-card h4{
-    padding: 0.6rem;
-    margin: auto;
-    border: 2px solid yellowgreen;
-    border-radius: 6px;
     color:yellow;
-    width: 8rem;
     height: fit-content;
-    text-align: center;
+    font-weight: 600;
 }
 .skill-card p{
     color: black;
 }
+.w3-light-grey{
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    background-color: black !important;
+}
+.w3-container{
+    background-color: rgba(172, 255, 47, 0.65) !important;
+    color: black !important;
+    font-weight: 500;
+}
 
 @media only screen and (max-width: 790px){
     .skill{
-        width: 100%;
-        margin-bottom: 3rem;
+        width: 96%;
+        margin: 0 auto 3rem auto;
         padding: 0 0.2rem;
     } 
     .skill-container{
@@ -74,5 +113,26 @@
     }
     .webdev-skills{
         margin-top: 1rem;
+    }
+    .react-tabs__tab{
+        padding: 0.5rem !important;
+        margin: 0 1px !important;
+        font-size: 12px !important;
+    }
+    .react-tabs__tab-list{
+        width: 100% !important;
+        margin-left: 0.5rem !important;
+    }
+    .skill-desc{
+        display: block;
+    }
+    .w3-container{
+        font-size: 12px;
+        font-weight: 500;
+        height: fit-content;
+    }
+    .skill-desc h4{
+        width: 50%;
+        text-align: left;
     }
 }

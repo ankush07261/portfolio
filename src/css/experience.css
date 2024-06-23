@@ -9,7 +9,7 @@ h1 {
   padding-bottom: 0.5rem;
   background-color: inherit;
   text-align: center;
-}
+} 
 .myWork h2 {
   width: 90%;
   margin: 1rem auto;
@@ -92,7 +92,8 @@ h1 {
 }
 .experience-card p,
 .experience-card h3,
-.experience-card h4 {
+.experience-card h4,
+.experience-card b {
   background-color: transparent;
 }
 .card-header {

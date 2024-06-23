@@ -11,8 +11,6 @@ function MyWork() {
   return (
     <>
       <div className="myWork">
-        <br />
-
         <h1>PROFESSIONAL EXPERIENCE</h1>
         <br />
         <div className="professional-experience">
@@ -34,7 +32,9 @@ function MyWork() {
                     <h3>{project.title}</h3>
                   </div>
                   <p>
-                    <h4>Role: {project.role}</h4>
+                    <h4>
+                      <b>{project.role}</b>
+                    </h4>
                     <p>{project.duration}</p>
                     <h4>Description:</h4>
                     <p>{project.description}</p>

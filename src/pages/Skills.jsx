@@ -3,6 +3,8 @@ import "../css/skills.css";
 import "../css/mobileBtns.css";
 import { Link } from "react-router-dom";
 import { webDev, cyberSecurity, others } from "../constants/Skills";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 
 function Skills() {
   const [webSkill, setWebSkill] = useState(webDev);
@@ -13,7 +15,6 @@ function Skills() {
     <div className="skill-exp-page">
       <div className="skill">
         <h1>MY SKILLS</h1>
-        <br />
         {/* <Box sx={{ bgcolor: "background.paper", width: 500 }}>
           <AppBar position="static">
             <Tabs
@@ -46,33 +47,70 @@ function Skills() {
           </SwipeableViews>
         </Box> */}
         <div className="skill-container">
-          <div className="webdev-skills skills">
-            <h2>Web development</h2>
-            <div className="skill-card">
-              {webSkill.map((webskill, index) => (
-                <h4 key={index}>{webskill.title}</h4>
-              ))}
-            </div>
-          </div>
-          <div className="cybsec-skills skills">
-            <h2>Cybersecurity</h2>
-            <div className="skill-card cyber-skills">
-              {cyberSkill.map((cybskill, index) => (
-                <h4 key={index}>{cybskill.title}</h4>
-              ))}
-            </div>
-          </div>
-          <div className="other-skills skills">
-            <h2>Programming / Coding</h2>
-            <div className="skill-card cyber-skills">
-              {othSkill.map((othskill, index) => (
-                <h4 key={index}>{othskill.title}</h4>
-              ))}
-            </div>
-          </div>
+          <Tabs>
+            <TabList>
+              <Tab>Web development</Tab>
+              <Tab>Cybersecurity</Tab>
+              <Tab>Programming</Tab>
+            </TabList>
+
+            <TabPanel>
+              <h2>Web development</h2>
+              <div className="skill-card">
+                {webSkill.map((webskill, index) => (
+                  <div className="skill-desc">
+                    <h4 key={index}>{webskill.title}</h4>
+                    <div class="w3-light-grey w3-round-xlarge">
+                      <div
+                        class="w3-container w3-blue w3-round-xlarge"
+                        style={{ width: webskill.value }}
+                      >
+                        {webskill.value}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <h2>Cybersecurity</h2>
+              <div className="skill-card cyber-skills">
+                {cyberSkill.map((cybskill, index) => (
+                  <div className="skill-desc">
+                    <h4 key={index}>{cybskill.title}</h4>
+                    <div class="w3-light-grey w3-round-xlarge">
+                      <div
+                        class="w3-container w3-blue w3-round-xlarge"
+                        style={{ width: cybskill.value }}
+                      >
+                        {cybskill.value}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <h2>Programming / Coding</h2>
+              <div className="skill-card cyber-skills">
+                {othSkill.map((othskill, index) => (
+                  <div className="skill-desc">
+                    <h4 key={index}>{othskill.title}</h4>
+                    <div class="w3-light-grey w3-round-xlarge">
+                      <div
+                        class="w3-container w3-round-xlarge"
+                        style={{ width: othskill.value }}
+                      >
+                        {othskill.value}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </TabPanel>
+          </Tabs>
         </div>
       </div>
-      <br />
       <br />
       <Link to="/contact" className="mobile-nav-elements toExperience">
         Contact me &rArr;

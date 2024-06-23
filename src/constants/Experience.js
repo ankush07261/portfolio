@@ -47,16 +47,16 @@ export const demoprojects = [
     liveURL: "https://ankush-weather-application.netlify.app/",
   },
   {
-      image: blogWebsite,
-      title: "Blog web application",
-      description:"Built using MongoDB, ExpressJS, EJS and Bootstrap.",
-      gitURL: "https://github.com/ankush07261/Blog-web-app",
+    image: blogWebsite,
+    title: "Blog web application",
+    description: "Built using MongoDB, ExpressJS, EJS and Bootstrap.",
+    gitURL: "https://github.com/ankush07261/Blog-web-app",
   },
   {
-      image:todoList ,
-      title: "To-Do List",
-      description:"Built using MongoDB, ExpressJS and EJS.",
-      gitURL: "https://github.com/ankush07261/To-Do-List",
+    image: todoList,
+    title: "To-Do List",
+    description: "Built using MongoDB, ExpressJS and EJS.",
+    gitURL: "https://github.com/ankush07261/To-Do-List",
   },
   {
     image: React_crud,
@@ -85,7 +85,7 @@ export const demoprojects = [
     description:
       "Built using HTML5, CSS3 and JavaScript. It produces the respective drum sound on click or by pressing the keys.",
     gitURL: "https://github.com/ankush07261/Drum-Kit",
-    liveURL: "https://ankush07261.github.io/Drum-Kit/",
+    liveURL: "https://drum-kit-ankush.netlify.app/",
   },
   {
     image: TempBMI,

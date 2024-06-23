@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { demoprojects, projects } from "../constants/Experience";
 import * as React from "react";
 import { useState } from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 
 const Projects = () => {
   const [demo, setDemo] = useState(demoprojects);

@@ -134,16 +134,11 @@
   .skill-desc h4 {
     width: 50%;
     text-align: left;
-  }
-  .w3-container {
-    background-color: rgba(45, 255, 45, 0.868) !important;
-    color: black !important;
-  }
-  .skill-desc h4{
     margin-top: 0.5rem;
     margin-bottom: 0.1rem;
   }
-  .react-tabs__tab--selected{
-   background-color: rgba(45, 255, 45, 0.919) !important; 
+  .w3-container {
+  background-color: rgba(172, 255, 47) !important;
+  color: black !important;
   }
 }

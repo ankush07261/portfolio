@@ -55,7 +55,7 @@ function Skills() {
             </TabList>
 
             <TabPanel>
-              <h2>Web development</h2>
+              <h2 className="panel-title">Web development</h2>
               <div className="skill-card">
                 {webSkill.map((webskill, index) => (
                   <div className="skill-desc">
@@ -73,7 +73,7 @@ function Skills() {
               </div>
             </TabPanel>
             <TabPanel>
-              <h2>Cybersecurity</h2>
+              <h2 className="panel-title">Cybersecurity</h2>
               <div className="skill-card cyber-skills">
                 {cyberSkill.map((cybskill, index) => (
                   <div className="skill-desc">
@@ -91,7 +91,7 @@ function Skills() {
               </div>
             </TabPanel>
             <TabPanel>
-              <h2>Programming / Coding</h2>
+              <h2 className="panel-title">Programming / Coding</h2>
               <div className="skill-card cyber-skills">
                 {othSkill.map((othskill, index) => (
                   <div className="skill-desc">

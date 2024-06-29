@@ -19,63 +19,66 @@ function Navbar() {
     {
       path: "/",
       title: "Home",
-      bg: "yellow",
-      border: "2px solid yellow ",
-      nabg: "yellowgreen",
+      bg: "#EEEEEE",
+      border: "2px solid #EEEEEE ",
+      nabg: "#FFD369",
     },
     {
       path: "/about-me",
       title: "About me",
-      bg: "yellow",
-      border: "2px solid yellow ",
-      nabg: "yellowgreen",
+      bg: "#EEEEEE",
+      border: "2px solid #EEEEEE ",
+      nabg: "#FFD369",
     },
     {
       path: "/experience",
       title: "Experience",
-      bg: "yellow",
-      border: "2px solid yellow ",
-      nabg: "yellowgreen",
+      bg: "#EEEEEE",
+      border: "2px solid #EEEEEE ",
+      nabg: "#FFD369",
     },
     {
       path: "/projects",
       title: "Projects",
-      bg: "yellow",
-      border: "2px solid yellow ",
-      nabg: "yellowgreen",
+      bg: "#EEEEEE",
+      border: "2px solid #EEEEEE ",
+      nabg: "#FFD369",
     },
     {
       path: "/skills",
       title: "Skills",
-      bg: "yellow",
-      border: "2px solid yellow ",
-      nabg: "yellowgreen",
+      bg: "#EEEEEE",
+      border: "2px solid #EEEEEE ",
+      nabg: "#FFD369",
     },
     {
       path: "/contact",
       title: "Contact me",
-      bg: "yellow",
-      border: "2px solid yellow ",
-      nabg: "yellowgreen",
+      bg: "#EEEEEE",
+      border: "2px solid #EEEEEE ",
+      nabg: "#FFD369",
     },
   ];
 
   return (
     <>
       <div className="navbar" id="navbar">
-        <h2>
+        <p>
           <img src={profileImage} alt="dp" className="profile-image-navbar" />
+          {"   "}
           Ankush Hegde
-        </h2>
+        </p>
         <div className="navbar-nav" id="navbar-nav" ref={navRef}>
           {routes.map((route, index) => (
             <Link
               to={route.path}
               className="nav-elements"
               style={{
-                color: route.path === active ? route.bg : route.nabg,
-                // borderBottom: route.path === active ? route.border : null,
-                textShadow: route.path === active ? "0px 4px 6px black" : null,
+                // color: route.path === active ? route.bg : route.nabg,
+                borderBottom:
+                  route.path === location.pathname ? route.border : null,
+                textShadow:
+                  route.path === location.pathname ? "0px 4px 6px black" : null,
               }}
               onClick={() => {
                 setActive(route.path);

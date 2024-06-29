@@ -2,9 +2,9 @@ import React from "react";
 import "../css/home.css";
 import "../css/mobileBtns.css";
 import profileImage from "../assets/images/profilepicture.jpg";
-import EmailIcon from '@mui/icons-material/Email';
+import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 

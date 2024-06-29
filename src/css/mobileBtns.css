@@ -1,20 +1,20 @@
-.mobile-nav-elements{
-    width:fit-content;
-    padding: 0.4rem 0.6rem;
-    border: 2px solid greenyellow;
-    border-radius: 6px;
-    background-color:transparent;
-    text-decoration: none;
-    display: none;
-    margin: 1rem 2rem 1rem auto;
+.mobile-nav-elements {
+  width: fit-content;
+  padding: 0.4rem 0.6rem;
+  border: 2px solid var(--quadnary-color);
+  border-radius: 6px;
+  background-color: transparent;
+  text-decoration: none;
+  display: none;
+  margin: 1rem 2rem 1rem auto;
 }
-@media only screen and (max-width: 870px){
-    .mobile-nav-elements{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .toExperience{
-        margin-top: 1rem;
-    }
+@media only screen and (max-width: 870px) {
+  .mobile-nav-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .toExperience {
+    margin-top: 1rem;
+  }
 }

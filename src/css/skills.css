@@ -13,7 +13,7 @@
 }
 .react-tabs__tab {
   margin: 0 1px !important;
-  background-color: rgba(172, 255, 47, 0.15) !important;
+  background-color: var(--secondary-color) !important;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
@@ -29,12 +29,13 @@
   margin-top: 0;
 }
 .react-tabs__tab-panel--selected {
-  border: 2px solid greenyellow !important;
+  border: 2px solid var(--ternary-color) !important;
   border-radius: 8px;
 }
 .react-tabs__tab--selected {
-  background-color: rgba(172, 255, 47, 0.87) !important;
+  background-color: var(--ternary-color) !important;
   border: none;
+  color: black !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
 }
@@ -50,6 +51,9 @@
   border-radius: 0.5rem;
   background-color: black;
   box-shadow: 0 0 0.6rem grey;
+}
+.panel-title {
+  color: var(--ternary-color);
 }
 .skills h2 {
   background-color: transparent;
@@ -78,7 +82,7 @@
 }
 
 .skill-card h4 {
-  color: yellow;
+  color: var(--quadnary-color);
   height: fit-content;
   font-weight: 600;
 }
@@ -92,7 +96,7 @@
   background-color: black !important;
 }
 .w3-container {
-  background-color: rgba(172, 255, 47, 0.65) !important;
+  background-color: var(--quadnary-color) !important;
   color: black !important;
   font-weight: 500;
 }
@@ -138,7 +142,6 @@
     margin-bottom: 0.1rem;
   }
   .w3-container {
-  background-color: rgba(172, 255, 47) !important;
-  color: black !important;
+    color: black !important;
   }
 }

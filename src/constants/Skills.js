@@ -24,20 +24,20 @@ export const webDev = [
     value: "75%",
   },
   {
+    title: "TypeScript",
+    value: "70%",
+  },
+  {
     title: "EJS",
     value: "90%",
   },
   {
-    title: "TypeScript",
-    value: "60%",
+    title: "Django",
+    value: "65%",
   },
   {
     title: "Next.JS",
     value: "55%",
-  },
-  {
-    title: "Django",
-    value: "50%",
   },
   {
     title: "HTML",

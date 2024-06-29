@@ -7,6 +7,7 @@ function AboutMe() {
   return (
     <>
       <div className="aboutMe-container">
+        <h1>ABOUT ME</h1>
         <div className="text">
           <p className="me-text">
             <b>
@@ -22,17 +23,18 @@ function AboutMe() {
             </b>
             <br />
             <br />
-            <b>Open for: </b>Web Dev internships / freelancing.
+            <b className="desc-title">Open for: </b>Web Dev internships /
+            freelancing.
             <br />
             <br />
-            <b>Communication languages:</b> English, Kannada, Hindi and basic
-            German.
+            <b className="desc-title">Communication languages:</b> English,
+            Kannada, Hindi and basic German.
             <br />
             <br />
             📍 Bangalore, India
             <br />
             <br />
-            <b>Why me?</b>
+            <b className="desc-title">Why me?</b>
             <br />
             <ul>
               <li>
@@ -52,11 +54,11 @@ function AboutMe() {
               </li>
             </ul>
             <br />
-            <b>Education: </b>
+            <b className="desc-title">Education: </b>
             <br />
             <ul>
               <li>
-                Jyothy Institute of Technology, Bangalore
+                <b>Jyothy Institute of Technology, Bangalore</b>
                 <br />
                 &#40; 2021 - 2025 &#41;
                 <br />
@@ -65,7 +67,7 @@ function AboutMe() {
                 GPA: 8.31
               </li>
               <li>
-                S.N. Bhatt PU college of science and commerce
+                <b>S.N. Bhatt PU college of science and commerce</b>
                 <br /> &#40; 2019 - 2021 &#41;.
                 <br />
                 Science with Computers.
@@ -73,7 +75,7 @@ function AboutMe() {
                 GPA: 8.44
               </li>
               <li>
-                Prarthana Education Society <br />
+                <b>Prarthana Education Society</b> <br />
                 &#40; 2009 - 2019 &#41;.
                 <br />
                 Class 1 to class 10 in C.B.S.E. board
@@ -82,7 +84,7 @@ function AboutMe() {
               </li>
             </ul>
             <br />
-            <b>DoB:</b> 30/04/2003
+            <b className="desc-title">DoB:</b> 30/04/2003
             <br />
             <Link to="/experience" className="mobile-nav-elements">
               My Experience &rArr;

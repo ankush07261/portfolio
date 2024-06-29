@@ -32,12 +32,13 @@ function MyWork() {
                     <h3>{project.title}</h3>
                   </div>
                   <p>
-                    <h4>
+                    <h4 className="role-desc">
                       <b>{project.role}</b>
                     </h4>
-                    <p>{project.duration}</p>
-                    <h4>Description:</h4>
-                    <p>{project.description}</p>
+                    <p>
+                      <b>{project.duration}</b>
+                    </p>
+                    <p className="job-desc">{project.description}</p>
                   </p>
                 </div>
               </li>

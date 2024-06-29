@@ -21,7 +21,6 @@ const Projects = () => {
             <img src={demo.image} alt="" />
             <p>
               <h3>{demo.title}</h3>
-              <br />
               <p>{demo.description}</p>
               <br />
               {demo.liveURL ? (

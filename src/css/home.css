@@ -11,14 +11,30 @@
 }
 
 @keyframes handwave {
-  0% { transform: rotate(0.0deg) }
-  10% { transform: rotate(14.0deg) }
-  20% { transform: rotate(-8.0deg) }
-  30% { transform: rotate(14.0deg) }
-  40% { transform: rotate(-4.0deg) }
-  50% { transform: rotate(10.0deg) }
-  60% { transform: rotate(0.0deg) }
-  100% { transform: rotate(0.0deg) }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .hello {
@@ -57,7 +73,7 @@
   width: 50%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  box-shadow: 0rem 0rem 1.5rem rgb(255, 255, 188);
+  box-shadow: 0rem 0rem 1rem var(--shadow);
   margin: auto 1rem auto auto;
   border: 2px solid black;
 }
@@ -69,14 +85,13 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-color: transparent;
 }
 .socials-container a {
   text-decoration: none;
   scale: 1.5;
   width: fit-content;
 }
-.socials-container a:hover{
+.socials-container a:hover {
   border-bottom: 2px solid;
   border-radius: 2px;
 }
@@ -86,18 +101,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.resume-container{
+.resume-container {
   padding: 0% !important;
   margin: 0%;
 }
 .resume {
   text-decoration: none;
-  color: yellow;
+  color: var(--ternary-color);
   transition: 200ms ease-in-out;
 }
 .resume:hover {
-  color: rgb(36, 36, 36);
-  background-color: yellowgreen;
+  color: var(--shadow);
+  background-color: var(--secondary-color);
 }
 .my-profile-image {
   display: flex;
@@ -119,7 +134,7 @@
   width: 0;
   height: 50vh;
   height: relative;
-  border: 2px solid rgb(164, 164, 164);
+  border: 2px solid var(--ternary-color);
 }
 .about-me {
   display: flex;
@@ -148,7 +163,7 @@
 }
 .highlight {
   font-weight: bold;
-  color: yellowgreen;
+  color: var(--ternary-color);
 }
 .web-built p {
   font-size: 12px !important;
@@ -200,13 +215,10 @@
   .about-me p b,
   .about-me p i,
   .about-me p .hello {
-    background-color: rgb(52, 52, 52);
+    background-color: var(--secondary-color);
     padding: 1rem;
     font-size: 1.2rem;
     border-radius: 6px;
-  }
-  .highlight {
-    background-color: rgb(52, 52, 52);
   }
   .web-built p {
     margin: auto;

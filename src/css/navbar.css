@@ -14,10 +14,12 @@
   align-items: center;
   overflow-y: hidden;
 }
-.navbar h2 {
+.navbar p {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-weight: 600;
+  font-size: 24px;
 }
 .profile-image-navbar {
   width: 3rem;
@@ -25,7 +27,7 @@
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 870px) {
+@media only screen and (min-width: 900px) {
   .navbar {
     overflow-y: hidden;
   }
@@ -38,22 +40,21 @@
     height: fit-content;
   }
   .nav-elements {
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     text-align: center;
     transition: 300ms ease-in-out;
+    font-size: 18px;
+    color: var(--ternary-color);
   }
   .mobile-menu {
     display: none;
-  }
-  .nav-elements:hover {
-    color: yellow;
   }
   .menu {
     display: none;
   }
 }
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 900px) {
   .navbar {
     padding: 1rem;
     overflow-x: hidden;
@@ -65,10 +66,12 @@
   .menu {
     display: inline-block;
     width: fit-content;
+    height: fit-content;
     padding: 0.5rem;
-    border: 2px solid yellowgreen;
+    border: 2px solid var(--ternary-color);
     border-radius: 4px;
     background-color: transparent;
+    color: var(--quadnary-color);
   }
   .btn-close {
     position: absolute;
@@ -90,20 +93,20 @@
     transform: translateY(-105vh);
     z-index: 999;
     padding: 0.5rem 2rem 0.5rem 0.5rem;
-    text-align: right;
+    align-items: end;
   }
   .responsiveNav {
     transform: none;
   }
   .nav-elements {
     background-color: transparent !important;
-    color: yellow;
+    color: var(--ternary-color);
     text-decoration: none;
     font-size: 28px;
     box-shadow: none !important;
+    width: fit-content;
   }
   .nav-elements:hover {
-    color: yellowgreen;
     border-radius: 6px;
     background-color: rgb(56, 56, 56);
   }

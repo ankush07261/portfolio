@@ -214,7 +214,7 @@
   .about-me p,
   .about-me p b,
   .about-me p i,
-  .about-me p .hello {
+  .about-me p{
     background-color: var(--secondary-color);
     padding: 1rem;
     font-size: 1.2rem;

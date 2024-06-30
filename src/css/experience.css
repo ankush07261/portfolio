@@ -112,7 +112,7 @@ h1 {
   width: 100%;
   gap: 1rem;
   background-color: transparent;
-  color: lightgoldenrodyellow;
+  color: var(--quadnary-color);
 }
 .exp-img {
   width: 3rem;

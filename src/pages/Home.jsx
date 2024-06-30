@@ -37,16 +37,17 @@ function Home() {
         <div className="line"></div>
         <div className="sub-container about-me">
           <p className="me-text-primary">
-            Hey there folks<span className="hello">👋🏻</span>,<br />
-            <br />I am a{" "}
-            <span className="highlight">Full-stack Web developer</span> who can
-            build good interactive and responsive web applications and also a{" "}
-            <span className="highlight">Cybersecurity</span> enthusiast. <br />
+            Hey there folks<span className="hello">👋🏻</span>,<br />Welcome to my Portfolio Webiste.<br/>
+            <br />
+            I'm a <span className="highlight">cybersecurity</span> enthusiast
+            and a<span className="highlight"> web developer</span> passionate
+            about creating secure and user-friendly digital experiences.
+            <br />
             <br />
             <b className="resume-container">
               <a
                 className="resume"
-                href="https://drive.google.com/file/d/1UfjrblSlak3qC1Dk-MAxqtt4igIjrU7I/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gojMeZrUdKW6jU0HD6dqO4xnRdOOsy6k/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -92,7 +92,7 @@
   width: fit-content;
 }
 .socials-container a:hover {
-  border-bottom: 2px solid;
+  border-bottom: 2px solid var(--ternary-color);
   border-radius: 2px;
 }
 .socials-container a img {

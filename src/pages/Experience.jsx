@@ -18,8 +18,8 @@ function MyWork() {
             {project.map((project, index) => (
               <li key={index}>
                 <div className="timeline-div">
-                  <span className="dot"></span>
-                  <span className="line-exp"></span>
+                  <div className="dot"></div>
+                  <div className="line-exp"></div>
                 </div>
 
                 <div className="experience-card">

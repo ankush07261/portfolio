@@ -96,10 +96,17 @@ function Skills() {
                 {othSkill.map((othskill, index) => (
                   <div className="skill-desc">
                     <h4 key={index}>{othskill.title}</h4>
-                    <div class="w3-light-grey w3-round-xlarge">
+                    <div
+                      class="w3-light-grey w3-round-xlarge"
+                      style={{ backgroundColor: "black" }}
+                    >
                       <div
                         class="w3-container w3-round-xlarge"
-                        style={{ width: othskill.value }}
+                        style={{
+                          width: othskill.value,
+                          backgroundColor: "#eeeeee",
+                          color: "black",
+                        }}
                       >
                         {othskill.value}
                       </div>

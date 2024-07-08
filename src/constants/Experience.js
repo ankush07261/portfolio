@@ -8,6 +8,7 @@ import randomQuote from "../assets/images/MyWork-SS/quoteGen.png";
 import imgCarousel from "../assets/images/MyWork-SS/imgCarousel.png";
 import TempBMI from "../assets/images/MyWork-SS/TempBMI.png";
 import EDCJIT from "../assets/images/MyWork-SS/edcjit.jpeg";
+import DBMS from "../assets/images/MyWork-SS/DBMS.png";
 import cadabams from "../assets/images/MyWork-SS/cadabams.jpeg";
 import destinationTechnologies from "../assets/images/MyWork-SS/destinationTechnologies.jpeg";
 
@@ -57,6 +58,12 @@ export const demoprojects = [
     title: "To-Do List",
     description: "Built using MongoDB, ExpressJS and EJS.",
     gitURL: "https://github.com/ankush07261/To-Do-List",
+  },
+  {
+    image: DBMS,
+    title: "College clubs management",
+    description: "Built using MySQL, ExpressJS and EJS.",
+    gitURL: "https://github.com/ankush07261/DBMS_mini_project",
   },
   {
     image: React_crud,

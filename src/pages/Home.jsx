@@ -41,7 +41,7 @@ function Home() {
             <br />
             I'm a <span className="highlight">cybersecurity</span> enthusiast
             and a<span className="highlight"> web developer</span> passionate
-            about creating secure and user-friendly digital experiences.
+            about creating user friendly and interactive digital experiences.
             <br />
             <br />
             <b className="resume-container">

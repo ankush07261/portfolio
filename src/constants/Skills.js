@@ -1,9 +1,5 @@
 export const webDev = [
   {
-    title: "NodeJS",
-    value: "85%",
-  },
-  {
     title: "Javascript",
     value: "90%",
   },
@@ -25,6 +21,10 @@ export const webDev = [
   },
   {
     title: "TypeScript",
+    value: "70%",
+  },
+  {
+    title: "NodeJS",
     value: "70%",
   },
   {

@@ -44,17 +44,6 @@ function Home() {
             about creating user friendly and interactive digital experiences.
             <br />
             <br />
-            <b className="resume-container">
-              <a
-                className="resume"
-                href="https://drive.google.com/file/d/1gojMeZrUdKW6jU0HD6dqO4xnRdOOsy6k/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                My resume
-              </a>
-            </b>
           </p>
           <Link to="/about-me" className="mobile-nav-elements">
             About me &rArr;

@@ -13,12 +13,12 @@ function AboutMe() {
             <b>
               <a
                 className="resume"
-                href="https://drive.google.com/file/d/1gojMeZrUdKW6jU0HD6dqO4xnRdOOsy6k/view?usp=sharing"
+                href="https://drive.google.com/file/d/1GiNc0LYRVANR1-4AxioL3XWO9dPhWb2f/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 {" "}
-                Click here to view my resume
+                My Resume ➡️
               </a>
             </b>
             <br />

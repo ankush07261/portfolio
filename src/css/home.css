@@ -39,7 +39,7 @@
 
 .hello {
   font-size: 1.4rem;
-  animation-name: handwave; /* Corrected animation name */
+  animation-name: handwave; 
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
@@ -104,15 +104,6 @@
 .resume-container {
   padding: 0% !important;
   margin: 0%;
-}
-.resume {
-  text-decoration: none;
-  color: var(--ternary-color);
-  transition: 200ms ease-in-out;
-}
-.resume:hover {
-  color: var(--shadow);
-  background-color: var(--secondary-color);
 }
 .my-profile-image {
   display: flex;

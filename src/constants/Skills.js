@@ -1,15 +1,15 @@
 export const webDev = [
   {
-    title: "Javascript",
-    value: "90%",
-  },
-  {
     title: "ExpressJS",
     value: "90%",
   },
   {
     title: "ReactJS",
     value: "92%",
+  },
+  {
+    title: "Javascript",
+    value: "80%",
   },
   {
     title: "MongoDB",
@@ -59,8 +59,16 @@ export const webDev = [
 
 export const cyberSecurity = [
   {
-    title: "NMAP",
+    title: "Linux",
     value: "75%",
+  },
+  {
+    title: "Bash",
+    value: "70%",
+  },
+  {
+    title: "NMAP",
+    value: "65%",
   },
   {
     title: "Nessus",
@@ -72,7 +80,7 @@ export const cyberSecurity = [
   },
   {
     title: "Firewall config",
-    value: "50%",
+    value: "60%",
   },
 ];
 export const others = [
@@ -82,7 +90,7 @@ export const others = [
   },
   {
     title: "C",
-    value: "75%",
+    value: "70%",
   },
   {
     title: "Python",
@@ -98,6 +106,6 @@ export const others = [
   },
   {
     title: "UNIX",
-    value: "40%",
+    value: "60%",
   },
 ];

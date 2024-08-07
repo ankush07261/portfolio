@@ -21,8 +21,8 @@ h1 {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 4rem;
   grid-auto-rows: auto;
+  gap: 4rem;
   padding-bottom: 2rem;
 }
 .professional-experience {

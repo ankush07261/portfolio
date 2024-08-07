@@ -23,8 +23,8 @@ function AboutMe() {
             </b>
             <br />
             <br />
-            <b className="desc-title">Open for: </b>Web Dev internships /
-            freelancing.
+            <b className="desc-title">Open for: </b>Internships or freelancing
+            in <b>Cybersecurity / Web dev</b>.
             <br />
             <br />
             <b className="desc-title">Communication languages:</b> English,

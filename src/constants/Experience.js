@@ -18,7 +18,7 @@ export const projects = [
     title: "Cadabam's Group",
     role: "Full stack intern",
     description:
-      "Worked on binding APIs in the admin panel, built appoinment booking page and added feature to filter out doctors based on the customer's need.",
+      "Worked on binding APIs in the admin panel, built appoinment booking page and added feature to filter out doctors based on the customer's needs.",
     duration: "01/02/2024 - 31/03/2024",
   },
   {

@@ -13,7 +13,7 @@ function AboutMe() {
             <b>
               <a
                 className="resume"
-                href="https://drive.google.com/file/d/1zkMqrIa0Z7fdF6fy2h2wWlWkATk2VIkE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BXYDO1uOFfaf_2vKGeZItCbZHWSh0cyK/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

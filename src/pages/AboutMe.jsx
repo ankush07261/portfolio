@@ -10,19 +10,7 @@ function AboutMe() {
         <h1>ABOUT ME</h1>
         <div className="text">
           <p className="me-text">
-            <b>
-              <a
-                className="resume"
-                href="https://drive.google.com/file/d/1BXYDO1uOFfaf_2vKGeZItCbZHWSh0cyK/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                My Resume ➡️
-              </a>
-            </b>
-            <br />
-            <br />
+            
             <b className="desc-title">Open for: </b>Internships or freelancing
             in <b>Cybersecurity / Web dev</b>.
             <br />
@@ -64,7 +52,7 @@ function AboutMe() {
                 <br />
                 Computer Science and Engineering
                 <br />
-                GPA: 8.31
+                GPA: 8.21
               </li>
               <li>
                 <b>S.N. Bhatt PU college of science and commerce</b>

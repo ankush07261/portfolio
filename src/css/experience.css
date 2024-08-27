@@ -16,6 +16,14 @@ h1 {
   padding-bottom: 0.5rem;
   border-bottom: 1px solid lightgoldenrodyellow;
 }
+.projects-display{
+  width: 90%;
+  margin: auto auto 4rem auto;
+}
+.project-title{
+  margin-left: 2rem;
+  font-size: 1.65rem;
+}
 .projects {
   width: 90%;
   margin: auto;
@@ -126,6 +134,7 @@ h1 {
   transition: 0.2s ease-in-out;
   background-color: var(--secondary-color);
   max-width: 20rem;
+  padding-bottom: 1rem;
 }
 .card:hover {
   box-shadow: 0 0 0.6rem var(--quadnary-color);
@@ -177,4 +186,13 @@ h4 {
   .experience-list li {
     width: 96%;
   }
+  .projects-display{
+  width: 96%;
+  margin: auto auto 4rem auto;
+}
+.project-title{
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-size: 1.25rem;
+}
 }

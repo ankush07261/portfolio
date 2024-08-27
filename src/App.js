@@ -26,6 +26,11 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      {/* <footer
+        style={{ height: "1.2px", width: "100%", background: "transparent", textAlign:"right", padding: "2rem" }}
+      >
+        &copy; 2024 Ankush Hegde
+      </footer> */}
     </div>
   );
 }

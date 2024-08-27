@@ -26,7 +26,7 @@
 .react-tabs__tab-panel {
   padding: 1rem;
   width: 100% !important;
-  margin-top: 0;
+  margin-top: 1px;
 }
 .react-tabs__tab-panel--selected {
   border: 2px solid var(--ternary-color) !important;

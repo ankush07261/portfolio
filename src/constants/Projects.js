@@ -11,6 +11,7 @@ import DBMS from "../assets/images/MyWork-SS/DBMS.png";
 import PasswordStrength from "../assets/images/MyWork-SS/password.png";
 import Keylogger from "../assets/images/MyWork-SS/keylogger.png";
 import PortScanner from "../assets/images/MyWork-SS/portscanner.png";
+import PasswordCracker from "../assets/images/MyWork-SS/passwordcracker.png"
 
 export const demoprojects = [
   {
@@ -98,6 +99,13 @@ export const demoCyber = [
     gitURL:
       "https://github.com/ankush07261/Cybersecurity/blob/main/keyLogger.py",
   },
+  // {
+  //   image: PasswordCracker,
+  //   title: "Password cracker",
+  //   description: "Decrypts the input hashed password and compares it with the words in a list of words in the specified text file.",
+  //   gitURL:
+  //     "",
+  // },
   {
     image: PortScanner,
     title: "Vulnerability scanner",

@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     image: EDCJIT,
-    title: "eDC|JIT",
+    title: "eDC | JIT",
     role: "Web developer",
     description:
       "Built, hosted and maintained the official website for the Enterprenuership Development Club in Jyothy Institute of Technology.",

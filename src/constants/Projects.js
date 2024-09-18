@@ -53,13 +53,13 @@ export const demoprojects = [
     gitURL: "https://github.com/ankush07261/random-quote-generator",
     liveURL: "https://quote-reactjs.netlify.app/",
   },
-  {
-    image: imgCarousel,
-    title: "Image carousel",
-    description: "Built using Hooks in ReactJS.",
-    gitURL: "https://github.com/ankush07261/image-carousel",
-    liveURL: "https://ankush-img-carousel.netlify.app",
-  },
+  // {
+  //   image: imgCarousel,
+  //   title: "Image carousel",
+  //   description: "Built using Hooks in ReactJS.",
+  //   gitURL: "https://github.com/ankush07261/image-carousel",
+  //   liveURL: "https://ankush-img-carousel.netlify.app",
+  // },
   {
     image: drumKit,
     title: "Drum Kit",
@@ -68,13 +68,13 @@ export const demoprojects = [
     gitURL: "https://github.com/ankush07261/Drum-Kit",
     liveURL: "https://drum-kit-ankush.netlify.app/",
   },
-  {
-    image: TempBMI,
-    title: "Temperature and BMI",
-    description: "Built using HTML5, CSS3 and JavaScript",
-    gitURL: "https://github.com/ankush07261/Temperature-BMI/",
-    liveURL: "https://ankush07261.github.io/Temperature-BMI/",
-  },
+  // {
+  //   image: TempBMI,
+  //   title: "Temperature and BMI",
+  //   description: "Built using HTML5, CSS3 and JavaScript",
+  //   gitURL: "https://github.com/ankush07261/Temperature-BMI/",
+  //   liveURL: "https://ankush07261.github.io/Temperature-BMI/",
+  // },
   {
     image: simonGame,
     title: "Simon game",

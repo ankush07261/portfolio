@@ -10,7 +10,6 @@ function AboutMe() {
         <h1>ABOUT ME</h1>
         <div className="text">
           <p className="me-text">
-            
             <b className="desc-title">Open for: </b>Internships or freelancing
             in <b>Cybersecurity / Web dev</b>.
             <br />

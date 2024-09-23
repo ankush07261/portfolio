@@ -62,7 +62,7 @@ function Skills() {
                     <h4 key={index}>{webskill.title}</h4>
                     <div class="w3-light-grey w3-round-xlarge">
                       <div
-                        class="w3-container w3-blue w3-round-xlarge"
+                        class="w3-container w3-blue w3-round-xlarge percentage"
                         style={{ width: webskill.value }}
                       >
                         {webskill.value}
@@ -80,7 +80,7 @@ function Skills() {
                     <h4 key={index}>{cybskill.title}</h4>
                     <div class="w3-light-grey w3-round-xlarge">
                       <div
-                        class="w3-container w3-blue w3-round-xlarge"
+                        class="w3-container w3-blue w3-round-xlarge percentage"
                         style={{ width: cybskill.value }}
                       >
                         {cybskill.value}
@@ -101,7 +101,7 @@ function Skills() {
                       style={{ backgroundColor: "black" }}
                     >
                       <div
-                        class="w3-container w3-round-xlarge"
+                        class="w3-container w3-round-xlarge percentage"
                         style={{
                           width: othskill.value,
                           backgroundColor: "#eeeeee",

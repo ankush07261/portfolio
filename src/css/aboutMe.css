@@ -16,6 +16,9 @@
   justify-content: flex-start;
   align-items: center;
 }
+.me-desc {
+  text-align: justify;
+}
 .text {
   margin-top: 2rem;
   width: 60%;

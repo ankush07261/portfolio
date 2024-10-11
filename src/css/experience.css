@@ -76,12 +76,12 @@ h1 {
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
-  animation: appear linear;
+  /* animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0%;
+  animation-range: entry 0%; */
   margin: 0 auto 1rem auto;
   text-align: left;
-  width: 80%;
+  width: 75%;
   height: 100%;
 }
 .timeline-div {
@@ -110,7 +110,7 @@ h1 {
   border-radius: 8px;
   box-shadow: 0.2rem 0.2rem 0.8rem grey;
   background-color: #141414;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 .card-header h3 {
   color: var(--quadnary-color);
@@ -120,6 +120,7 @@ h1 {
 }
 .job-desc {
   margin-top: 0.5rem;
+  text-align: justify;
 }
 .experience-card p,
 .experience-card h3,

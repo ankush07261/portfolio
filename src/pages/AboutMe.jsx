@@ -10,6 +10,17 @@ function AboutMe() {
         <h1>ABOUT ME</h1>
         <div className="text">
           <p className="me-text">
+            <p className="me-desc">
+              As a skilled engineer specializing in cybersecurity and full-stack
+              web development, I have expertise in MERN stack, Django,
+              Vulnerability assessment and security analysis. With a
+              comprehensive understanding of modern web technologies and
+              security protocols, I am committed to delivering robust and
+              scalable solutions while mitigating risks and enhancing overall
+              system integrity.
+            </p>
+            <br />
+            <br />
             <b className="desc-title">Open for: </b>Internships or freelancing
             in <b>Cybersecurity / Web dev</b>.
             <br />

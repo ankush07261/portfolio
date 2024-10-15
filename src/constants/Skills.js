@@ -82,11 +82,15 @@ export const cyberSecurity = [
     title: "Firewall config",
     value: "60%",
   },
+  {
+    title: "Python",
+    value: "40%",
+  },
 ];
 export const others = [
   {
     title: "C++",
-    value: "75%",
+    value: "85%",
   },
   {
     title: "C",

@@ -80,7 +80,7 @@ export const demoprojects = [
     title: "Simon game",
     description: "A memory game built using HTML5, CSS3 and JavaScript.",
     gitURL: "https://github.com/ankush07261/Simon-game",
-    liveURL: "https://ankush07261.github.io/Simon-game/",
+    liveURL: "https://simon-game-ankush.netlify.app/",
   },
 ];
 

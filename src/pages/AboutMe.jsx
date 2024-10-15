@@ -62,7 +62,7 @@ function AboutMe() {
                 <br />
                 Computer Science and Engineering
                 <br />
-                GPA: 8.21
+                GPA: 8.3
               </li>
               <li>
                 <b>S.N. Bhatt PU college of science and commerce</b>

@@ -95,7 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   animation: appear 0.75s linear;
 }
 .socials-container a {

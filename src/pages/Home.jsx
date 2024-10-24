@@ -40,10 +40,10 @@ function Home() {
         </svg>
       ),
     },
-    {
-      href: "https://www.instagram.com/ankush_hegde____/",
-      img: <InstagramIcon />,
-    },
+    // {
+    //   href: "https://www.instagram.com/ankush_hegde____/",
+    //   img: <InstagramIcon />,
+    // },
   ];
   return (
     <div className="about-me-page">

@@ -86,6 +86,14 @@ export const cyberSecurity = [
     title: "Python",
     value: "40%",
   },
+  {
+    title: "OWASP ZAP",
+    value: "30%",
+  },
+  {
+    title: "Burpsuit",
+    value: "30%",
+  },
 ];
 export const others = [
   {
@@ -93,11 +101,11 @@ export const others = [
     value: "85%",
   },
   {
-    title: "C",
+    title: "Python",
     value: "70%",
   },
   {
-    title: "Python",
+    title: "C",
     value: "70%",
   },
   {

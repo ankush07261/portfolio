@@ -18,10 +18,46 @@ const Projects = () => {
       <br />
       <Tabs className="projects-display">
         <TabList>
-          <Tab>Web development</Tab>
           <Tab>Cybersecurity</Tab>
+          <Tab>Web development</Tab>
         </TabList>
 
+        <TabPanel>
+          <h2 className="panel-title project-title">Cybersecurity projects</h2>
+          <div className="projects">
+            {demoCyb.map((demoCyb, index) => (
+              <div className="card demoCyb-card" key={index}>
+                <img src={demoCyb.image} alt="" />
+                <p>
+                  <h3>{demoCyb.title}</h3>
+                  <p>{demoCyb.description}</p>
+                  <br />
+                  {demoCyb.liveURL ? (
+                    <a
+                      href={demoCyb.liveURL}
+                      className="try-it"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Open
+                    </a>
+                  ) : (
+                    ""
+                  )}
+
+                  <a
+                    className="github-link"
+                    href={demoCyb.gitURL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
+            ))}
+          </div>
+        </TabPanel>
         <TabPanel>
           <h2 className="panel-title project-title">
             Web development projects
@@ -50,42 +86,6 @@ const Projects = () => {
                   <a
                     className="github-link"
                     href={demoWeb.gitURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Github
-                  </a>
-                </p>
-              </div>
-            ))}
-          </div>
-        </TabPanel>
-        <TabPanel>
-          <h2 className="panel-title project-title">Cybersecurity projects</h2>
-          <div className="projects">
-            {demoCyb.map((demoCyb, index) => (
-              <div className="card demoCyb-card" key={index}>
-                <img src={demoCyb.image} alt="" />
-                <p>
-                  <h3>{demoCyb.title}</h3>
-                  <p>{demoCyb.description}</p>
-                  <br />
-                  {demoCyb.liveURL ? (
-                    <a
-                      href={demoCyb.liveURL}
-                      className="try-it"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Open
-                    </a>
-                  ) : (
-                    ""
-                  )}
-
-                  <a
-                    className="github-link"
-                    href={demoCyb.gitURL}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

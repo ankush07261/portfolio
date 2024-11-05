@@ -1,4 +1,4 @@
-@keyframes load{
+@keyframes load {
   from {
     opacity: 0;
     clip-path: inset(0 100% 0 0);
@@ -62,7 +62,7 @@
   background-color: black;
   box-shadow: 0 0 0.6rem grey;
 }
-.percentage{
+.percentage {
   animation: load linear;
   animation-timeline: view();
   animation-range: entry 0% cover 10%;
@@ -115,6 +115,12 @@
   color: black !important;
   font-weight: 500;
 }
+.extra-skills {
+  margin-left: 10%;
+}
+.extra-skills span{
+  font-weight: 700;
+}
 
 @media only screen and (max-width: 790px) {
   .skill {
@@ -129,6 +135,10 @@
   }
   .skills {
     margin: auto;
+  }
+  .extra-skills {
+    margin: 0;
+    text-align: center;
   }
   .webdev-skills {
     margin-top: 1rem;

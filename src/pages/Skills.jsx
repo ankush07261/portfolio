@@ -49,23 +49,30 @@ function Skills() {
         <div className="skill-container">
           <Tabs>
             <TabList>
-              <Tab>Web development</Tab>
-              <Tab>Cybersecurity</Tab>
               <Tab>Programming</Tab>
+              <Tab>Cybersecurity</Tab>
+              <Tab>Web development</Tab>
             </TabList>
 
             <TabPanel>
-              <h2 className="panel-title">Web development</h2>
-              <div className="skill-card">
-                {webSkill.map((webskill, index) => (
+              <h2 className="panel-title">Programming / Coding</h2>
+              <div className="skill-card cyber-skills">
+                {othSkill.map((othskill, index) => (
                   <div className="skill-desc">
-                    <h4 key={index}>{webskill.title}</h4>
-                    <div class="w3-light-grey w3-round-xlarge">
+                    <h4 key={index}>{othskill.title}</h4>
+                    <div
+                      class="w3-light-grey w3-round-xlarge"
+                      style={{ backgroundColor: "black" }}
+                    >
                       <div
-                        class="w3-container w3-blue w3-round-xlarge percentage"
-                        style={{ width: webskill.value }}
+                        class="w3-container w3-round-xlarge percentage"
+                        style={{
+                          width: othskill.value,
+                          backgroundColor: "#eeeeee",
+                          color: "black",
+                        }}
                       >
-                        {webskill.value}
+                        {othskill.value}
                       </div>
                     </div>
                   </div>
@@ -89,26 +96,25 @@ function Skills() {
                   </div>
                 ))}
               </div>
+              <br />
+              <h3 className="extra-skills">
+                {" "}
+                Including <span>Threat analysis</span>,{" "}
+                <span>Risk management</span> and <span>Incident response</span>.
+              </h3>
             </TabPanel>
             <TabPanel>
-              <h2 className="panel-title">Programming / Coding</h2>
-              <div className="skill-card cyber-skills">
-                {othSkill.map((othskill, index) => (
+              <h2 className="panel-title">Web development</h2>
+              <div className="skill-card">
+                {webSkill.map((webskill, index) => (
                   <div className="skill-desc">
-                    <h4 key={index}>{othskill.title}</h4>
-                    <div
-                      class="w3-light-grey w3-round-xlarge"
-                      style={{ backgroundColor: "black" }}
-                    >
+                    <h4 key={index}>{webskill.title}</h4>
+                    <div class="w3-light-grey w3-round-xlarge">
                       <div
-                        class="w3-container w3-round-xlarge percentage"
-                        style={{
-                          width: othskill.value,
-                          backgroundColor: "#eeeeee",
-                          color: "black",
-                        }}
+                        class="w3-container w3-blue w3-round-xlarge percentage"
+                        style={{ width: webskill.value }}
                       >
-                        {othskill.value}
+                        {webskill.value}
                       </div>
                     </div>
                   </div>

@@ -20,11 +20,11 @@ function AboutMe() {
               system integrity.
             </p>
             <br />
-            <br />
+            {/* <br />
             <b className="desc-title">Open for: </b>Internships or freelancing
             in <b>Cybersecurity / Web dev</b>.
             <br />
-            <br />
+            <br /> */}
             <b className="desc-title">Communication languages:</b> English,
             Kannada, Hindi and basic German.
             <br />

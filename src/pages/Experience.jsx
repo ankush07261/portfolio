@@ -11,7 +11,7 @@ function MyWork() {
   return (
     <>
       <div className="myWork">
-        <h1>PROFESSIONAL EXPERIENCE</h1>
+        <h1>WORK EXPERIENCE</h1>
         <br />
         <div className="professional-experience">
           <ul className="experience-list">

@@ -16,7 +16,7 @@ function MyWork() {
         <div className="professional-experience">
           <ul className="experience-list">
             {project.map((project, index) => (
-              <li key={index}>
+              <li className="experience-list-li" key={index}>
                 <div className="timeline-div">
                   <div className="dot"></div>
                   <div className="line-exp"></div>
@@ -38,7 +38,15 @@ function MyWork() {
                     <p>
                       <b>{project.duration}</b>
                     </p>
-                    <p className="job-desc">{project.description}</p>
+                    <br/>
+                    <p className="job-desc">
+                      {project.description.split("\n").map((line, idx) => (
+                        <ul className="exp-desc-ul" key={idx}>
+                          <li className="exp-desc-li">{line}</li>
+                          <br />
+                        </ul>
+                      ))}
+                    </p>
                   </p>
                 </div>
               </li>

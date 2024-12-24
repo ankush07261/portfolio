@@ -17,7 +17,7 @@
   align-items: center;
   margin: auto;
 }
-.aboutMe-container h1{
+.aboutMe-container h1 {
   margin-top: 1rem;
   letter-spacing: 0.5rem;
   padding-bottom: 0.5rem;
@@ -48,10 +48,7 @@
   border-radius: 6px; */
   transition: 200ms ease-in-out;
 }
-.me-text {
-  text-align: left;
-  margin-left: 3%;
-}
+
 .footer-container {
   width: 50%;
   margin: 1rem auto;
@@ -62,7 +59,7 @@ ul {
 }
 li {
   margin: 0.5rem;
-  width: fit-content;
+  width: 95%;
   padding: 0;
   text-align: justify;
 }
@@ -82,5 +79,7 @@ li {
   .me-text {
     padding: 0.4rem;
     width: 94%;
+    text-align: left;
+    margin-left: 3%;
   }
 }

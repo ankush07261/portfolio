@@ -123,20 +123,33 @@ h1 {
   background-color: #141414;
   padding: 1rem 2rem;
 }
+.duration{
+  font-size: 0.9rem;
+}
 .card-header h3 {
   color: var(--quadnary-color);
+}
+.card-header-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 .exp-desc-ul {
   margin-left: 0;
   text-align: left;
 }
 .exp-desc-li {
+  margin-top: 0.75rem;
   margin-left: 1rem;
   text-align: justify;
   list-style: disc;
 }
 .role-desc {
   color: var(--ternary-color);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
 }
 .job-desc {
   margin-top: 0.5rem;

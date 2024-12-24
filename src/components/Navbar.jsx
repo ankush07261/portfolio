@@ -93,7 +93,7 @@ function Navbar() {
             <CloseIcon />
           </button>
         </div>
-        <button className="menu" onClick={showNav}>
+        <button className="menu btn-open" onClick={showNav}>
           <MenuIcon />
         </button>
       </div>

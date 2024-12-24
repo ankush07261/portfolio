@@ -7,9 +7,9 @@ export const projects = [
   {
     image: GE,
     title: "Gokaldas Exports Ltd.",
-    role: "Cybersecurity Analyst Intern",
+    role: "Software development and Security Intern",
     description:
-      "Performed security evaluations, including Vulnerability Assessment and Penetration Testing, on key applications, uncovering risks and implementing corrective measures to ensure data protection.\nCollaborated with the IT department to review and improve application efficiency, performance and documentation, ensuring compliance with the latest security standards.\nCompiled and presented detailed security reports, aiding in compliance with regulations and providing insights for risk management strategies.\nProtected critical business applications used by factory employees and senior management to ensure smooth operations and prevent downtime.\nRecommended preventive security practices to safeguard sensitive employee and workflow data, maintaining business continuity and operational efficiency.",
+      "Designed and developed a robust application for factory operations, integrating APIs to streamline data flow and enhance functionality.\nCollaborated with the IT team to implement and refine access management controls, ensuring appropriate privileges for different user roles.\nImplemented secure API development and integration to protect sensitive data and ensure seamless communication between application components.\nConducted Vulnerability Assessment and Penetration Testing on the application, addressing potential threats to safeguard business-critical operations.\nDelivered detailed security reports and recommendations, aligning the application with cybersecurity best practices and regulatory requirements.",
     duration: "03/10/2024 - Present",
   },
   {

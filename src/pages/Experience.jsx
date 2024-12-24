@@ -31,23 +31,19 @@ function MyWork() {
                     />
                     <h3>{project.title}</h3>
                   </div>
-                  <p>
-                    <h4 className="role-desc">
-                      <b>{project.role}</b>
-                    </h4>
+                  <p className="role-desc">
+                    {project.role}
+                  </p>
                     <p>
-                      <b>{project.duration}</b>
+                      <b className="duration">{project.duration}</b>
                     </p>
-                    <br/>
                     <p className="job-desc">
                       {project.description.split("\n").map((line, idx) => (
                         <ul className="exp-desc-ul" key={idx}>
                           <li className="exp-desc-li">{line}</li>
-                          <br />
                         </ul>
                       ))}
                     </p>
-                  </p>
                 </div>
               </li>
             ))}

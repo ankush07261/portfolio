@@ -64,7 +64,7 @@
     font-size: 26px;
   }
   .menu {
-    display: inline-block;
+    /* display: inline-block; */
     width: fit-content;
     height: fit-content;
     padding: 0.5rem;
@@ -73,10 +73,13 @@
     background-color: transparent;
     color: var(--quadnary-color);
   }
-  .btn-close {
+  .btn-close, .btn-open {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .navbar-nav {
     position: fixed;

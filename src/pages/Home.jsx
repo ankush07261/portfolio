@@ -61,8 +61,7 @@ function Home() {
         <div className="line"></div>
         <div className="sub-container about-me">
           <p className="me-text-primary">
-            Hey there folks<span className="hello">👋🏻</span>,<br />
-            Welcome to my Portfolio Webiste.
+            Hey there folks<span className="hello">👋🏻</span>,
             <br />
             <br />
             I'm a <span className="highlight">cybersecurity</span> enthusiast

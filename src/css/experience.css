@@ -146,10 +146,10 @@
   text-align: left;
 }
 .exp-desc-li {
-  margin-top: 0.75rem;
-  margin-left: 1rem;
+  margin: 0.75rem 0.5rem 0rem 1rem;
   text-align: justify;
   list-style: disc;
+  width: auto;
 }
 .role-desc {
   color: var(--ternary-color);
@@ -240,7 +240,7 @@ h4 {
 }
 @media only screen and (max-width: 860px) {
   .myWork{
-    width: 90%;
+    width: 96%;
   }
   .experience-list-li {
     width: 100%;

@@ -84,12 +84,11 @@ function AboutMe() {
             <br />
             <b className="desc-title">DoB:</b> 30/04/2003
             <br />
-            <Link to="/experience" className="mobile-nav-elements toNext">
+          </p>
+          <br/>
+          <Link to="/experience" className="mobile-nav-elements toNext">
               My Experience &rArr;
             </Link>
-            <br />
-            <br />
-          </p>
         </div>
       </div>
       <div className="footer-container"></div>

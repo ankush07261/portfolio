@@ -58,12 +58,13 @@
   text-align: center;
 }
 ul {
-  margin-left: 2rem;
+  margin-left: 0.5rem;
 }
 li {
   margin: 0.5rem;
   width: fit-content;
   padding: 0;
+  text-align: justify;
 }
 @media only screen and (max-width: 860px) {
   .aboutMe-container {

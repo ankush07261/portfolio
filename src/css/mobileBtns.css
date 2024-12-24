@@ -6,7 +6,6 @@
   background-color: transparent;
   text-decoration: none;
   display: none;
-  margin: 1rem 2rem 1rem auto;
 }
 @media only screen and (max-width: 870px) {
   .mobile-nav-elements {
@@ -14,7 +13,7 @@
     justify-content: center;
     align-items: center;
   }
-  .toExperience {
-    margin-top: 1rem;
+  .toNext {
+    margin: 0rem 0.5rem 1rem auto;
   }
 }

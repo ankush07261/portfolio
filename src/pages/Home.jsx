@@ -69,9 +69,8 @@ function Home() {
             about creating user friendly, interactive digital experiences and
             safeguarding an organization's software security and well-being.
             <br />
-            <br />
           </p>
-          <Link to="/about-me" className="mobile-nav-elements">
+          <Link to="/about-me" className="mobile-nav-elements toNext">
             About me &rArr;
           </Link>
         </div>

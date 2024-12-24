@@ -97,7 +97,7 @@ const Projects = () => {
         </TabPanel>
       </Tabs>
 
-      <Link to="/skills" className="mobile-nav-elements">
+      <Link to="/skills" className="mobile-nav-elements toNext">
         My Skills &rArr;
       </Link>
     </div>

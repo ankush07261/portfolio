@@ -124,8 +124,7 @@ function Skills() {
           </Tabs>
         </div>
       </div>
-      <br />
-      <Link to="/contact" className="mobile-nav-elements toExperience">
+      <Link to="/contact" className="mobile-nav-elements toNext">
         Contact me &rArr;
       </Link>
     </div>

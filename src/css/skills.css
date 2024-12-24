@@ -26,6 +26,7 @@
   background-color: var(--secondary-color) !important;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  width: fit-content !important;
 }
 .react-tabs__tab-list {
   text-decoration: none !important;

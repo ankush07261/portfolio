@@ -14,7 +14,6 @@ const Projects = () => {
   return (
     <div className="skill-exp-page">
       <h1>PROJECTS</h1>
-      <hr />
       <br />
       <Tabs className="projects-display">
         <TabList>

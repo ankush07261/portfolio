@@ -35,7 +35,7 @@
   border: 2px solid var(--ternary-color);
   border-radius: 8px;
   box-shadow: 0px 0px 1rem var(--shadow);
-  animation: appear 0.75s linear;
+  animation: appear 0.5s linear;
 }
 .desc-title {
   color: var(--ternary-color);

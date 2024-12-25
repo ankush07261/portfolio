@@ -11,8 +11,7 @@ function AboutMe() {
         <div className="text">
           <p className="me-text">
             <p className="me-desc">
-              As a skilled engineer specializing in cybersecurity and full-stack
-              web development, I have expertise in MERN stack, Django,
+              As a skilled engineer specializing in cybersecurity and software development, I have expertise in C++, MERN stack, Django
               Vulnerability assessment and security analysis. With a
               comprehensive understanding of modern web technologies and
               security protocols, I am committed to delivering robust and

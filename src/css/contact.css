@@ -22,7 +22,7 @@
   box-shadow: 0 0 1rem var(--quadnary-color);
   padding: 1rem;
   z-index: 30;
-  animation: appear 0.75s linear;
+  animation: appear 0.5s linear;
 }
 /* .contact-container label{
     margin-top:0.6rem;

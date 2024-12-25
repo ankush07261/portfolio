@@ -148,7 +148,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 1.5rem;
-  animation: appear 0.75s linear;
+  animation: appear 0.5s linear;
 }
 .about-me p {
   text-align: left;

@@ -5,6 +5,7 @@
   transition: 0.2s ease-in-out;
   text-wrap: nowrap;
   padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
 }
 .navbar {
   display: flex;
@@ -20,6 +21,8 @@
   gap: 0.5rem;
   font-weight: 600;
   font-size: 24px;
+  text-decoration: none;
+  user-select: none;
 }
 .profile-image-navbar {
   width: 3rem;
@@ -30,6 +33,7 @@
 @media only screen and (min-width: 900px) {
   .navbar {
     overflow-y: hidden;
+    height: 4rem;
   }
   .navbar-nav {
     display: flex;

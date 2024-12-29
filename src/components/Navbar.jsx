@@ -64,7 +64,10 @@ function Navbar() {
     <>
       <div className="navbar" id="navbar">
         <p>
-          <img src={profileImage} alt="dp" className="profile-image-navbar" />
+          {
+            location.pathname != "/" ? (<img src={profileImage} alt="dp" className="profile-image-navbar" />): ""
+          }
+          
           {"   "}
           Ankush Hegde
         </p>

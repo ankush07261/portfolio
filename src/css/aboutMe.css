@@ -28,6 +28,9 @@
 .me-desc {
   text-align: justify;
 }
+.about-me-highlight{
+  color: var(--ternary-color);
+}
 .text {
   margin-top: 2rem;
   width: 100%;

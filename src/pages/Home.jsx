@@ -64,8 +64,8 @@ function Home() {
             Hey there folks<span className="hello">👋🏻</span>,
             <br />
             <br />
-            I'm a <span className="highlight">cybersecurity</span> enthusiast
-            and a<span className="highlight"> web developer</span> passionate
+            I'm a <span className="highlight">Cybersecurity</span> enthusiast
+            and a<span className="highlight"> Software developer</span> passionate
             about creating user friendly, interactive digital experiences and
             safeguarding an organization's software security and well-being.
             <br />

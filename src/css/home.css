@@ -96,12 +96,14 @@
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
+  position: relative;
   animation: appear 0.75s linear;
 }
 .socials-container a {
   text-decoration: none;
   scale: 1.5;
   width: fit-content;
+  border-bottom: 2px solid transparent;
 }
 .socials-container a:hover {
   border-bottom: 2px solid var(--ternary-color);

@@ -76,7 +76,7 @@ function AboutMe() {
                 GPA: 8.44
               </li>
               <li>
-                <b>Prarthana Education Society</b> <br />
+                <b>Prarthana Central School</b> <br />
                 &#40; 2009 - 2019 &#41;.
                 <br />
                 Class 1 to class 10 in C.B.S.E. board

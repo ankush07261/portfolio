@@ -97,6 +97,10 @@ export const cyberSecurity = [
 ];
 export const others = [
   {
+    title: "System Design",
+    value: "45%",
+  },
+  {
     title: "C++",
     value: "85%",
   },
@@ -105,16 +109,20 @@ export const others = [
     value: "70%",
   },
   {
-    title: "C",
-    value: "70%",
+    title: "Operating System (Threads, Mutex, etc)",
+    value: "40%",
   },
   {
-    title: "C#",
-    value: "65%",
+    title: "Networks",
+    value: "60%",
+  },
+  {
+    title: "JavaScript",
+    value: "75%",
   },
   {
     title: "Java",
-    value: "55%",
+    value: "45%",
   },
   {
     title: "UNIX",

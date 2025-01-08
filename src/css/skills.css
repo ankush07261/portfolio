@@ -8,7 +8,9 @@
     scale: 1;
   }
 }
-
+.skill-exp-page{
+  overflow-x: hidden;
+}
 .skill {
   width: 80%;
   padding-bottom: 1rem;

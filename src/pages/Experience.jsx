@@ -10,7 +10,7 @@ function MyWork() {
 
   return (
     <>
-      <div className="myWork">
+      <div className="myWork" id="experience">
         <h1>WORK EXPERIENCE</h1>
         <br />
         <div className="professional-experience">

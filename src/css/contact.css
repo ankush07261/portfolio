@@ -12,6 +12,7 @@
   width: 100%;
   padding: 1rem 2rem;
   text-align: center;
+  margin-top: 5rem;
 }
 .contact-container {
   width: 60%;
@@ -52,7 +53,7 @@ textarea {
 
 @media only screen and (max-width: 790px) {
   .contact {
-    margin-top: 20%;
+    margin: 6rem auto auto auto;
     width: 100%;
     padding: 0.2rem;
   }

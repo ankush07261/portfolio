@@ -12,7 +12,7 @@ const Projects = () => {
   const [prog, setProg] = useState(programming);
 
   return (
-    <div className="skill-exp-page">
+    <div className="skill-exp-page" id="projects">
       <h1>PROJECTS</h1>
       <br />
       <Tabs className="projects-display">
@@ -32,14 +32,13 @@ const Projects = () => {
                 <p>
                   <h3>{prog.title}</h3>
                   <p>{prog.description}</p>
-                  <p className="concepts">
-                    <b>Concepts:</b>{" "}
-                    <p>
-                      {prog.concepts?.map((concept, i) => concept).join(", ")}
-                    </p>
-                  </p>
+                  <div className="concepts">
+                    {prog.concepts?.map((concept, i) => (
+                      <div className="concept">{concept}</div>
+                    ))}
+                  </div>
 
-                  <br />
+                  {/* <br /> */}
                   <div className="links">
                     {prog.liveURL ? (
                       <a
@@ -77,16 +76,12 @@ const Projects = () => {
                 <p>
                   <h3>{demoCyb.title}</h3>
                   <p>{demoCyb.description}</p>
-                  <p className="concepts">
-                    <b>Concepts:</b>{" "}
-                    <p>
-                      {demoCyb.concepts
-                        ?.map((concept, i) => concept)
-                        .join(", ")}
-                    </p>
-                  </p>
+                  <div className="concepts">
+                    {demoCyb.concepts?.map((concept, i) => (
+                      <div className="concept">{concept}</div>
+                    ))}
+                  </div>
 
-                  <br />
                   <div className="links">
                     {demoCyb.liveURL ? (
                       <a

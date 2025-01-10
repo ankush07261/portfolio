@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function AboutMe() {
   return (
     <>
-      <div className="aboutMe-container">
+      <div className="aboutMe-container" id="aboutme">
         <h1>ABOUT ME</h1>
         <div className="text">
           <p className="me-text">

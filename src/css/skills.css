@@ -10,6 +10,7 @@
 }
 .skill-exp-page{
   overflow-x: hidden;
+  margin-top: 5rem;
 }
 .skill {
   width: 80%;
@@ -131,6 +132,7 @@
   .skill-exp-page{
     width: 98%;
     margin: auto;
+    margin-top: 4rem;
   }
   .skill {
     width: 100%;

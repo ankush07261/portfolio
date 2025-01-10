@@ -29,8 +29,8 @@ function Contact() {
             console.log(error.text);
           }
         );
-      navigate("/");
       window.alert("Message sent");
+      navigate("/");
     } else {
       window.alert("Please fill out all the fields");
     }

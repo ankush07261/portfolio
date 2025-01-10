@@ -12,7 +12,7 @@ function Skills() {
   const [othSkill, setOthSkill] = useState(others);
 
   return (
-    <div className="skill-exp-page">
+    <div className="skill-exp-page" id="skills">
       <div className="skill">
         <h1>MY SKILLS</h1>
         {/* <Box sx={{ bgcolor: "background.paper", width: 500 }}>

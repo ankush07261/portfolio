@@ -46,7 +46,7 @@ function Home() {
     // },
   ];
   return (
-    <div className="about-me-page">
+    <div className="about-me-page" id="home">
       <div className="container">
         <div className="sub-container my-profile-image">
           <img src={profileImage} alt="dp" className="profile-image" />

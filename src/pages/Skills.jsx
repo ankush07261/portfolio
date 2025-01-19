@@ -21,7 +21,7 @@ function Skills() {
             <TabList>
               <Tab>Programming</Tab>
               <Tab>Cybersecurity</Tab>
-              <Tab>Web development</Tab>
+              <Tab>Web dev</Tab>
             </TabList>
 
             <TabPanel>

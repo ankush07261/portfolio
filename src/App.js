@@ -8,11 +8,13 @@ import "./css/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import Projects from "./pages/Projects";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
         <React.Fragment>
           <Navbar />
         </React.Fragment>

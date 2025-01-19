@@ -94,6 +94,18 @@ export const cyberSecurity = [
     title: "Burpsuit",
     value: "30%",
   },
+  {
+    title: "Threat analysis",
+    value: "60%",
+  },
+  {
+    title: "Risk management",
+    value: "70%",
+  },
+  {
+    title: "Incident response",
+    value: "50%",
+  },
 ];
 export const others = [
   {
@@ -109,6 +121,10 @@ export const others = [
     value: "70%",
   },
   {
+    title: "Java",
+    value: "45%",
+  },
+  {
     title: "Operating System (Threads, Mutex, etc)",
     value: "40%",
   },
@@ -119,10 +135,6 @@ export const others = [
   {
     title: "JavaScript",
     value: "75%",
-  },
-  {
-    title: "Java",
-    value: "45%",
   },
   {
     title: "UNIX",

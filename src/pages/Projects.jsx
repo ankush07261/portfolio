@@ -23,7 +23,7 @@ const Projects = () => {
 
         <TabPanel>
           <h2 className="panel-title project-title">
-            Software Development projects
+            Software Development Projects
           </h2>
           <div className="projects">
             {prog.map((prog, index) => (
@@ -68,7 +68,7 @@ const Projects = () => {
           </div>
         </TabPanel>
         <TabPanel>
-          <h2 className="panel-title project-title">Cybersecurity projects</h2>
+          <h2 className="panel-title project-title">Cybersecurity Projects</h2>
           <div className="projects">
             {demoCyb.map((demoCyb, index) => (
               <div className="card demoCyb-card" key={index}>

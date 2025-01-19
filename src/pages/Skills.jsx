@@ -15,37 +15,7 @@ function Skills() {
     <div className="skill-exp-page" id="skills">
       <div className="skill">
         <h1>MY SKILLS</h1>
-        {/* <Box sx={{ bgcolor: "background.paper", width: 500 }}>
-          <AppBar position="static">
-            <Tabs
-              value={value}
-              onChange={handleChange}
-              indicatorColor="secondary"
-              textColor="inherit"
-              variant="fullWidth"
-              aria-label="full width tabs example"
-            >
-              <Tab label="Item One" {...a11yProps(0)} />
-              <Tab label="Item Two" {...a11yProps(1)} />
-              <Tab label="Item Three" {...a11yProps(2)} />
-            </Tabs>
-          </AppBar>
-          <SwipeableViews
-            axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-            index={value}
-            onChangeIndex={handleChangeIndex}
-          >
-            <TabPanel value={value} index={0} dir={theme.direction}>
-              Item One
-            </TabPanel>
-            <TabPanel value={value} index={1} dir={theme.direction}>
-              Item Two
-            </TabPanel>
-            <TabPanel value={value} index={2} dir={theme.direction}>
-              Item Three
-            </TabPanel>
-          </SwipeableViews>
-        </Box> */}
+
         <div className="skill-container">
           <Tabs>
             <TabList>
@@ -57,67 +27,24 @@ function Skills() {
             <TabPanel>
               <h2 className="panel-title">Programming / Coding</h2>
               <div className="skill-card cyber-skills">
-                {othSkill.map((othskill, index) => (
-                  <div className="skill-desc">
-                    <h4 key={index}>{othskill.title}</h4>
-                    <div
-                      class="w3-light-grey w3-round-xlarge"
-                      style={{ backgroundColor: "black" }}
-                    >
-                      <div
-                        class="w3-container w3-round-xlarge percentage"
-                        style={{
-                          width: othskill.value,
-                          backgroundColor: "#eeeeee",
-                          color: "black",
-                        }}
-                      >
-                        {othskill.value}
-                      </div>
-                    </div>
-                  </div>
+                {othSkill?.map((othSkill, index) => (
+                  <span key={index}>{othSkill.title}</span>
                 ))}
               </div>
             </TabPanel>
             <TabPanel>
               <h2 className="panel-title">Cybersecurity</h2>
               <div className="skill-card cyber-skills">
-                {cyberSkill.map((cybskill, index) => (
-                  <div className="skill-desc">
-                    <h4 key={index}>{cybskill.title}</h4>
-                    <div class="w3-light-grey w3-round-xlarge">
-                      <div
-                        class="w3-container w3-blue w3-round-xlarge percentage"
-                        style={{ width: cybskill.value }}
-                      >
-                        {cybskill.value}
-                      </div>
-                    </div>
-                  </div>
+                {cyberSkill?.map((cyberSkill, index) => (
+                  <span key={index}>{cyberSkill.title}</span>
                 ))}
               </div>
-              <br />
-              <h3 className="extra-skills">
-                {" "}
-                Including <span>Threat analysis</span>,{" "}
-                <span>Risk management</span> and <span>Incident response</span>.
-              </h3>
             </TabPanel>
             <TabPanel>
               <h2 className="panel-title">Web development</h2>
               <div className="skill-card">
-                {webSkill.map((webskill, index) => (
-                  <div className="skill-desc">
-                    <h4 key={index}>{webskill.title}</h4>
-                    <div class="w3-light-grey w3-round-xlarge">
-                      <div
-                        class="w3-container w3-blue w3-round-xlarge percentage"
-                        style={{ width: webskill.value }}
-                      >
-                        {webskill.value}
-                      </div>
-                    </div>
-                  </div>
+                {webSkill?.map((webskill, index) => (
+                  <span key={index}>{webskill.title}</span>
                 ))}
               </div>
             </TabPanel>

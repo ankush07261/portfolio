@@ -14,10 +14,10 @@ function AboutMe() {
               As a skilled engineer specializing in cybersecurity and software
               development, I have expertise in{" "}
               <span className="about-me-highlight">
-                C++, MERN stack, Django, Vulnerability assessment, penetration testing and security
+                C++, Java, MERN stack, Vulnerability assessment and security
                 analysis
               </span>
-              . With a comprehensive understanding of modern web technologies
+              . With a comprehensive understanding of Object Oriented Programming, modern web technologies
               and security protocols, I am committed to delivering robust and
               scalable solutions while mitigating risks and enhancing overall
               system integrity.
@@ -29,7 +29,7 @@ function AboutMe() {
             <br />
             <br /> */}
             <b className="desc-title">Communication languages:</b> English,
-            Kannada, Hindi and basic German.
+            Kannada, Hindi and German.
             <br />
             <br />
             📍 Bangalore, India

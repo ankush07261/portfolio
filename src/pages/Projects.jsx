@@ -46,7 +46,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Open
+                        Demo
                       </a>
                     ) : (
                       ""

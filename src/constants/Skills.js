@@ -117,16 +117,20 @@ export const others = [
     value: "85%",
   },
   {
-    title: "Python",
-    value: "70%",
-  },
-  {
     title: "Java",
     value: "45%",
   },
   {
+    title: "Python",
+    value: "70%",
+  },
+  {
     title: "Operating System (Threads, Mutex, etc)",
     value: "40%",
+  },
+  {
+    title: "OOPs",
+    value: "45%",
   },
   {
     title: "Networks",

@@ -9,8 +9,8 @@ export const projects = [
     title: "Gokaldas Exports Ltd.",
     role: "Software development and Security Intern",
     description:
-      "Assisted in architecture, system design, and network infrastructure analysis to ensure scalability, security, and optimal performance of the application. \nDesigned and developed a robust application for factory operations, integrating APIs to streamline data flow and enhance functionality. \nCollaborated with the IT team to implement and refine access management controls, ensuring appropriate privileges for different user roles. \nImplemented secure API development and integration to protect sensitive data and ensure seamless communication between application components. \nDelivered detailed security reports and recommendations, aligning the application with cybersecurity best practices and regulatory requirements. ",
-    duration: "03/10/2024 - Present",
+      "Assisted in architecture, system design, and network infrastructure analysis to ensure scalability, security, and optimal performance of the application.\nDesigned and developed a robust application for factory operations, integrating APIs to streamline data flow and enhance functionality.\nCollaborated with the IT team to implement and refine access management controls, ensuring appropriate privileges for different user roles. \nImplemented secure API development and integration to protect sensitive data and ensure seamless communication between application components. \nBuilt an application that would help reduce complexities and operational costs by streamlining factory processes based on user privileges and generating reports on outward, accepted, and rejected items. ",
+    duration: "03/10/2024 - 24/01/2025",
   },
   {
     image: cadabams,

@@ -8,8 +8,8 @@ export const webDev = [
     value: "92%",
   },
   {
-    title: "Javascript",
-    value: "80%",
+    title: "Spring Boot",
+    value: "40%",
   },
   {
     title: "MongoDB",
@@ -106,6 +106,10 @@ export const cyberSecurity = [
     title: "Incident response",
     value: "50%",
   },
+  {
+    title: "UNIX",
+    value: "60%",
+  },
 ];
 export const others = [
   {
@@ -133,15 +137,7 @@ export const others = [
     value: "45%",
   },
   {
-    title: "Networks",
-    value: "60%",
-  },
-  {
     title: "JavaScript",
     value: "75%",
-  },
-  {
-    title: "UNIX",
-    value: "60%",
   },
 ];

@@ -37,7 +37,7 @@ export const programming = [
     title: "College clubs management",
     description:
       "Used to manange the members, account, logistics and more of the student clubs in a college",
-    gitURL: "https://github.com/ankush07261/DBMS_mini_project",
+    gitURL: "https://github.com/ankush07261/College_Club_management_system",
     concepts: ["SQL", "ExpressJS", "EJS", "CSS"],
   },
   {

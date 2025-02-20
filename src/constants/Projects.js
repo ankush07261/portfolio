@@ -20,7 +20,7 @@ export const programming = [
     title: "File management with Caching",
     description: "Optimized file management using caching.",
     gitURL:
-      "https://github.com/ankush07261/Cpp-projects/blob/main/FileManagement.cpp",
+      "https://github.com/ankush07261/Cpp-projects/tree/main/FileManageWithCache",
     concepts: ["System design", "C++", "OOPS", "Singleton instance", "Caching"],
   },
   {
@@ -30,7 +30,7 @@ export const programming = [
       "This application shows the current weather of the entered place.",
     gitURL: "https://github.com/ankush07261/Weather-application",
     liveURL: "https://ankush-weather-application.netlify.app/",
-    concepts: ["API integration","ReactJS", "CSS"],
+    concepts: ["API integration", "ReactJS", "CSS"],
   },
   {
     image: DBMS,

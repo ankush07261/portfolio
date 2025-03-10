@@ -107,10 +107,10 @@
     display: flex;
     justify-content: center;
     gap: 1.25rem;
-    background-color: rgba(22, 22, 22, 0.9) !important;
+    background-color: rgba(22, 22, 22, 0.85) !important;
     transition: 0.6s;
     flex-direction: column;
-    transform: translateX(-105vh);
+    transform: translateX(-100%);
     z-index: 999;
     padding: 0.5rem 2rem 0.5rem 2rem;
     align-items: start;

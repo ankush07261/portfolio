@@ -20,8 +20,8 @@ function Skills() {
           <Tabs>
             <TabList>
               <Tab>Programming</Tab>
-              <Tab>Cybersecurity</Tab>
               <Tab>Web dev</Tab>
+              <Tab>Cybersecurity</Tab>
             </TabList>
 
             <TabPanel>
@@ -33,18 +33,18 @@ function Skills() {
               </div>
             </TabPanel>
             <TabPanel>
-              <h2 className="panel-title">Cybersecurity</h2>
-              <div className="skill-card cyber-skills">
-                {cyberSkill?.map((cyberSkill, index) => (
-                  <span key={index}>{cyberSkill.title}</span>
-                ))}
-              </div>
-            </TabPanel>
-            <TabPanel>
               <h2 className="panel-title">Web development</h2>
               <div className="skill-card">
                 {webSkill?.map((webskill, index) => (
                   <span key={index}>{webskill.title}</span>
+                ))}
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <h2 className="panel-title">Cybersecurity</h2>
+              <div className="skill-card cyber-skills">
+                {cyberSkill?.map((cyberSkill, index) => (
+                  <span key={index}>{cyberSkill.title}</span>
                 ))}
               </div>
             </TabPanel>

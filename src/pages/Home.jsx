@@ -49,7 +49,19 @@ function Home() {
     <div className="about-me-page" id="home">
       <div className="container">
         <div className="sub-container my-profile-image">
-          <img src={profileImage} alt="dp" className="profile-image" />
+          <div className="profile-card">
+            <div className="profile-img-container">
+              <img src={profileImage} alt="dp" className="profile-image" />
+            </div>
+            <div className="tag tag-top">
+              <p>Software Development</p>
+            </div>
+            <div className="tag tag-bottom">
+              <p>Cybersecurity</p>
+            </div>
+            <div className="curve-one"></div>
+            <div className="curve-two"></div>
+          </div>
           <div className="socials-container">
             {links.map((link, index) => (
               <a href={link.href} target="_blank" rel="noreferrer" key={index}>
@@ -64,10 +76,11 @@ function Home() {
             Hey there folks<span className="hello">👋🏻</span>,
             <br />
             <br />
-            I'm a <span className="highlight">Cybersecurity</span> enthusiast
-            and a<span className="highlight"> Software developer</span> passionate
-            about creating user friendly, interactive digital experiences and
-            safeguarding an organization's software security and well-being.
+            I'm a <span className="highlight"> Software developer</span> and a
+            <span className="highlight"> Cybersecurity</span> enthusiast
+            passionate about creating user friendly, interactive digital
+            experiences and safeguarding an organization's software security and
+            well-being.
             <br />
           </p>
           <Link to="/about-me" className="mobile-nav-elements toNext">

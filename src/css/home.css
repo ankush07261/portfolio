@@ -49,7 +49,7 @@
 
 .hello {
   font-size: 1.4rem;
-  animation-name: handwave; 
+  animation-name: handwave;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
@@ -80,14 +80,56 @@
   display: flex;
   align-items: center;
 }
-.profile-image {
-  width: 50%;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  box-shadow: 0rem 0rem 1rem var(--shadow);
+.profile-card {
   margin: auto 1rem auto auto;
-  border: 2px solid black;
+  width: fit-content;
+  position: relative;
+}
+.profile-img-container{
+  width: 16rem;
+  height: 16rem;
+  overflow: hidden;
+  border: 2px solid var(--ternary-color);
+  position: relative;
+  border-radius: 1rem;
+}
+.profile-image {
+  margin: auto 1rem auto auto;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  box-shadow: 0rem 0rem 1rem var(--shadow);
   animation: appear 0.75s linear;
+  object-fit: cover;
+}
+.tag{
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: var(--primary-color);
+}
+.tag-top{
+  width:12rem;
+  left: 0;
+  top: 0;
+  border-bottom: 2px solid var(--ternary-color);
+  border-right: 2px solid var(--ternary-color);
+  border-radius: 0 0 1rem 0;
+}
+.tag-bottom{
+  width:8rem;
+  bottom: 0;
+  right: 0;
+  border-top: 2px solid var(--ternary-color);
+  border-left: 2px solid var(--ternary-color);
+  border-radius: 1rem 0 0 0;
+}
+.tag p{
+  font-size: 0.8rem;
+  color: var(--ternary-color);
+  font-weight: bold;
+  margin: auto;
 }
 .socials-container {
   width: 50%;
@@ -116,7 +158,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.svg{
+.svg {
   width: 20px !important;
   height: 20px !important;
 }
@@ -207,9 +249,8 @@
     height: fit-content;
     padding: 0;
   }
-  .profile-image {
-    width: 12rem;
-    margin: 1rem auto;
+  .profile-card {
+    margin: 0 auto 1rem auto;
   }
   .sub-container {
     width: 100%;
@@ -225,11 +266,19 @@
   .about-me p,
   .about-me p b,
   .about-me p i,
-  .about-me p{
+  .about-me p {
     background-color: var(--secondary-color);
     padding: 1rem;
     font-size: 1.2rem;
     border-radius: 6px;
+  }
+  .tag-bottom{
+    border: 2px solid var(--ternary-color) ;
+    border-radius: 1rem 0 1rem 0;
+  }
+  .tag-top{
+    border: 2px solid var(--ternary-color) ;
+    border-radius: 1rem 0 1rem 0;
   }
   .web-built p {
     margin: auto;

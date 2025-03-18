@@ -84,6 +84,7 @@
   margin: auto 1rem auto auto;
   width: fit-content;
   position: relative;
+  animation: appear 0.75s linear;
 }
 .profile-img-container{
   width: 16rem;
@@ -97,8 +98,6 @@
   margin: auto 1rem auto auto;
   width: 100%;
   aspect-ratio: 1 / 1;
-  box-shadow: 0rem 0rem 1rem var(--shadow);
-  animation: appear 0.75s linear;
   object-fit: cover;
 }
 .tag{

@@ -1,22 +1,30 @@
 export const webDev = [
   {
-    title: "ExpressJS",
+    title: "Docker",
     value: "90%",
-  },
-  {
-    title: "ReactJS",
-    value: "92%",
   },
   {
     title: "Spring Boot",
     value: "40%",
   },
   {
+    title: "PostgreSQL",
+    value: "75%",
+  },
+  {
+    title: "ReactJS",
+    value: "92%",
+  },
+  {
+    title: "ExpressJS",
+    value: "90%",
+  },
+  {
     title: "MongoDB",
     value: "75%",
   },
   {
-    title: "SQL",
+    title: "MySQL",
     value: "75%",
   },
   {

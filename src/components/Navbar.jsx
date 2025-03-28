@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import "../css/navbar.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link, redirect, useLocation, useNavigate } from "react-router-dom";
 import profileImage from "../assets/images/profilepicture.jpg";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
 function Navbar() {
+  const navigate = useNavigate();
   const location = useLocation();
   const navRef = useRef();
 
@@ -63,14 +64,14 @@ function Navbar() {
   return (
     <>
       <div className="navbar" id="navbar">
-        <p>
-          {
-            location.pathname != "/" ? (<img src={profileImage} alt="dp" className="profile-image-navbar" />): ""
-          }
-          
+        <p onClick={() => navigate("/")}>
+          {location.pathname !== "/" && (
+            <img src={profileImage} alt="dp" className="profile-image-navbar" />
+          )}
           {"   "}
           Ankush Hegde
         </p>
+
         <div className="navbar-nav" id="navbar-nav" ref={navRef}>
           {routes.map((route, index) => (
             <Link

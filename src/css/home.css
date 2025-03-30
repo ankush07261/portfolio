@@ -66,12 +66,13 @@
   font-size: 1.2rem;
 }
 .container {
-  width: 90%;
+  width: 100%;
   display: flex;
   gap: 1rem;
   align-items: center;
-  margin: auto;
-  padding: 1rem;
+  justify-content: center;
+  margin: auto !important;
+  /* padding: 1rem; */
 }
 .sub-container {
   width: 45%;
@@ -81,7 +82,7 @@
   align-items: center;
 }
 .profile-card {
-  margin: auto 1rem auto auto;
+  margin: auto;
   width: fit-content;
   position: relative;
   animation: appear 0.75s linear;
@@ -95,7 +96,7 @@
   border-radius: 1rem;
 }
 .profile-image {
-  margin: auto 1rem auto auto;
+  margin: auto auto 1rem auto;
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -133,7 +134,7 @@
 .socials-container {
   width: 50%;
   height: fit-content;
-  margin: auto 1rem auto auto;
+  margin: 0.5rem auto auto auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,10 +167,8 @@
   margin: 0%;
 }
 .my-profile-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 32%;
+  margin-right: 2rem;
   /* background-color: #202020;
   opacity: 1;
   background-image: radial-gradient(
@@ -193,6 +192,16 @@
   justify-content: center;
   gap: 1.5rem;
   animation: appear 0.5s linear;
+  width: 35%;
+}
+.align{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: auto;
 }
 .about-me p {
   text-align: left;
@@ -247,6 +256,12 @@
   .my-profile-image {
     height: fit-content;
     padding: 0;
+    width: fit-content !important;
+    margin: auto;
+
+  }
+  .align{
+    gap: 1rem;
   }
   .profile-card {
     margin: 0 auto 1rem auto;

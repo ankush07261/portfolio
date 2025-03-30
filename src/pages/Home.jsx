@@ -49,6 +49,8 @@ function Home() {
     <div className="about-me-page" id="home">
       <div className="container">
         <div className="sub-container my-profile-image">
+          <div className="align">
+
           <div className="profile-card">
             <div className="profile-img-container">
               <img src={profileImage} alt="dp" className="profile-image" />
@@ -68,6 +70,7 @@ function Home() {
                 {link.img}
               </a>
             ))}
+          </div>
           </div>
         </div>
         <div className="line"></div>

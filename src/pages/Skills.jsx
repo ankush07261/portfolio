@@ -33,7 +33,7 @@ function Skills() {
               </div>
             </TabPanel> */}
             <TabPanel>
-              <h2 className="panel-title">Web development</h2>
+              <h2 className="panel-title">Software development</h2>
               <div className="skill-card">
                 {webSkill?.map((webskill, index) => (
                   <span key={index}>{webskill.title}</span>

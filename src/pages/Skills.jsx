@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "../css/skills.css";
 import "../css/mobileBtns.css";
 import { Link } from "react-router-dom";
-import { webDev, cyberSecurity, others } from "../constants/Skills";
+import { webDev, cyberSecurity } from "../constants/Skills";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 function Skills() {
   const [webSkill, setWebSkill] = useState(webDev);
   const [cyberSkill, setCyberSkill] = useState(cyberSecurity);
-  const [othSkill, setOthSkill] = useState(others);
+  // const [othSkill, setOthSkill] = useState(others);
 
   return (
     <div className="skill-exp-page" id="skills">
@@ -19,19 +19,19 @@ function Skills() {
         <div className="skill-container">
           <Tabs>
             <TabList>
-              <Tab>Programming</Tab>
-              <Tab>Web dev</Tab>
+              {/* <Tab>Programming</Tab> */}
+              <Tab>Software dev</Tab>
               <Tab>Cybersecurity</Tab>
             </TabList>
 
-            <TabPanel>
+            {/* <TabPanel>
               <h2 className="panel-title">Programming / Coding</h2>
               <div className="skill-card cyber-skills">
                 {othSkill?.map((othSkill, index) => (
                   <span key={index}>{othSkill.title}</span>
                 ))}
               </div>
-            </TabPanel>
+            </TabPanel> */}
             <TabPanel>
               <h2 className="panel-title">Web development</h2>
               <div className="skill-card">

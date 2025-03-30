@@ -1,5 +1,17 @@
 export const webDev = [
   {
+    title: "System Design",
+    value: "45%",
+  },
+  {
+    title: "C++",
+    value: "85%",
+  },
+  {
+    title: "Java",
+    value: "45%",
+  },
+  {
     title: "Docker",
     value: "90%",
   },
@@ -28,9 +40,25 @@ export const webDev = [
     value: "75%",
   },
   {
-    title: "TypeScript",
+    title: "O.O.Ps",
+    value: "45%",
+  },
+  {
+    title: "Operating System (Threads, Mutex, etc)",
+    value: "40%",
+  },
+  {
+    title: "Python",
     value: "70%",
   },
+  {
+    title: "JavaScript",
+    value: "75%",
+  },
+  // {
+  //   title: "TypeScript",
+  //   value: "70%",
+  // },
   {
     title: "NodeJS",
     value: "70%",
@@ -119,33 +147,6 @@ export const cyberSecurity = [
     value: "60%",
   },
 ];
-export const others = [
-  {
-    title: "System Design",
-    value: "45%",
-  },
-  {
-    title: "C++",
-    value: "85%",
-  },
-  {
-    title: "Java",
-    value: "45%",
-  },
-  {
-    title: "Operating System (Threads, Mutex, etc)",
-    value: "40%",
-  },
-  {
-    title: "OOPs",
-    value: "45%",
-  },
-  {
-    title: "Python",
-    value: "70%",
-  },
-  {
-    title: "JavaScript",
-    value: "75%",
-  },
-];
+// export const others = [
+  
+// ];

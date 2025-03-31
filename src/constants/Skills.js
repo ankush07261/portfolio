@@ -20,9 +20,13 @@ export const webDev = [
     value: "40%",
   },
   {
-    title: "PostgreSQL",
-    value: "75%",
+    title: "Redis",
+    value: "40%",
   },
+  // {
+  //   title: "PostgreSQL",
+  //   value: "75%",
+  // },
   {
     title: "ReactJS",
     value: "92%",
@@ -63,18 +67,18 @@ export const webDev = [
     title: "NodeJS",
     value: "70%",
   },
-  {
-    title: "EJS",
-    value: "90%",
-  },
-  {
-    title: "Django",
-    value: "65%",
-  },
-  {
-    title: "Next.JS",
-    value: "55%",
-  },
+  // {
+  //   title: "EJS",
+  //   value: "90%",
+  // },
+  // {
+  //   title: "Django",
+  //   value: "65%",
+  // },
+  // {
+  //   title: "Next.JS",
+  //   value: "55%",
+  // },
   {
     title: "HTML",
     value: "95%",
@@ -87,10 +91,10 @@ export const webDev = [
     title: "Bootstrap",
     value: "65%",
   },
-  {
-    title: "Webflow",
-    value: "40%",
-  },
+  // {
+  //   title: "Webflow",
+  //   value: "40%",
+  // },
 ];
 
 export const cyberSecurity = [

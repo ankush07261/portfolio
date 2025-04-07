@@ -8,6 +8,7 @@ import PasswordStrength from "../assets/images/MyWork-SS/password.png";
 import Keylogger from "../assets/images/MyWork-SS/keylogger.png";
 import PortScanner from "../assets/images/MyWork-SS/portscanner.png";
 import File_Cache from "../assets/images/MyWork-SS/File_Cache.png";
+import ems from "../assets/images/MyWork-SS/ems.png";
 // import React_crud from "../assets/images/MyWork-SS/Redux-CRUD.png";
 // import randomQuote from "../assets/images/MyWork-SS/quoteGen.png";
 // import imgCarousel from "../assets/images/MyWork-SS/imgCarousel.png";
@@ -46,6 +47,13 @@ export const programming = [
     description: "Can be used to post, view, edit and delete blogs.",
     gitURL: "https://github.com/ankush07261/Blog-web-app",
     concepts: ["MongoDB", "ExpressJS", "EJS", "CSS"],
+  },
+  {
+    image: ems,
+    title: "Employee Management System",
+    description: "The backend for an Employee management system with features like download PDF & Excel.",
+    gitURL: "https://github.com/ankush07261/Employee-Management-System",
+    concepts: ["MySQL", "Spring Boot"],
   },
   {
     image: todoList,

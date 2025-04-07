@@ -51,9 +51,9 @@ export const programming = [
   {
     image: ems,
     title: "Employee Management System",
-    description: "The backend for an Employee management system with features like download PDF & Excel.",
+    description: "The backend for an Employee management system with Redis caching, download PDF & Excel features.",
     gitURL: "https://github.com/ankush07261/Employee-Management-System",
-    concepts: ["MySQL", "Spring Boot"],
+    concepts: ["MySQL", "Spring Boot", "Redis"],
   },
   {
     image: todoList,

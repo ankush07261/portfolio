@@ -20,7 +20,7 @@ function Skills() {
           <Tabs>
             <TabList>
               {/* <Tab>Programming</Tab> */}
-              <Tab>Software dev</Tab>
+              <Tab>Software Eng.</Tab>
               <Tab>Cybersecurity</Tab>
             </TabList>
 
@@ -33,7 +33,7 @@ function Skills() {
               </div>
             </TabPanel> */}
             <TabPanel>
-              <h2 className="panel-title">Software development</h2>
+              <h2 className="panel-title">Software Engineering</h2>
               <div className="skill-card">
                 {webSkill?.map((webskill, index) => (
                   <span key={index}>{webskill.title}</span>

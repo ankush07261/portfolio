@@ -8,7 +8,7 @@ import PasswordStrength from "../assets/images/MyWork-SS/password.png";
 import Keylogger from "../assets/images/MyWork-SS/keylogger.png";
 import PortScanner from "../assets/images/MyWork-SS/portscanner.png";
 import File_Cache from "../assets/images/MyWork-SS/File_Cache.png";
-import ems from "../assets/images/MyWork-SS/ems.png";
+import cti from "../assets/images/MyWork-SS/cti.jpg";
 // import React_crud from "../assets/images/MyWork-SS/Redux-CRUD.png";
 // import randomQuote from "../assets/images/MyWork-SS/quoteGen.png";
 // import imgCarousel from "../assets/images/MyWork-SS/imgCarousel.png";
@@ -25,6 +25,13 @@ export const programming = [
     concepts: ["System design", "C++", "OOPS", "Singleton instance", "Caching"],
   },
   {
+    image: cti,
+    title: "Cyber Threat Intelligence (Ongoing...)",
+    description: "An AI based IDS to detect and report cyber threats.",
+    // gitURL:"https://github.com/ankush07261/Cpp-projects/tree/main/FileManageWithCache",
+    concepts: ["Python", "SciKit-Learn", "ReactJS", "MongoDB", "API"],
+  },
+  {
     image: weatherAPI,
     title: "Weather web application",
     description:
@@ -34,14 +41,6 @@ export const programming = [
     concepts: ["API integration", "ReactJS", "CSS"],
   },
   {
-    image: DBMS,
-    title: "College clubs management",
-    description:
-      "Used to manange the members, account, logistics and more of the student clubs in a college",
-    gitURL: "https://github.com/ankush07261/College_Club_management_system",
-    concepts: ["SQL", "ExpressJS", "EJS", "CSS"],
-  },
-  {
     image: blogWebsite,
     title: "Blog web application",
     description: "Can be used to post, view, edit and delete blogs.",
@@ -49,19 +48,44 @@ export const programming = [
     concepts: ["MongoDB", "ExpressJS", "EJS", "CSS"],
   },
   {
-    image: ems,
-    title: "Employee Management System",
-    description: "The backend for an Employee management system with Redis caching, download PDF & Excel features.",
-    gitURL: "https://github.com/ankush07261/Employee-Management-System",
-    concepts: ["MySQL", "Spring Boot", "Redis"],
+    image: DBMS,
+    title: "College clubs management",
+    description:
+      "Used to manange the members, account, logistics and more of the student clubs in a college",
+    gitURL: "https://github.com/ankush07261/College_Club_management_system",
+    concepts: ["SQL", "ExpressJS", "EJS", "CSS"],
+  },
+  
+  {
+    image: PortScanner,
+    title: "Vulnerability scanner",
+    description: "Scans for open ports on your computer",
+    gitURL:
+      "https://github.com/ankush07261/Cybersecurity/blob/main/vulnerabilityScanner.py",
+      concepts: ["Sockets","Port scanning", "Python"],
   },
   {
-    image: todoList,
-    title: "To-Do List",
-    description: "Use it to manage your everyday tasks.",
-    gitURL: "https://github.com/ankush07261/To-Do-List",
-    concepts: ["MongoDB", "ExpressJS", "EJS", "CSS"],
+    image: Keylogger,
+    title: "Key logger",
+    description: "A tool to capture key press on a computer. (educational purpose)",
+    gitURL:
+      "https://github.com/ankush07261/Cybersecurity/blob/main/keyLogger.py",
+      concepts: ["File handling", "Python"],
   },
+  // {
+  //   image: ems,
+  //   title: "Employee Management System",
+  //   description: "The backend for an Employee management system with Redis caching, download PDF & Excel features.",
+  //   gitURL: "https://github.com/ankush07261/Employee-Management-System",
+  //   concepts: ["MySQL", "Spring Boot", "Redis"],
+  // },
+  // {
+  //   image: todoList,
+  //   title: "To-Do List",
+  //   description: "Use it to manage your everyday tasks.",
+  //   gitURL: "https://github.com/ankush07261/To-Do-List",
+  //   concepts: ["MongoDB", "ExpressJS", "EJS", "CSS"],
+  // },
   {
     image: drumKit,
     title: "Drum Kit",
@@ -116,22 +140,7 @@ export const programming = [
 // ];
 
 export const demoCyber = [
-  {
-    image: PortScanner,
-    title: "Vulnerability scanner",
-    description: "Scans for open ports on your computer",
-    gitURL:
-      "https://github.com/ankush07261/Cybersecurity/blob/main/vulnerabilityScanner.py",
-      concepts: ["Sockets","Port scanning", "Python"],
-  },
-  {
-    image: Keylogger,
-    title: "Key logger",
-    description: "A tool to capture key press on a computer. (educational purpose)",
-    gitURL:
-      "https://github.com/ankush07261/Cybersecurity/blob/main/keyLogger.py",
-      concepts: ["File handling", "Python"],
-  },
+  
   {
     image: PasswordStrength,
     title: "Password strength checker",

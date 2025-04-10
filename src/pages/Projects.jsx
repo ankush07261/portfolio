@@ -8,22 +8,22 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 const Projects = () => {
-  const [demoCyb, setDemoCyb] = useState(demoCyber);
+  // const [demoCyb, setDemoCyb] = useState(demoCyber);
   const [prog, setProg] = useState(programming);
 
   return (
     <div className="skill-exp-page" id="projects">
       <h1>PROJECTS</h1>
       <Tabs className="projects-display">
-        <TabList>
+        {/* <TabList>
           <Tab>Software Dev</Tab>
           <Tab>Cybersecurity</Tab>
-        </TabList>
+        </TabList> */}
 
         <TabPanel>
-          <h2 className="panel-title project-title">
+          {/* <h2 className="panel-title project-title">
             Software Development Projects
-          </h2>
+          </h2> */}
           <div className="projects">
             {prog.map((prog, index) => (
               <div className="card prog-card" key={index}>
@@ -52,21 +52,25 @@ const Projects = () => {
                       ""
                     )}
 
-                    <a
-                      className="github-link"
-                      href={prog.gitURL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Github
-                    </a>
+{prog.gitURL ? (
+                      <a
+                        href={prog.gitURL}
+                        className="github-link"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Demo
+                      </a>
+                    ) : (
+                      ""
+                    )}
                   </div>
                 </p>
               </div>
             ))}
           </div>
         </TabPanel>
-        <TabPanel>
+        {/* <TabPanel>
           <h2 className="panel-title project-title">Cybersecurity Projects</h2>
           <div className="projects">
             {demoCyb.map((demoCyb, index) => (
@@ -108,7 +112,7 @@ const Projects = () => {
               </div>
             ))}
           </div>
-        </TabPanel>
+        </TabPanel> */}
       </Tabs>
 
       <Link to="/skills" className="mobile-nav-elements toNext">

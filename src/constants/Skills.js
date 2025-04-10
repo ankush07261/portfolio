@@ -12,12 +12,16 @@ export const webDev = [
     value: "45%",
   },
   {
-    title: "Docker",
-    value: "90%",
+    title: "Python",
+    value: "85%",
   },
   {
-    title: "Spring Boot",
+    title: "Scikit-Learn",
     value: "40%",
+  },
+  {
+    title: "Docker",
+    value: "90%",
   },
   {
     title: "Redis",
@@ -51,10 +55,10 @@ export const webDev = [
     title: "Operating System (Threads, Mutex, etc)",
     value: "40%",
   },
-  {
-    title: "Python",
-    value: "70%",
-  },
+  // {
+  //   title: "Python",
+  //   value: "70%",
+  // },
   {
     title: "JavaScript",
     value: "75%",
@@ -63,18 +67,18 @@ export const webDev = [
   //   title: "TypeScript",
   //   value: "70%",
   // },
-  {
-    title: "NodeJS",
-    value: "70%",
-  },
+  // {
+  //   title: "NodeJS",
+  //   value: "70%",
+  // },
   // {
   //   title: "EJS",
   //   value: "90%",
   // },
-  // {
-  //   title: "Django",
-  //   value: "65%",
-  // },
+  {
+    title: "Django",
+    value: "65%",
+  },
   // {
   //   title: "Next.JS",
   //   value: "55%",

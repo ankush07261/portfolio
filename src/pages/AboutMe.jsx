@@ -14,11 +14,9 @@ function AboutMe() {
               As a skilled engineer specializing in cybersecurity and software
               development, I have expertise in{" "}
               <span className="about-me-highlight">
-                C++, Java, MERN stack, Vulnerability assessment and security
-                analysis
+                C++, Java, M.E.R.N stack and Vulnerability assessment
               </span>
-              . With a comprehensive understanding of Object Oriented Programming, modern web technologies
-              and security protocols, I am committed to delivering robust and
+              . With a comprehensive understanding of Object Oriented Programming and <span className="about-me-highlight"> AI/ML </span>concepts, I am committed to delivering robust and
               scalable solutions while mitigating risks and enhancing overall
               system integrity.
             </p>
@@ -84,9 +82,9 @@ function AboutMe() {
                 GPA: 8.24
               </li>
             </ul>
-            <br />
-            <b className="desc-title">DoB:</b> 30/04/2003
-            <br />
+            {/* <br /> */}
+            {/* <b className="desc-title">DoB:</b> 30/04/2003
+            <br /> */}
           </p>
           <br />
           <Link to="/experience" className="mobile-nav-elements toNext">

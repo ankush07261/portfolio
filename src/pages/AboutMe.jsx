@@ -14,11 +14,14 @@ function AboutMe() {
               As a skilled engineer specializing in cybersecurity and software
               development, I have expertise in{" "}
               <span className="about-me-highlight">
-                C++, Java, M.E.R.N stack and Vulnerability assessment
-              </span>
-              . With a comprehensive understanding of Object Oriented Programming and <span className="about-me-highlight"> AI/ML </span>concepts, I am committed to delivering robust and
-              scalable solutions while mitigating risks and enhancing overall
-              system integrity.
+                C++, Java, M.E.R.N stack
+              </span>{" "}
+              and <span className="about-me-highlight">AI/ML</span>. With a
+              comprehensive understanding of <span className="about-me-highlight">Object Oriented Programming </span>and{" "}
+              <span className="about-me-highlight"> cybersecurity </span>{" "}
+              concepts, I am committed to delivering robust and scalable
+              solutions while mitigating risks and enhancing overall system
+              integrity.
             </p>
             <br />
             {/* <br />

@@ -59,7 +59,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        Demo
+                        Github
                       </a>
                     ) : (
                       ""

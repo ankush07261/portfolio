@@ -79,11 +79,8 @@ function Home() {
             Hey there folks<span className="hello">👋🏻</span>,
             <br />
             <br />
-            I'm a <span className="highlight"> Software developer</span> and a
-            <span className="highlight"> Cybersecurity</span> enthusiast
-            passionate about creating user friendly, interactive digital
-            experiences and safeguarding an organization's software security and
-            well-being.
+            {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
+            I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter, and keep cyber threats away.
             <br />
           </p>
           <Link to="/about-me" className="mobile-nav-elements toNext">

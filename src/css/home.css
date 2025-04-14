@@ -110,7 +110,7 @@
   background-color: var(--primary-color);
 }
 .tag-top{
-  width:12rem;
+  width:13rem;
   left: 0;
   top: 0;
   border-bottom: 2px solid var(--ternary-color);
@@ -118,7 +118,7 @@
   border-radius: 0 0 1rem 0;
 }
 .tag-bottom{
-  width:8rem;
+  width:7rem;
   bottom: 0;
   right: 0;
   border-top: 2px solid var(--ternary-color);

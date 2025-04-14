@@ -56,7 +56,7 @@ function Home() {
               <img src={profileImage} alt="dp" className="profile-image" />
             </div>
             <div className="tag tag-top">
-              <p>Software Development</p>
+              <p>Software & AI Development</p>
             </div>
             <div className="tag tag-bottom">
               <p>Cybersecurity</p>

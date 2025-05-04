@@ -80,7 +80,7 @@ function Home() {
             <br />
             <br />
             {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
-            I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter, and keep cyber threats away.
+            I'm a <span className="highlight">Software & AI/ML Developer</span> and a <span className="highlight">Cybersecurity Sleuth</span> on a mission to craft sleek digital experiences, train machines to be smarter, and keep cyber threats away.
             <br />
           </p>
           <Link to="/about-me" className="mobile-nav-elements toNext">

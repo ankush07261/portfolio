@@ -20,10 +20,10 @@ import ftd from "../assets/images/MyWork-SS/ftd.png";
 export const programming = [
   {
     image: cti,
-    title: "Cyber Threat Intelligence (Ongoing...)",
+    title: "Intelligent Intrusion Detection System",
     description: "An AI based IDS to detect and report cyber threats.",
     // gitURL:"https://github.com/ankush07261/Cpp-projects/tree/main/FileManageWithCache",
-    concepts: ["Python", "SciKit-Learn", "ReactJS", "MongoDB", "API"],
+    concepts: ["Python", "SciKit-Learn", "FastAPI", "ReactJS", "SQL"],
   },
   {
     image: ftd,

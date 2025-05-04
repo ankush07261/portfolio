@@ -22,7 +22,7 @@ export const programming = [
     image: cti,
     title: "Intelligent Intrusion Detection System",
     description: "An AI based IDS to detect and report cyber threats.",
-    // gitURL:"https://github.com/ankush07261/Cpp-projects/tree/main/FileManageWithCache",
+    gitURL:"https://github.com/ankush07261/Intelligent-Intrusion-Detection-System",
     concepts: ["Python", "SciKit-Learn", "FastAPI", "ReactJS", "SQL"],
   },
   {

@@ -72,14 +72,14 @@ export const programming = [
     concepts: ["API integration", "ReactJS", "CSS"],
   },
   
-  {
-    image: PortScanner,
-    title: "Vulnerability scanner",
-    description: "Scans for open ports on your computer",
-    gitURL:
-      "https://github.com/ankush07261/Cybersecurity/blob/main/vulnerabilityScanner.py",
-      concepts: ["Sockets","Port scanning", "Python"],
-  },
+  // {
+  //   image: PortScanner,
+  //   title: "Vulnerability scanner",
+  //   description: "Scans for open ports on your computer",
+  //   gitURL:
+  //     "https://github.com/ankush07261/Cybersecurity/blob/main/vulnerabilityScanner.py",
+  //     concepts: ["Sockets","Port scanning", "Python"],
+  // },
   // {
   //   image: Keylogger,
   //   title: "Key logger",

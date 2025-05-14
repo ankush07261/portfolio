@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "../css/skills.css";
 import "../css/mobileBtns.css";
 import { Link } from "react-router-dom";
-import { webDev, cyberSecurity } from "../constants/Skills";
+import { webDev, cyberSecurity, core } from "../constants/Skills";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
 function Skills() {
   const [webSkill, setWebSkill] = useState(webDev);
   const [cyberSkill, setCyberSkill] = useState(cyberSecurity);
+  const [cor, setCore] = useState(core);
   // const [othSkill, setOthSkill] = useState(others);
 
   return (
@@ -21,7 +22,8 @@ function Skills() {
             <TabList>
               {/* <Tab>Programming</Tab> */}
               <Tab>Software Eng.</Tab>
-              <Tab>Cybersecurity</Tab>
+              <Tab>Core</Tab>
+              <Tab>DevOps/Tools</Tab>
             </TabList>
 
             {/* <TabPanel>
@@ -41,7 +43,15 @@ function Skills() {
               </div>
             </TabPanel>
             <TabPanel>
-              <h2 className="panel-title">Cybersecurity</h2>
+              <h2 className="panel-title">Core Concepts</h2>
+              <div className="skill-card">
+                {cor?.map((cor, index) => (
+                  <span key={index}>{cor.title}</span>
+                ))}
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <h2 className="panel-title">Dev Ops & Tools</h2>
               <div className="skill-card cyber-skills">
                 {cyberSkill?.map((cyberSkill, index) => (
                   <span key={index}>{cyberSkill.title}</span>

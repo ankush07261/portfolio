@@ -1,9 +1,5 @@
 export const webDev = [
   {
-    title: "System Design",
-    value: "45%",
-  },
-  {
     title: "C++",
     value: "85%",
   },
@@ -20,11 +16,11 @@ export const webDev = [
     value: "40%",
   },
   {
-    title: "Docker",
-    value: "90%",
+    title: "Pandas",
+    value: "40%",
   },
   {
-    title: "Redis",
+    title: "Matplotlib",
     value: "40%",
   },
   // {
@@ -44,25 +40,17 @@ export const webDev = [
     value: "75%",
   },
   {
-    title: "MySQL",
+    title: "SQL",
     value: "75%",
-  },
-  {
-    title: "O.O.Ps",
-    value: "45%",
-  },
-  {
-    title: "Operating System (Threads, Mutex, etc)",
-    value: "40%",
   },
   // {
   //   title: "Python",
   //   value: "70%",
   // },
-  {
-    title: "JavaScript",
-    value: "75%",
-  },
+  // {
+  //   title: "JavaScript",
+  //   value: "75%",
+  // },
   // {
   //   title: "TypeScript",
   //   value: "70%",
@@ -101,18 +89,41 @@ export const webDev = [
   // },
 ];
 
-export const cyberSecurity = [
+export const core = [
   {
-    title: "Linux",
-    value: "75%",
-  },
-  {
-    title: "Bash",
+    title: "System Design & Architecture",
     value: "70%",
   },
   {
-    title: "NMAP",
-    value: "65%",
+    title: "Data Structures",
+    value: "95%",
+  },
+  {
+    title: "Object Oriented Programming",
+    value: "90%",
+  },
+  {
+    title: "APIs and Microservices",
+    value: "90%",
+  },
+];
+
+export const cyberSecurity = [
+  {
+    title: "Docker",
+    value: "75%",
+  },
+  {
+    title: "Redis",
+    value: "75%",
+  },
+  {
+    title: "KaliLinux",
+    value: "75%",
+  },
+  {
+    title: " Ubuntu",
+    value: "75%",
   },
   {
     title: "Nessus",
@@ -123,36 +134,8 @@ export const cyberSecurity = [
     value: "60%",
   },
   {
-    title: "Firewall config",
-    value: "60%",
-  },
-  {
-    title: "Python",
-    value: "40%",
-  },
-  {
-    title: "OWASP ZAP",
-    value: "30%",
-  },
-  {
     title: "Burpsuit",
     value: "30%",
-  },
-  {
-    title: "Threat analysis",
-    value: "60%",
-  },
-  {
-    title: "Risk management",
-    value: "70%",
-  },
-  {
-    title: "Incident response",
-    value: "50%",
-  },
-  {
-    title: "UNIX",
-    value: "60%",
   },
 ];
 // export const others = [

@@ -23,6 +23,7 @@ export const programming = [
     title: "Intelligent Intrusion Detection System",
     description: "An AI based IDS to detect and report cyber threats.",
     gitURL:"https://github.com/ankush07261/Intelligent-Intrusion-Detection-System",
+    docker:"https://hub.docker.com/repository/docker/ankus263/intelligent-intrusion-detection-system/general",
     concepts: ["Python", "SciKit-Learn", "FastAPI", "ReactJS", "SQL"],
   },
   {

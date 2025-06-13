@@ -12,6 +12,22 @@ export const webDev = [
     value: "85%",
   },
   {
+    title: "MongoDB",
+    value: "75%",
+  },
+  {
+    title: "SQL",
+    value: "75%",
+  },
+  {
+    title: "ReactJS",
+    value: "92%",
+  },
+  {
+    title: "ExpressJS",
+    value: "90%",
+  },
+  {
     title: "Scikit-Learn",
     value: "40%",
   },
@@ -27,22 +43,6 @@ export const webDev = [
   //   title: "PostgreSQL",
   //   value: "75%",
   // },
-  {
-    title: "ReactJS",
-    value: "92%",
-  },
-  {
-    title: "ExpressJS",
-    value: "90%",
-  },
-  {
-    title: "MongoDB",
-    value: "75%",
-  },
-  {
-    title: "SQL",
-    value: "75%",
-  },
   // {
   //   title: "Python",
   //   value: "70%",
@@ -139,5 +139,5 @@ export const cyberSecurity = [
   },
 ];
 // export const others = [
-  
+
 // ];

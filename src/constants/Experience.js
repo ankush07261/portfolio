@@ -9,8 +9,8 @@ export const projects = [
     title: "Gokaldas Exports Ltd.",
     role: "Software development and Security Intern",
     description:
-      "Took a leading role among interns in architecture and system design while collaborating with two cross-functional teams to analyze data flow and align the application design with business requirements.\nDrove key architectural decisions, ensuring scalability, security, and optimal application performance. \nDeveloped a robust application for factory operations, creating and integrating APIs to streamline data flow, secure sensitive data, and enhance functionality. \nWorked closely with the IT team to implement and refine access management controls, ensuring user privileges were appropriately assigned for different roles. \nThe application streamlined factory processes with user-specific functionalities, secure authentication (JWT), password policies, and customizable filters for generating detailed reports. \nThe managers appreciated the application's features and functionality, recognizing its potential to reduce operational complexities and costs.",
-    duration: "03/10/2024 - 24/01/2025",
+      "Led system architecture and design efforts among interns, collaborated with two cross-functional teams to align application flow with business needs. \nMade critical architectural decisions to ensure the solution was scalable, secure, and performance-optimized. \nDesigned and integrated robust REST APIs to manage factory operations, streamline data flow, and protect sensitive information which increased efficiency by 20%. \nImplemented secure authentication (JWT), access management, password policies, and user-specific role control which reduced unauthorized access by 80% with dynamic reporting filters.\nThe managers appreciated the application's features and functionality, recognizing its potential to reduce operational complexities and costs.",
+    duration: "03/10/2024 - 24/01/2025 (4 Mos)",
   },
   {
     image: cadabams,
@@ -18,7 +18,7 @@ export const projects = [
     role: "Software Development Intern",
     description:
       "Developed a web platform for appointment scheduling, incorporating advanced features like a dynamic doctor-filtering system to improve accessibility and user experience.\nIntegrated API services and optimized data architecture for the admin panel, ensuring scalability and smooth interactions between the frontend and backend systems.\nGained hands-on experience with MongoDB, ExpressJS, ReactJS, and NodeJS, working on API integration and establishing database relationships for enhanced functionality.\nCollaborated with a development team to refine coding practices, engage in code reviews, and enhance documentation for better project management and teamwork.",
-    duration: "01/02/2024 - 31/03/2024",
+    duration: "01/02/2024 - 31/03/2024 (2 Mos)",
   },
   {
     image: EDCJIT,

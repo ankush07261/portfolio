@@ -64,6 +64,19 @@ const Projects = () => {
                     ) : (
                       ""
                     )}
+
+                    {prog.docker ? (
+                      <a
+                        href={prog.docker}
+                        className="docker"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Docker Image
+                      </a>
+                    ) : (
+                      ""
+                    )}
                   </div>
                 </p>
               </div>

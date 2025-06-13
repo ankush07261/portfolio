@@ -17,8 +17,15 @@ function AboutMe() {
                 C++, Java, M.E.R.N stack
               </span>{" "}
               and <span className="about-me-highlight">AI/ML</span>. With a
-              comprehensive understanding of <span className="about-me-highlight">Object Oriented Programming </span>and{" "}
-              <span className="about-me-highlight"> Cybersecurity </span>{" "}
+              comprehensive understanding of{" "}
+              <span className="about-me-highlight">
+                System Design & Architecture{" "}
+              </span>
+              ,{" "}
+              <span className="about-me-highlight">
+                Object Oriented Programming{" "}
+              </span>
+              and <span className="about-me-highlight"> Cybersecurity </span>{" "}
               concepts, I am committed to delivering robust and scalable
               solutions while mitigating risks and enhancing overall system
               integrity.

@@ -69,27 +69,27 @@ function AboutMe() {
               <li>
                 <b>Jyothy Institute of Technology, Bangalore</b>
                 <br />
-                &#40; 2021 - 2025 &#41;
+                <i> 2021 - 2025 </i>
                 <br />
                 Computer Science and Engineering
                 <br />
-                GPA: 8.3
+                GPA: 8.41
               </li>
               <li>
-                <b>S.N. Bhatt PU college of science and commerce</b>
-                <br /> &#40; 2019 - 2021 &#41;.
+                <b>S.N. Bhatt PU College, Bangalore</b>
+                <br /> <i> 2019 - 2021 </i>
                 <br />
                 Science with Computers.
                 <br />
                 GPA: 8.44
               </li>
               <li>
-                <b>Prarthana Central School</b> <br />
-                &#40; 2009 - 2019 &#41;.
+                <b>Prarthana Central School, Bangalore</b> <br />
+                <i> 2009 - 2019 </i>
                 <br />
                 Class 1 to class 10 in C.B.S.E. board
                 <br />
-                GPA: 8.24
+                GPA: 8.26
               </li>
             </ul>
             {/* <br /> */}

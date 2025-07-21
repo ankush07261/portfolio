@@ -50,27 +50,31 @@ function Home() {
       <div className="container">
         <div className="sub-container my-profile-image">
           <div className="align">
-
-          <div className="profile-card">
-            <div className="profile-img-container">
-              <img src={profileImage} alt="dp" className="profile-image" />
+            <div className="profile-card">
+              <div className="profile-img-container">
+                <img src={profileImage} alt="dp" className="profile-image" />
+              </div>
+              <div className="tag tag-top">
+                <p>Software Development</p>
+              </div>
+              <div className="tag tag-bottom">
+                <p>AI Development</p>
+              </div>
+              <div className="curve-one"></div>
+              <div className="curve-two"></div>
             </div>
-            <div className="tag tag-top">
-              <p>Software & AI Development</p>
+            <div className="socials-container">
+              {links.map((link, index) => (
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  key={index}
+                >
+                  {link.img}
+                </a>
+              ))}
             </div>
-            <div className="tag tag-bottom">
-              <p>Cybersecurity</p>
-            </div>
-            <div className="curve-one"></div>
-            <div className="curve-two"></div>
-          </div>
-          <div className="socials-container">
-            {links.map((link, index) => (
-              <a href={link.href} target="_blank" rel="noreferrer" key={index}>
-                {link.img}
-              </a>
-            ))}
-          </div>
           </div>
         </div>
         <div className="line"></div>
@@ -80,7 +84,10 @@ function Home() {
             <br />
             <br />
             {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
-            I'm a <span className="highlight">Software & AI/ML Developer</span> and a <span className="highlight">Cybersecurity Sleuth</span> on a mission to craft sleek digital experiences, train machines to be smarter, and keep cyber threats away.
+            I’m a <span className="highlight">Software</span> and{" "}
+            <span className="highlight">AI/ML Developer</span> with a strong
+            focus on cybersecurity, building intelligent systems, secure
+            architectures, and seamless digital experiences.
             <br />
           </p>
           <Link to="/about-me" className="mobile-nav-elements toNext">

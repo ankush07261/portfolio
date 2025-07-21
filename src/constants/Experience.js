@@ -9,7 +9,7 @@ export const projects = [
     title: "Gokaldas Exports Ltd.",
     role: "Software development and Security Intern",
     description:
-      "Led system architecture and design efforts among interns, collaborated with two cross-functional teams to align application flow with business needs. \nMade critical architectural decisions to ensure the solution was scalable, secure, and performance-optimized. \nDesigned and integrated robust REST APIs to manage factory operations, streamline data flow, and protect sensitive information which increased efficiency by 20%. \nImplemented secure authentication (JWT), access management, password policies, and user-specific role control which reduced unauthorized access by 80% with dynamic reporting filters.\nThe managers appreciated the application's features and functionality, recognizing its potential to reduce operational complexities and costs.",
+      "Spearheaded architectural design decisions across intern teams, aligning system flow with business needs and ensuring performance and scalability. \nDesigned and integrated secure, high-efficiency REST APIs to manage factory operations and streamline sensitive data flow, improving process efficiency by 20%. \nBuilt secure user authentication with JWT, role-based access control, and password policies — reducing unauthorized access by 80% with dynamic reporting filters. \nAuthored dev documentation on system architecture and code. Co-created an user manual for the company users..",
     duration: "03/10/2024 - 24/01/2025 (4 Mos)",
   },
   {
@@ -17,7 +17,7 @@ export const projects = [
     title: "Cadabam's Group",
     role: "Software Development Intern",
     description:
-      "Developed a web platform for appointment scheduling, incorporating advanced features like a dynamic doctor-filtering system to improve accessibility and user experience.\nIntegrated API services and optimized data architecture for the admin panel, ensuring scalability and smooth interactions between the frontend and backend systems.\nGained hands-on experience with MongoDB, ExpressJS, ReactJS, and NodeJS, working on API integration and establishing database relationships for enhanced functionality.\nCollaborated with a development team to refine coding practices, engage in code reviews, and enhance documentation for better project management and teamwork.",
+      "Developed backend APIs and data models using MERN stack to support scalable admin panel workflows and database relationships. \nEnhanced the appointment booking system by adding a doctor-filtering feature, improving usability and accessibility for patients. \nCollaborated with developers in code reviews and documentation, strengthening team coordination and development process.",
     duration: "01/02/2024 - 31/03/2024 (2 Mos)",
   },
   {

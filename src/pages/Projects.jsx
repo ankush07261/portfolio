@@ -52,7 +52,7 @@ const Projects = () => {
                       ""
                     )}
 
-{prog.gitURL ? (
+                    {prog.gitURL ? (
                       <a
                         href={prog.gitURL}
                         className="github-link"

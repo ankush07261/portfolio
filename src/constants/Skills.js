@@ -28,6 +28,10 @@ export const webDev = [
     value: "90%",
   },
   {
+    title: "FastAPI",
+    value: "65%",
+  },
+  {
     title: "Scikit-Learn",
     value: "40%",
   },
@@ -79,10 +83,6 @@ export const webDev = [
     title: "CSS",
     value: "90%",
   },
-  {
-    title: "Bootstrap",
-    value: "65%",
-  },
   // {
   //   title: "Webflow",
   //   value: "40%",
@@ -118,7 +118,7 @@ export const cyberSecurity = [
     value: "75%",
   },
   {
-    title: "KaliLinux",
+    title: "Kali Linux",
     value: "75%",
   },
   {

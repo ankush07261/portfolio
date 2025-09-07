@@ -11,10 +11,10 @@ function AboutMe() {
         <div className="text">
           <p className="me-text">
             <p className="me-desc">
-              As a skilled engineer specializing in cybersecurity and software
+              As a skilled engineer specializing in software
               development, I have expertise in{" "}
               <span className="about-me-highlight">
-                C++, Java, M.E.R.N stack
+                C++, M.E.R.N stack
               </span>{" "}
               and <span className="about-me-highlight">AI/ML</span>. With a
               comprehensive understanding of{" "}
@@ -47,17 +47,17 @@ function AboutMe() {
             <br />
             <ul>
               <li>
-                <b>&#x1F4A1; Creative Thinking:</b>
+                <b>Creative Thinking &#x1F4A1;:</b>
                 <br />I implement creativity and analytical thinking to the
                 projects i work on and add value to your company.
               </li>
               <li>
-                <b>&#x1F4C8; Staying updated:</b>
+                <b>Staying updated &#x1F4C8;:</b>
                 <br />I stay updated with newer tech trends and love exploring
                 innovative solutions.
               </li>
               <li>
-                <b>&#x1F310; Collaborative spirit:</b>
+                <b>Collaborative spirit &#x1F310;:</b>
                 <br />I believe that team work makes "dream work" and enjoy
                 working with diverse talents and perspectives.
               </li>

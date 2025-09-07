@@ -9,7 +9,7 @@ export const projects = [
     title: "Gokaldas Exports Ltd.",
     role: "Software development and Security Intern",
     description:
-      "Spearheaded architectural design decisions across intern teams, aligning system flow with business needs and ensuring performance and scalability. \nDesigned and integrated secure, high-efficiency REST APIs to manage factory operations and streamline sensitive data flow, improving process efficiency by 20%. \nBuilt secure user authentication with JWT, role-based access control, and password policies — reducing unauthorized access by 80% with dynamic reporting filters. \nAuthored dev documentation on system architecture and code. Co-created an user manual for the company users..",
+      "Spearheaded architectural design decisions among the interns, aligning system flow with business needs and ensuring performance and scalability. \nDesigned and integrated secure, high-efficiency REST APIs to manage factory operations and streamline sensitive data flow, improving process efficiency by 20%. \nBuilt secure user authentication with JWT, role-based access control, and password policies — reducing unauthorized access by 80% with dynamic reporting filters. \nAuthored dev documentation on system architecture and code. Co-created an user manual for the company users..",
     duration: "03/10/2024 - 24/01/2025 (4 Mos)",
   },
   {

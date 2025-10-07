@@ -2,8 +2,16 @@ import EDCJIT from "../assets/images/MyWork-SS/edcjit.jpeg";
 import cadabams from "../assets/images/MyWork-SS/cadabams.jpeg";
 // import destinationTechnologies from "../assets/images/MyWork-SS/destinationTechnologies.jpeg";
 import GE from "../assets/images/MyWork-SS/GE.png";
+import XR from "../assets/images/MyWork-SS/XR.png";
 
 export const projects = [
+  {
+    image: XR,
+    title: "Xtendr",
+    role: "Software development Intern",
+    description: "Working with Javascript and A-frame on WebAR.",
+    duration: "06/10/2025 - Present",
+  },
   {
     image: GE,
     title: "Gokaldas Exports Ltd.",

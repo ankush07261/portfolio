@@ -29,19 +29,50 @@ function MyWork() {
                       src={project.image}
                       alt="project pic"
                     />
-                    <h3>{project.title}</h3>
+                    <h3 className="company-name"><b>{project.title}</b></h3>
                   </div>
-                  <p className="role-desc">{project.role}</p>
-                  <p>
-                    <b className="duration">{project.duration}</b>
-                  </p>
-                  <p className="job-desc">
-                    {project.description.split("\n").map((line, idx) => (
-                      <ul className="exp-desc-ul" key={idx}>
-                        <li className="exp-desc-li">{line}</li>
-                      </ul>
-                    ))}
-                  </p>
+
+                  {project.roles ? (
+                    project.roles.map((r, rIdx) => (
+                      <div
+                        key={rIdx}
+                        style={
+                          rIdx > 0
+                            ? { borderTop: "2px solid rgba(255,255,255,0.5)", marginTop: "12px", paddingTop: "12px" }
+                            : {}
+                        }
+                      >
+                        <p className="role-desc">{r.role}</p>
+                        <p>
+                          <b className="duration">{r.duration}</b>
+                        </p>
+                        <p className="job-desc">
+                          {r.description.map((line, idx) => (
+                            <ul className="exp-desc-ul" key={idx}>
+                              <li className="exp-desc-li">{line}</li>
+                            </ul>
+                          ))}
+                        </p>
+                      </div>
+                    ))
+                  ) : (
+                    <>
+                      <p className="role-desc">{project.role}</p>
+                      <p>
+                        <b className="duration">{project.duration}</b>
+                      </p>
+                      <p className="job-desc">
+                        {(Array.isArray(project.description)
+                          ? project.description
+                          : project.description.split("\n")
+                        ).map((line, idx) => (
+                          <ul className="exp-desc-ul" key={idx}>
+                            <li className="exp-desc-li">{line}</li>
+                          </ul>
+                        ))}
+                      </p>
+                    </>
+                  )}
                 </div>
               </li>
             ))}

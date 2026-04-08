@@ -7,33 +7,58 @@ import XR from "../assets/images/MyWork-SS/XR.png";
 export const projects = [
   {
     image: XR,
-    title: "Xtendr",
-    role: "Software development Intern",
-    description: "Working with Javascript and A-frame on WebAR.",
-    duration: "06/10/2025 - Present",
+    title: "Xtendr Technologies Pvt Ltd",
+    roles: [
+      {
+        role: "Assistant Manager - Consumer Tech",
+        duration: "16/01/2026 - Present",
+        description: [
+          "Built high-impact AR experiences and interactive demos using A-Frame and Three.js, directly contributing to client acquisition and engagement.",
+          "Designed and delivered immersive AR prototypes that translated business ideas into tangible experiences, helping secure new clients.",
+          "Orchestrated development of client-facing AR demos, aligning design and engineering for impactful storytelling.",
+        ],
+      },
+      {
+        role: "Software Development Intern",
+        duration: "06/10/2025 - 15/01/2026 (3 Mos)",
+        description: [
+          "Developed interactive AR demos and prototypes using A-Frame and Three.js, supporting pre-sales and client pitches.",
+          "Contributed to building immersive web-based AR experiences, improving client engagement during demos.",
+        ],
+      },
+    ],
   },
   {
     image: GE,
-    title: "Gokaldas Exports Ltd.",
+    title: "Gokaldas Exports Ltd",
     role: "Software development and Security Intern",
-    description:
-      "Spearheaded architectural design decisions among the interns, aligning system flow with business needs and ensuring performance and scalability. \nDesigned and integrated secure, high-efficiency REST APIs to manage factory operations and streamline sensitive data flow, improving process efficiency by 20%. \nBuilt secure user authentication with JWT, role-based access control, and password policies — reducing unauthorized access by 80% with dynamic reporting filters. \nAuthored dev documentation on system architecture and code. Co-created an user manual for the company users..",
+    description: [
+      "Spearheaded architectural design decisions among the interns, aligning system flow with business needs and ensuring performance and scalability.",
+      "Designed and integrated secure, high-efficiency REST APIs to manage factory operations and streamline sensitive data flow, improving process efficiency by 20%.",
+      "Built secure user authentication with JWT, role-based access control, and password policies — reducing unauthorized access by 80% with dynamic reporting filters.",
+      "Authored dev documentation on system architecture and code. Co-created an user manual for the company users.",
+    ],
     duration: "03/10/2024 - 24/01/2025 (4 Mos)",
   },
   {
     image: cadabams,
     title: "Cadabam's Group",
     role: "Software Development Intern",
-    description:
-      "Developed backend APIs and data models using MERN stack to support scalable admin panel workflows and database relationships. \nEnhanced the appointment booking system by adding a doctor-filtering feature, improving usability and accessibility for patients. \nCollaborated with developers in code reviews and documentation, strengthening team coordination and development process.",
+    description: [
+      "Developed backend APIs and data models using MERN stack to support scalable admin panel workflows and database relationships.",
+      "Enhanced the appointment booking system by adding a doctor-filtering feature, improving usability and accessibility for patients.",
+      "Collaborated with developers in code reviews and documentation, strengthening team coordination and development process.",
+    ],
     duration: "01/02/2024 - 31/03/2024 (2 Mos)",
   },
   {
     image: EDCJIT,
     title: "eDC | JIT",
     role: "Web developer",
-    description:
-      "Developed and hosted the official Website of the Entrepreneurship Development Club and adeptly addressed problem-solving challenges.\nMaintained the website with regular updates and increased event attendees by 25%. ",
+    description: [
+      "Developed and hosted the official Website of the Entrepreneurship Development Club and adeptly addressed problem-solving challenges.",
+      "Maintained the website with regular updates and increased event attendees by 25%.",
+    ],
     duration: "24/07/2023 - 31/01/2024",
   },
   // {

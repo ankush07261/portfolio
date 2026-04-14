@@ -11,25 +11,24 @@ function AboutMe() {
         <div className="text">
           <p className="me-text">
             <p className="me-desc">
-              As a skilled engineer specializing in software
-              development, I have expertise in{" "}
-              <span className="about-me-highlight">
-                C++, M.E.R.N stack
-              </span>{" "}
-              and <span className="about-me-highlight">AI/ML</span>. With a
-              comprehensive understanding of{" "}
-              <span className="about-me-highlight">
-                System Design & Architecture{" "}
-              </span>
-              ,{" "}
-              <span className="about-me-highlight">
-                Object Oriented Programming{" "}
-              </span>
-              and <span className="about-me-highlight"> Cybersecurity </span>{" "}
-              concepts, I am committed to delivering robust and scalable
-              solutions while mitigating risks and enhancing overall system
-              integrity.
-            </p>
+  As a skilled engineer specializing in software
+  development, I have expertise in{" "}
+  <span className="about-me-highlight">
+    C++, Full-Stack Development
+  </span>{" "}
+  and <span className="about-me-highlight">AI/ML</span>, with a strong focus on{" "}
+  <span className="about-me-highlight">Augmented Reality</span>. With a
+  comprehensive understanding of{" "}
+  <span className="about-me-highlight">
+    System Design & Architecture{" "}
+  </span>
+  ,{" "}
+  <span className="about-me-highlight">
+    Object Oriented Programming{" "}
+  </span>
+  concepts, I am committed to delivering robust and scalable
+  solutions while enhancing overall system performance and user experience.
+</p>
             <br />
             {/* <br />
             <b className="desc-title">Open for: </b>Internships or freelancing

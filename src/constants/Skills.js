@@ -20,11 +20,15 @@ export const webDev = [
     value: "75%",
   },
   {
+    title: "JavaScript",
+    value: "75%",
+  },
+  {
     title: "ReactJS",
     value: "92%",
   },
   {
-    title: "ExpressJS",
+    title: "ThreeJS",
     value: "90%",
   },
   {
@@ -75,6 +79,10 @@ export const webDev = [
   //   title: "Next.JS",
   //   value: "55%",
   // },
+  {
+    title: "A-Frame",
+    value: "95%",
+  },
   {
     title: "HTML",
     value: "95%",

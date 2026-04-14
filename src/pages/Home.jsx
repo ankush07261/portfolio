@@ -55,10 +55,10 @@ function Home() {
                 <img src={profileImage} alt="dp" className="profile-image" />
               </div>
               <div className="tag tag-top">
-                <p>Software Development</p>
+                <p>AR, AI</p>
               </div>
               <div className="tag tag-bottom">
-                <p>AI Development</p>
+                <p>Full-Stack</p>
               </div>
               <div className="curve-one"></div>
               <div className="curve-two"></div>
@@ -84,10 +84,10 @@ function Home() {
             <br />
             <br />
             {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
-            I’m a <span className="highlight">Software</span> and{" "}
-            <span className="highlight">AI/ML Developer</span> with a strong
-            focus on cybersecurity, building intelligent systems, secure
-            architectures, and seamless digital experiences.
+            I’m a <span className="highlight">Software Developer</span> specializing in{" "}
+<span className="highlight">Full-Stack Development</span>,{" "}
+<span className="highlight">Augmented Reality</span>, and{" "}
+<span className="highlight">AI</span>, creating seamless and impactful digital experiences.
             <br />
           </p>
           <Link to="/about-me" className="mobile-nav-elements toNext">

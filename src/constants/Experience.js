@@ -13,10 +13,11 @@ export const projects = [
         role: "Assistant Manager - Consumer Tech",
         duration: "16/01/2026 - Present",
         description: [
-          "Built high-impact AR experiences and interactive demos using A-Frame and Three.js, directly contributing to client acquisition and engagement.",
-          "Designed and delivered immersive AR prototypes that translated business ideas into tangible experiences, helping secure new clients.",
-          "Orchestrated development of client-facing AR demos, aligning design and engineering for impactful storytelling.",
-        ],
+  "Built high-impact AR experiences and interactive demos using A-Frame and Three.js, directly contributing to client acquisition and engagement.",
+  "Translated business ideas into immersive AR solutions, delivering end-to-end projects from concept to deployment.",
+  "Took ownership in a lean, fast-paced startup environment, handling full-cycle development with minimal supervision.",
+  "Adapted to evolving requirements and efficient workflows, consistently pushing for better solutions and delivering under pressure."
+],
       },
       {
         role: "Software Development Intern",

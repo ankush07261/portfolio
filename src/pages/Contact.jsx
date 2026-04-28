@@ -30,14 +30,14 @@ function Contact() {
           }
         );
       window.alert("Message sent");
-      navigate("/");
+      document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
     } else {
       window.alert("Please fill out all the fields");
     }
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h3>Connect with me by filling out this form...</h3>
       <br />
       <form ref={form} onSubmit={sendEmail} className="contact-container">

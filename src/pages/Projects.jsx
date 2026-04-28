@@ -1,6 +1,4 @@
 import "../css/experience.css";
-import "../css/mobileBtns.css";
-import { Link } from "react-router-dom";
 import { demoCyber, programming } from "../constants/Projects";
 import * as React from "react";
 import { useState } from "react";
@@ -127,10 +125,6 @@ const Projects = () => {
           </div>
         </TabPanel> */}
       </Tabs>
-
-      <Link to="/skills" className="mobile-nav-elements toNext">
-        My Skills &rArr;
-      </Link>
     </div>
   );
 };

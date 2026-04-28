@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "../css/navbar.css";
-import { Link, redirect, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import profileImage from "../assets/images/profilepicture.jpg";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -10,7 +10,7 @@ function Navbar() {
   const location = useLocation();
   const navRef = useRef();
 
-  const [active, setActive] = useState(location.pathname);
+  const [activeSection, setActiveSection] = useState("home");
 
   const showNav = () => {
     navRef.current.classList.toggle("responsiveNav");
@@ -18,54 +18,75 @@ function Navbar() {
 
   const routes = [
     {
-      path: "/",
+      id: "home",
       title: "Home",
-      bg: "#EEEEEE",
       border: "2px solid #EEEEEE ",
-      nabg: "#FFD369",
     },
     {
-      path: "/about-me",
+      id: "aboutme",
       title: "About me",
-      bg: "#EEEEEE",
       border: "2px solid #EEEEEE ",
-      nabg: "#FFD369",
     },
     {
-      path: "/experience",
+      id: "experience",
       title: "Experience",
-      bg: "#EEEEEE",
       border: "2px solid #EEEEEE ",
-      nabg: "#FFD369",
     },
     {
-      path: "/projects",
+      id: "projects",
       title: "Projects",
-      bg: "#EEEEEE",
       border: "2px solid #EEEEEE ",
-      nabg: "#FFD369",
     },
     {
-      path: "/skills",
+      id: "skills",
       title: "Skills",
-      bg: "#EEEEEE",
       border: "2px solid #EEEEEE ",
-      nabg: "#FFD369",
     },
     {
-      path: "/contact",
+      id: "contact",
       title: "Contact me",
-      bg: "#EEEEEE",
       border: "2px solid #EEEEEE ",
-      nabg: "#FFD369",
     },
   ];
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    }, options);
+
+    routes.forEach((route) => {
+      const section = document.getElementById(route.id);
+      if (section) observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    if (navRef.current.classList.contains("responsiveNav")) {
+      showNav();
+    }
+  };
 
   return (
     <>
       <div className="navbar" id="navbar">
-        <p onClick={() => navigate("/")}>
-          {location.pathname !== "/" && (
+        <p onClick={() => scrollToSection("home")} style={{ cursor: "pointer" }}>
+          {activeSection !== "home" && (
             <img src={profileImage} alt="dp" className="profile-image-navbar" />
           )}
           {"   "}
@@ -74,24 +95,20 @@ function Navbar() {
 
         <div className="navbar-nav" id="navbar-nav" ref={navRef}>
           {routes.map((route, index) => (
-            <Link
-              to={route.path}
+            <span
+              key={index}
               className="nav-elements"
               style={{
-                // color: route.path === active ? route.bg : route.nabg,
                 borderBottom:
-                  route.path === location.pathname ? route.border : null,
+                  route.id === activeSection ? route.border : "2px solid transparent",
                 textShadow:
-                  route.path === location.pathname ? "0px 4px 6px black" : null,
+                  route.id === activeSection ? "0px 4px 6px black" : null,
+                cursor: "pointer",
               }}
-              onClick={() => {
-                setActive(route.path);
-                showNav();
-              }}
-              key={index}
+              onClick={() => scrollToSection(route.id)}
             >
               {route.title}
-            </Link>
+            </span>
           ))}
           <button className="menu btn-close" onClick={showNav}>
             <CloseIcon />

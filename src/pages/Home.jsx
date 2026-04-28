@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/home.css";
-import "../css/mobileBtns.css";
 import profileImage from "../assets/images/profilepicture.jpg";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -90,9 +89,6 @@ function Home() {
 <span className="highlight">AI</span>, creating seamless and impactful digital experiences.
             <br />
           </p>
-          <Link to="/about-me" className="mobile-nav-elements toNext">
-            About me &rArr;
-          </Link>
         </div>
       </div>
       <div className="web-built">

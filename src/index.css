@@ -5,11 +5,26 @@
   --quadnary-color: #eeeeee;
   --shadow: #ffe5a8;
 }
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 16px;
+}
+section, .about-me-page, .aboutMe-container, .myWork, .skill-exp-page, .contact {
+  min-height: 100vh;
+  padding-top: 5rem; /* navbar height + extra air */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 900px) {
+  section, .about-me-page, .aboutMe-container, .myWork, .skill-exp-page, .contact {
+    padding-top: 6rem; /* navbar height + extra air on mobile */
+  }
 }
 *::before {
   content: "";
@@ -37,6 +52,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary-color);
   color: var(--quadnary-color);
+  overflow-x: hidden;
 }
 
 code {

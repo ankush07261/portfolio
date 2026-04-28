@@ -13,7 +13,7 @@
   text-align: center;
   width: 75%;
   margin: auto;
-  margin-top: 6rem;
+  margin-top: 0;
   /* height: 100%; not sure if needed */
 }
 .skill-exp-page {
@@ -287,7 +287,7 @@ h4 {
     width: 96%;
   }
   #projects{
-    margin-top: 4rem;
+    margin-top: 0;
   }
   .experience-list-li {
     width: 100%;

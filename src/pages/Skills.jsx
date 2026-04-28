@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "../css/skills.css";
-import "../css/mobileBtns.css";
-import { Link } from "react-router-dom";
 import { webDev, cyberSecurity, core } from "../constants/Skills";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -59,12 +57,9 @@ function Skills() {
               </div>
             </TabPanel>
           </Tabs>
-        </div>
       </div>
-      <Link to="/contact" className="mobile-nav-elements toNext">
-        Contact me &rArr;
-      </Link>
     </div>
+  </div>
   );
 }
 

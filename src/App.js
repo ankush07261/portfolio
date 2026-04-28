@@ -14,25 +14,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop/>
-        <React.Fragment>
-          <Navbar />
-        </React.Fragment>
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <Navbar />
+        <Home />
+        <AboutMe />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Contact />
       </Router>
-      {/* <footer
-        style={{ height: "1.2px", width: "100%", background: "transparent", textAlign:"right", padding: "2rem" }}
-      >
-        &copy; 2024 Ankush Hegde
-      </footer> */}
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import React from "react";
 import "../css/aboutMe.css";
-import "../css/mobileBtns.css";
-import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
@@ -96,9 +94,6 @@ function AboutMe() {
             <br /> */}
           </p>
           <br />
-          <Link to="/experience" className="mobile-nav-elements toNext">
-            My Experience &rArr;
-          </Link>
         </div>
       </div>
       <div className="footer-container"></div>

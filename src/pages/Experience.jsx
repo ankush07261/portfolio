@@ -1,6 +1,4 @@
 import "../css/experience.css";
-import "../css/mobileBtns.css";
-import { Link } from "react-router-dom";
 import { demoprojects, projects } from "../constants/Experience";
 import * as React from "react";
 import { useState } from "react";
@@ -79,11 +77,8 @@ function MyWork() {
           </ul>
         </div>
 
-        <br />
-      </div>
-      <Link to="/projects" className="mobile-nav-elements toNext">
-        Projects &rArr;
-      </Link>
+      <br />
+    </div>
     </>
   );
 }

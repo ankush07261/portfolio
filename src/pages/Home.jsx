@@ -54,10 +54,10 @@ function Home() {
                 <img src={profileImage} alt="dp" className="profile-image" />
               </div>
               <div className="tag tag-top">
-                <p>AR, AI</p>
+                <p className="typing-text">AR, AI</p>
               </div>
               <div className="tag tag-bottom">
-                <p>Full-Stack</p>
+                <p className="typing-text">Full-Stack</p>
               </div>
               <div className="curve-one"></div>
               <div className="curve-two"></div>
@@ -84,15 +84,26 @@ function Home() {
             <br />
             {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
             I’m a <span className="highlight">Software Developer</span> specializing in{" "}
-<span className="highlight">Full-Stack Development</span>,{" "}
-<span className="highlight">Augmented Reality</span>, and{" "}
-<span className="highlight">AI</span>, creating seamless and impactful digital experiences.
+            <span className="highlight">Full-Stack Development</span>,{" "}
+            <span className="highlight">Augmented Reality</span>, and{" "}
+            <span className="highlight">AI</span>, creating seamless and impactful digital experiences.
             <br />
           </p>
         </div>
       </div>
-      <div className="web-built">
-        <p>This website is built using ReactJS and MUI.</p>
+      <div 
+        className="scroll-indicator" 
+        onClick={() => {
+          document.getElementById("aboutme").scrollIntoView({ behavior: "smooth" });
+        }}
+      >
+        <div className="mouse">
+          <div className="wheel"></div>
+        </div>
+        <div className="arrow">
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   );

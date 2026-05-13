@@ -37,7 +37,7 @@
 }
 .projects-display {
   width: 100%;
-  margin: auto auto 4rem auto;
+  margin: auto auto 0.5rem auto;
   animation: appear 0.5s linear;
 }
 .project-title {

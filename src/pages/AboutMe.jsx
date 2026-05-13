@@ -1,38 +1,35 @@
 import React from "react";
 import "../css/aboutMe.css";
+import Home from "./Home";
 
 function AboutMe() {
   return (
-    <>
+    <div className="about-me-merged" style={{ marginBottom: "100px" }}>
+      <Home />
       <div className="aboutMe-container" id="aboutme">
         <h1>ABOUT ME</h1>
         <div className="text">
           <p className="me-text">
             <p className="me-desc">
-  As a skilled engineer specializing in software
-  development, I have expertise in{" "}
-  <span className="about-me-highlight">
-    C++, Full-Stack Development
-  </span>{" "}
-  and <span className="about-me-highlight">AI/ML</span>, with a strong focus on{" "}
-  <span className="about-me-highlight">Augmented Reality</span>. With a
-  comprehensive understanding of{" "}
-  <span className="about-me-highlight">
-    System Design & Architecture{" "}
-  </span>
-  ,{" "}
-  <span className="about-me-highlight">
-    Object Oriented Programming{" "}
-  </span>
-  concepts, I am committed to delivering robust and scalable
-  solutions while enhancing overall system performance and user experience.
-</p>
+              As a skilled engineer specializing in software
+              development, I have expertise in{" "}
+              <span className="about-me-highlight">
+                C++, Full-Stack Development
+              </span>{" "}
+              and <span className="about-me-highlight">AI/ML</span>, with a strong focus on{" "}
+              <span className="about-me-highlight">Augmented Reality</span>. With a
+              comprehensive understanding of{" "}
+              <span className="about-me-highlight">
+                System Design & Architecture{" "}
+              </span>
+              ,{" "}
+              <span className="about-me-highlight">
+                Object Oriented Programming{" "}
+              </span>
+              concepts, I am committed to delivering robust and scalable
+              solutions while enhancing overall system performance and user experience.
+            </p>
             <br />
-            {/* <br />
-            <b className="desc-title">Open for: </b>Internships or freelancing
-            in <b>Cybersecurity / Web dev</b>.
-            <br />
-            <br /> */}
             <b className="desc-title">Communication languages:</b> English,
             Kannada, Hindi and German.
             <br />
@@ -89,15 +86,11 @@ function AboutMe() {
                 GPA: 8.26
               </li>
             </ul>
-            {/* <br /> */}
-            {/* <b className="desc-title">DoB:</b> 30/04/2003
-            <br /> */}
           </p>
           <br />
         </div>
       </div>
-      <div className="footer-container"></div>
-    </>
+    </div>
   );
 }
 

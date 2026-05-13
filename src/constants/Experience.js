@@ -15,7 +15,7 @@ export const projects = [
   description: [
     "Building high-impact AR experiences and interactive projects using A-Frame and Three.js, directly contributing to client acquisition and engagement.",
     
-    "Playing a key role in developing the company’s in-house AR platform product, helping transition the business from purely service-based solutions to scalable product-driven offerings.",
+    "Playing a key role in developing the company’s in-house AR platform, helping transition the business from purely service-based solutions to scalable product-driven offerings.",
     
     "Handling end-to-end development in a fast-paced startup environment, taking ownership of projects from concept to deployment.",
     

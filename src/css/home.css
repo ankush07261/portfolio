@@ -58,7 +58,8 @@
 .about-me-page {
   margin-top: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  position: relative;
 }
 .about-me-page p {
   text-align: center;
@@ -72,7 +73,6 @@
   align-items: center;
   justify-content: center;
   margin: auto !important;
-  /* padding: 1rem; */
 }
 .sub-container {
   width: 45%;
@@ -169,16 +169,6 @@
 .my-profile-image {
   width: 32%;
   margin-right: 2rem;
-  /* background-color: #202020;
-  opacity: 1;
-  background-image: radial-gradient(
-      #ffff00 0.8500000000000001px,
-      transparent 0.8500000000000001px
-    ),
-    radial-gradient(#ffff00 0.8500000000000001px, #202020 0.8500000000000001px);
-  background-size: 30px 30px;
-  background-position: 10 0, 17px 17px;
-  border-radius: 50% 20% 30% 70%; */
 }
 .line {
   width: 0;
@@ -212,12 +202,6 @@
   font-size: 1.1rem;
   gap: 0.4rem;
 }
-.web-built {
-  width: 100%;
-  margin: auto;
-  margin-top: 0;
-  text-align: center;
-}
 .me-text-primary {
   width: 90%;
   font-size: large;
@@ -226,14 +210,90 @@
   font-weight: bold;
   color: var(--ternary-color);
 }
-.web-built p {
-  font-size: 12px !important;
-  text-align: center;
-  width: 100%;
+.typing-text {
+  font-size: 0.8rem;
+  color: var(--ternary-color);
+  font-weight: bold;
+  margin: auto;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 4s steps(50), cursor 1s step-end infinite alternate;
-  animation-iteration-count: infinite;
+  border-right: 2px solid transparent;
+  animation: typing 2s steps(20) infinite alternate, cursor 0.5s step-end infinite alternate;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.scroll-indicator:hover {
+  opacity: 1;
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 2px solid var(--ternary-color);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.wheel {
+  width: 4px;
+  height: 8px;
+  background-color: var(--ternary-color);
+  border-radius: 2px;
+  margin-top: 8px;
+  animation: scroll-wheel 1.5s infinite;
+}
+
+@keyframes scroll-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+}
+
+.arrow span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid var(--ternary-color);
+  border-right: 2px solid var(--ternary-color);
+  transform: rotate(45deg);
+  margin: -5px;
+  animation: arrow-down 1.5s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+@keyframes arrow-down {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-10px, -10px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(10px, 10px);
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -258,7 +318,6 @@
     padding: 0;
     width: fit-content !important;
     margin: auto;
-
   }
   .align{
     gap: 1rem;
@@ -277,9 +336,6 @@
     padding: 0 0.5rem;
     font-size: 1.2rem;
   }
-  .about-me p,
-  .about-me p b,
-  .about-me p i,
   .about-me p {
     background-color: var(--secondary-color);
     padding: 1rem;
@@ -293,6 +349,14 @@
   .tag-top{
     border: 2px solid var(--ternary-color) ;
     border-radius: 1rem 0 1rem 0;
+  }
+  .scroll-indicator {
+    left: 2rem;
+    transform: none;
+    bottom: 1rem;
+  }
+  .mouse {
+    display: none;
   }
   .web-built p {
     margin: auto;

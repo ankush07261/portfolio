@@ -37,8 +37,8 @@ function Contact() {
   };
 
   return (
-    <div className="contact" id="contact">
-      <h3>Connect with me by filling out this form...</h3>
+    <div className="contact" id="contact" style={{ paddingTop: "80px" }}>
+      <h3 style={{ paddingTop: "60px" }}>Connect with me by filling out this form...</h3>
       <br />
       <form ref={form} onSubmit={sendEmail} className="contact-container">
         <label>Your name</label>
@@ -49,8 +49,6 @@ function Contact() {
             setName(e.target.value);
           }}
         />
-        <br />
-        <br />
         <label>Your Email</label>
         <input
           type="email"
@@ -59,8 +57,6 @@ function Contact() {
             setEmail(e.target.value);
           }}
         />
-        <br />
-        <br />
         <label>What are you looking for?</label>
         <textarea
           name="message"

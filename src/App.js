@@ -2,8 +2,7 @@ import Contact from "./pages/Contact";
 import AboutMe from "./pages/AboutMe";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
-import Skills from "./pages/Skills";
-import Home from "./pages/Home";
+import Blogs from "./pages/Blogs";
 import "./css/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
@@ -14,13 +13,15 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
-        <Home />
-        <AboutMe />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </Router>
     </div>
   );

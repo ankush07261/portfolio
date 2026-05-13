@@ -74,7 +74,6 @@
   }
   .navbar p {
     display: flex;
-    flex-direction: row-reverse;
   }
   .navbar h2 {
     font-size: 26px;
@@ -93,10 +92,15 @@
   .btn-open {
     position: absolute;
     top: 0.5rem;
-    left: 0.75rem;
+    right: 0.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
+  }
+  .menu-text {
+    font-size: 14px;
+    font-weight: 600;
   }
   .navbar-nav {
     position: fixed;

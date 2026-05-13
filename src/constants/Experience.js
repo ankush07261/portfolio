@@ -10,15 +10,18 @@ export const projects = [
     title: "Xtendr Technologies Pvt Ltd",
     roles: [
       {
-        role: "Assistant Manager - Consumer Tech",
-        duration: "16/01/2026 - Present",
-        description: [
-  "Built high-impact AR experiences and interactive demos using A-Frame and Three.js, directly contributing to client acquisition and engagement.",
-  "Translated business ideas into immersive AR solutions, delivering end-to-end projects from concept to deployment.",
-  "Took ownership in a lean, fast-paced startup environment, handling full-cycle development with minimal supervision.",
-  "Adapted to evolving requirements and efficient workflows, consistently pushing for better solutions and delivering under pressure."
-],
-      },
+  role: "Assistant Manager - Consumer Tech",
+  duration: "16/01/2026 - Present",
+  description: [
+    "Building high-impact AR experiences and interactive projects using A-Frame and Three.js, directly contributing to client acquisition and engagement.",
+    
+    "Playing a key role in developing the company’s in-house AR platform product, helping transition the business from purely service-based solutions to scalable product-driven offerings.",
+    
+    "Handling end-to-end development in a fast-paced startup environment, taking ownership of projects from concept to deployment.",
+    
+    "Rapidly prototyping and delivering projects using AI-assisted development workflows, while also reviewing and refining codebases developed by other team members."
+  ],
+},
       {
         role: "Software Development Intern",
         duration: "06/10/2025 - 15/01/2026 (3 Mos)",

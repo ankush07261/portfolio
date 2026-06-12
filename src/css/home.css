@@ -351,9 +351,9 @@
     border-radius: 1rem 0 1rem 0;
   }
   .scroll-indicator {
-    left: 2rem;
+    left: 0.8rem;
     transform: none;
-    bottom: 1rem;
+    bottom: 5rem;
   }
   .mouse {
     display: none;

@@ -17,7 +17,7 @@ export const projects = [
     
     "Playing a key role in developing the company’s in-house AR platform, helping transition the business from purely service-based solutions to scalable product-driven offerings.",
     
-    "Handling end-to-end development in a fast-paced startup environment, taking ownership of projects from concept to deployment.",
+    "Handling end-to-end development in a fast-paced startup environment, taking ownership of projects from concept to deployment with AWS.",
     
     "Rapidly prototyping and delivering projects using AI-assisted development workflows, while also reviewing and refining codebases developed by other team members."
   ],

@@ -3,10 +3,10 @@ export const webDev = [
     title: "C++",
     value: "85%",
   },
-  {
-    title: "Java",
-    value: "45%",
-  },
+  // {
+  //   title: "Java",
+  //   value: "45%",
+  // },
   {
     title: "Python",
     value: "85%",
@@ -35,10 +35,10 @@ export const webDev = [
     title: "FastAPI",
     value: "65%",
   },
-  {
-    title: "Scikit-Learn",
-    value: "40%",
-  },
+  // {
+  //   title: "Scikit-Learn",
+  //   value: "40%",
+  // },
   {
     title: "Pandas",
     value: "40%",

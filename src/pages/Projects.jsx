@@ -14,6 +14,8 @@ const Projects = () => {
     <div className="projects-merged">
       <div className="skill-exp-page" id="projects">
         <h1>PROJECTS</h1>
+        <br></br>
+        
         <Tabs className="projects-display">
           {/* <TabList>
             <Tab>Software Dev</Tab>
@@ -28,57 +30,61 @@ const Projects = () => {
               {prog.map((prog, index) => (
                 <div className="card prog-card" key={index}>
                   <img src={prog.image} alt="" />
-                  <p>
-                    <h3>{prog.title}</h3>
-                    <p>{prog.description}</p>
-                    <div className="concepts">
-                      {prog.concepts?.map((concept, i) => (
-                        <div className="concept">{concept}</div>
-                      ))}
+                  <div className="card-body">
+                    <div className="card-text">
+                      <h3>{prog.title}</h3>
+                      <p className="card-description">{prog.description}</p>
                     </div>
 
-                    {/* <br /> */}
-                    <div className="links">
-                      {prog.liveURL ? (
-                        <a
-                          href={prog.liveURL}
-                          className="try-it"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Demo
-                        </a>
-                      ) : (
-                        ""
-                      )}
+                    <div className="card-bottom">
+                      <div className="concepts">
+                        {prog.concepts?.map((concept, i) => (
+                          <div className="concept" key={i}>{concept}</div>
+                        ))}
+                      </div>
 
-                      {prog.gitURL ? (
-                        <a
-                          href={prog.gitURL}
-                          className="github-link"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Github
-                        </a>
-                      ) : (
-                        ""
-                      )}
+                      <div className="links">
+                        {prog.liveURL ? (
+                          <a
+                            href={prog.liveURL}
+                            className="try-it"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Demo
+                          </a>
+                        ) : (
+                          ""
+                        )}
 
-                      {prog.docker ? (
-                        <a
-                          href={prog.docker}
-                          className="docker"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Docker Image
-                        </a>
-                      ) : (
-                        ""
-                      )}
+                        {prog.gitURL ? (
+                          <a
+                            href={prog.gitURL}
+                            className="github-link"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Github
+                          </a>
+                        ) : (
+                          ""
+                        )}
+
+                        {prog.docker ? (
+                          <a
+                            href={prog.docker}
+                            className="docker"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            Docker Image
+                          </a>
+                        ) : (
+                          ""
+                        )}
+                      </div>
                     </div>
-                  </p>
+                  </div>
                 </div>
               ))}
             </div>

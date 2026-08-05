@@ -8,10 +8,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import Projects from "./pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
+import ShootingStars from "./components/ShootingStars";
 
 function App() {
   return (
     <div className="App">
+      <ShootingStars />
       <Router>
         <ScrollToTop />
         <Navbar />

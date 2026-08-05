@@ -111,12 +111,13 @@
     display: flex;
     justify-content: center;
     gap: 1.25rem;
-    background-color: rgba(22, 22, 22, 0.85) !important;
+    background-color: #182133cc !important;
     transition: 0.6s;
     flex-direction: column;
     transform: translateX(-100%);
     z-index: 999;
     padding: 0.5rem 2rem 0.5rem 2rem;
+    backdrop-filter: blur(1.5px);
     align-items: start;
   }
   .responsiveNav {

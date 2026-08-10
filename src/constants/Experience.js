@@ -56,23 +56,5 @@ export const projects = [
       "Collaborated with developers in code reviews and documentation, strengthening team coordination and development process.",
     ],
     duration: "01/02/2024 - 31/03/2024 (2 Mos)",
-  },
-  {
-    image: EDCJIT,
-    title: "eDC | JIT",
-    role: "Web developer",
-    description: [
-      "Developed and hosted the official Website of the Entrepreneurship Development Club and adeptly addressed problem-solving challenges.",
-      "Maintained the website with regular updates and increased event attendees by 25%.",
-    ],
-    duration: "24/07/2023 - 31/01/2024",
-  },
-  // {
-  //   image: destinationTechnologies,
-  //   title: "Destination Technologies",
-  //   role: "Full stack trainee",
-  //   description:
-  //     "Executed hands-on training in the creation of web applications and hosting showcasing my proficiency in implementation.",
-  //   duration: "01/11/2023 - 30/11/2023",
-  // },
+  }
 ];

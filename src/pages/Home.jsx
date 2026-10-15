@@ -52,10 +52,10 @@ function Home() {
                 <img src={profileImage} alt="dp" className="profile-image" />
               </div>
               <div className="tag tag-top">
-                <p className="typing-text">AR, AI</p>
+                <p className="typing-text">Full-Stack</p>
               </div>
               <div className="tag tag-bottom">
-                <p className="typing-text">Full-Stack</p>
+                <p className="typing-text">AR, AI</p>
               </div>
               <div className="curve-one"></div>
               <div className="curve-two"></div>

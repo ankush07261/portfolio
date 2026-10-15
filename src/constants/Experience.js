@@ -19,7 +19,7 @@ export const projects = [
 
   "Discovered and implemented a technique to emulate a 3D SLAM engine without requiring motion sensor permissions, significantly increasing user interactions and reducing onboarding friction.",
 
-  "Planning projects, R&D and handling end-to-end development in a fast-paced startup environment, taking ownership of projects from concept to deployment on AWS.",
+  "Developing unit tests to improve code reliability and quality, and deploying applications on AWS",
 
   "Rapidly prototyping and delivering projects using AI-assisted development workflows, while reviewing and refining codebases developed by other team members."
 ],

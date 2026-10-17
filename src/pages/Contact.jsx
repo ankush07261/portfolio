@@ -16,6 +16,7 @@ function Contact() {
   const [isSendingOtp, setIsSendingOtp] = useState(false);
   const [isOtpSent, setIsOtpSent] = useState(false);
   const [otpCode, setOtpCode] = useState("");
+  const [otpExpiresAt, setOtpExpiresAt] = useState(null);
   const [userEnteredOtp, setUserEnteredOtp] = useState("");
   const [isEmailVerified, setIsEmailVerified] = useState(false);
   const [otpError, setOtpError] = useState("");
@@ -124,6 +125,10 @@ function Contact() {
     const code = Math.floor(100000 + Math.random() * 900000).toString();
     setOtpCode(code);
 
+    // Set 15-minute expiration timestamp
+    const expiryTimestamp = Date.now() + 15 * 60 * 1000;
+    setOtpExpiresAt(expiryTimestamp);
+
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const otpTemplateId = process.env.REACT_APP_EMAILJS_OTP_TEMPLATE_ID;
     const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
@@ -141,7 +146,7 @@ function Contact() {
     if (!otpTemplateId) {
       // Developer mode helper so they can test before creating a template on dashboard
       console.log("----------------------------------------");
-      console.log(`[OTP Verification Code]: ${code}`);
+      console.log(`[OTP Verification Code]: ${code} (Valid for 15 minutes)`);
       console.log("----------------------------------------");
       showAlert(
         "REACT_APP_EMAILJS_OTP_TEMPLATE_ID is not configured in .env.\n\n[DEVELOPER MODE]: The OTP verification code is logged to your Developer Console for testing!",
@@ -186,6 +191,10 @@ function Contact() {
   };
 
   const handleVerifyOtp = () => {
+    if (otpExpiresAt && Date.now() > otpExpiresAt) {
+      setOtpError("This verification code has expired. Please request a new code.");
+      return;
+    }
     if (userEnteredOtp.trim() === otpCode) {
       setIsEmailVerified(true);
       setOtpError("");
@@ -259,6 +268,7 @@ function Contact() {
           setIsEmailVerified(false);
           setIsOtpSent(false);
           setOtpCode("");
+          setOtpExpiresAt(null);
           setUserEnteredOtp("");
           const contactEl = document.getElementById('contact');
           if (contactEl) {
@@ -319,6 +329,7 @@ function Contact() {
                   setIsEmailVerified(false);
                   setIsOtpSent(false);
                   setOtpCode("");
+                  setOtpExpiresAt(null);
                   setUserEnteredOtp("");
                 }}
               >

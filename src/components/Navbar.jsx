@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import "../css/navbar.css";
 import { useLocation, Link } from "react-router-dom";
 import profileImage from "../assets/images/profilepicture.jpg";
@@ -7,10 +7,14 @@ import CloseIcon from "@mui/icons-material/Close";
 
 function Navbar() {
   const location = useLocation();
-  const navRef = useRef();
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const showNav = () => {
-    navRef.current.classList.toggle("responsiveNav");
+  const toggleNav = () => {
+    setIsNavOpen((prev) => !prev);
+  };
+
+  const closeNav = () => {
+    setIsNavOpen(false);
   };
 
   const routes = [
@@ -49,6 +53,7 @@ function Navbar() {
             textDecoration: "none",
             color: "inherit",
           }}
+          onClick={closeNav}
         >
           <p>
             {activePath !== "/" && (
@@ -63,7 +68,7 @@ function Navbar() {
           </p>
         </Link>
 
-        <div className="navbar-nav" id="navbar-nav" ref={navRef}>
+        <div className={`navbar-nav ${isNavOpen ? "responsiveNav" : ""}`} id="navbar-nav">
           {routes.map((route, index) => (
             <Link
               key={index}
@@ -78,20 +83,16 @@ function Navbar() {
                   route.path === activePath ? "0px 4px 6px black" : null,
                 textDecoration: "none",
               }}
-              onClick={() => {
-                if (navRef.current.classList.contains("responsiveNav")) {
-                  showNav();
-                }
-              }}
+              onClick={closeNav}
             >
               {route.title}
             </Link>
           ))}
-          <button className="menu btn-close" onClick={showNav}>
+          <button className="menu btn-close" onClick={toggleNav} aria-label="Close navigation">
             <CloseIcon />
           </button>
         </div>
-        <button className="menu btn-open" onClick={showNav}>
+        <button className="menu btn-open" onClick={toggleNav} aria-label="Open navigation">
           <span className="menu-text">More</span>
           <MenuIcon />
         </button>

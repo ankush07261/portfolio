@@ -1,4 +1,4 @@
-import EDCJIT from "../assets/images/MyWork-SS/edcjit.jpeg";
+// import EDCJIT from "../assets/images/MyWork-SS/edcjit.jpeg";
 import cadabams from "../assets/images/MyWork-SS/cadabams.jpeg";
 // import destinationTechnologies from "../assets/images/MyWork-SS/destinationTechnologies.jpeg";
 import GE from "../assets/images/MyWork-SS/GE.png";

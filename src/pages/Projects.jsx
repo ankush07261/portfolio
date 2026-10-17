@@ -1,15 +1,11 @@
 import "../css/experience.css";
-import { demoCyber, programming } from "../constants/Projects";
-import * as React from "react";
-import { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { programming } from "../constants/Projects";
+import React from "react";
+import { Tabs, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Skills from "./Skills";
 
 const Projects = () => {
-  // const [demoCyb, setDemoCyb] = useState(demoCyber);
-  const [prog, setProg] = useState(programming);
-
   return (
     <div className="projects-merged">
       <div className="skill-exp-page" id="projects">
@@ -27,9 +23,9 @@ const Projects = () => {
               Software Development Projects
             </h2> */}
             <div className="projects">
-              {prog.map((prog, index) => (
+              {programming.map((prog, index) => (
                 <div className="card prog-card" key={index}>
-                  <img src={prog.image} alt="" />
+                  <img src={prog.image} alt={prog.title} />
                   <div className="card-body">
                     <div className="card-text">
                       <h3>{prog.title}</h3>

@@ -24,11 +24,11 @@ function Home() {
           stroke="#eeeeee"
           className="svg"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
           <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           ></g>
           <g id="SVGRepo_iconCarrier">
             <title>LeetCode icon</title>
@@ -76,7 +76,7 @@ function Home() {
         </div>
         <div className="line"></div>
         <div className="sub-container about-me">
-          <p className="me-text-primary">
+          <div className="me-text-primary">
             <h1>Hey there folks<span className="hello">👋🏻</span>,</h1>
             <br />
             {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
@@ -85,7 +85,7 @@ function Home() {
             <span className="highlight">Web Augmented Reality</span>, and{" "}
             <span className="highlight">AI</span>, creating seamless and impactful digital experiences.
             <br />
-          </p>
+          </div>
         </div>
       </div>
       <div 

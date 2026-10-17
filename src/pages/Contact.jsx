@@ -119,9 +119,19 @@ function Contact() {
     const code = Math.floor(100000 + Math.random() * 900000).toString();
     setOtpCode(code);
 
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID || "service_kubxz5s";
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const otpTemplateId = process.env.REACT_APP_EMAILJS_OTP_TEMPLATE_ID;
-    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY || "fuiPBIeol6D2d-WNC";
+    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !publicKey) {
+      showAlert(
+        "EmailJS configuration is missing. Please make sure REACT_APP_EMAILJS_SERVICE_ID and REACT_APP_EMAILJS_PUBLIC_KEY are set.",
+        "Error",
+        "error"
+      );
+      setIsSendingOtp(false);
+      return;
+    }
 
     if (!otpTemplateId) {
       // Developer mode helper so they can test before creating a template on dashboard
@@ -202,9 +212,19 @@ function Contact() {
 
     setIsSending(true);
     
-    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID || "service_kubxz5s";
-    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID || "template_ik7qq8j";
-    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY || "fuiPBIeol6D2d-WNC";
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      showAlert(
+        "EmailJS configuration is missing. Please ensure your environment variables are configured.",
+        "Error",
+        "error"
+      );
+      setIsSending(false);
+      return;
+    }
 
     emailjs
       .sendForm(

@@ -1,12 +1,12 @@
 import drumKit from "../assets/images/MyWork-SS/drumKit.png";
 import simonGame from "../assets/images/MyWork-SS/simonGame.png";
-import todoList from "../assets/images/MyWork-SS/todoList.png";
+// import todoList from "../assets/images/MyWork-SS/todoList.png";
 import blogWebsite from "../assets/images/MyWork-SS/BlogPage.png";
 import weatherAPI from "../assets/images/MyWork-SS/weatherAPI.png";
 import DBMS from "../assets/images/MyWork-SS/DBMS.png";
 import PasswordStrength from "../assets/images/MyWork-SS/password.png";
-import Keylogger from "../assets/images/MyWork-SS/keylogger.png";
-import PortScanner from "../assets/images/MyWork-SS/portscanner.png";
+// import Keylogger from "../assets/images/MyWork-SS/keylogger.png";
+// import PortScanner from "../assets/images/MyWork-SS/portscanner.png";
 import File_Cache from "../assets/images/MyWork-SS/File_Cache.png";
 import cti from "../assets/images/MyWork-SS/cti.jpg";
 import da from "../assets/images/MyWork-SS/da.png";
@@ -53,13 +53,13 @@ export const programming = [
     title: "Stack Overflow survey Data Analysis",
     description: "Analyzed the Stack Overflow survey data using Python.",
     gitURL:"https://github.com/ankush07261/Stack_Overflow_EDA",
-    concepts: ["Python", "Data Analysis & Visulization"],
+    concepts: ["Python", "Data Analysis & Visualization"],
   },
   {
     image: DBMS,
     title: "College clubs management",
     description:
-      "Used to manange the members, account, logistics and more of the student clubs in a college",
+      "Used to manage the members, account, logistics and more of the student clubs in a college",
     gitURL: "https://github.com/ankush07261/College_Club_management_system",
     concepts: ["SQL", "ExpressJS", "EJS", "CSS"],
   },

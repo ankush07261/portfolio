@@ -1,11 +1,8 @@
 import "../css/experience.css";
-import { demoprojects, projects } from "../constants/Experience";
-import * as React from "react";
-import { useState } from "react";
+import { projects } from "../constants/Experience";
+import React from "react";
 
 function MyWork() {
-  const [project, setProject] = useState(projects);
-
   return (
     <>
       <div className="myWork" id="experience">
@@ -13,7 +10,7 @@ function MyWork() {
         <br />
         <div className="professional-experience">
           <ul className="experience-list">
-            {project.map((project, index) => (
+            {projects.map((project, index) => (
               <li className="experience-list-li" key={index}>
                 <div className="timeline-div">
                   <div className="dot"></div>
@@ -44,13 +41,13 @@ function MyWork() {
                         <p>
                           <b className="duration">{r.duration}</b>
                         </p>
-                        <p className="job-desc">
+                        <div className="job-desc">
                           {r.description.map((line, idx) => (
                             <ul className="exp-desc-ul" key={idx}>
                               <li className="exp-desc-li">{line}</li>
                             </ul>
                           ))}
-                        </p>
+                        </div>
                       </div>
                     ))
                   ) : (
@@ -59,7 +56,7 @@ function MyWork() {
                       <p>
                         <b className="duration">{project.duration}</b>
                       </p>
-                      <p className="job-desc">
+                      <div className="job-desc">
                         {(Array.isArray(project.description)
                           ? project.description
                           : project.description.split("\n")
@@ -68,7 +65,7 @@ function MyWork() {
                             <li className="exp-desc-li">{line}</li>
                           </ul>
                         ))}
-                      </p>
+                      </div>
                     </>
                   )}
                 </div>

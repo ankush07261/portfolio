@@ -9,7 +9,7 @@ function AboutMe() {
       <div className="aboutMe-container" id="aboutme">
         <h1>ABOUT ME</h1>
         <div className="text">
-          <p className="me-text">
+          <div className="me-text">
             <p className="me-desc">
               As a skilled engineer specializing in software
               development, I have expertise in{" "}
@@ -43,7 +43,7 @@ function AboutMe() {
               <li>
                 <b>Creative Thinking &#x1F4A1;:</b>
                 <br />I implement creativity and analytical thinking to the
-                projects i work on and add value to your company.
+                projects I work on and add value to your company.
               </li>
               <li>
                 <b>Staying updated &#x1F4C8;:</b>
@@ -86,7 +86,7 @@ function AboutMe() {
                 GPA: 8.26
               </li>
             </ul>
-          </p>
+          </div>
           <br />
         </div>
       </div>

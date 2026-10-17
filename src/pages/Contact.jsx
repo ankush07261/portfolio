@@ -150,6 +150,12 @@ function Contact() {
         },
         publicKey
       );
+      if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "contact_form_start", {
+          event_category: "Contact",
+          event_label: "OTP Sent",
+        });
+      }
       showAlert(`A verification code has been sent to ${email}. Please check your inbox!`, "OTP Sent", "success");
       setIsOtpSent(true);
     } catch (error) {
@@ -168,6 +174,12 @@ function Contact() {
     if (userEnteredOtp.trim() === otpCode) {
       setIsEmailVerified(true);
       setOtpError("");
+      if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "contact_email_verified", {
+          event_category: "Contact",
+          event_label: "Email Verified",
+        });
+      }
       showAlert("Email verified successfully! You can now send your message.", "Verified", "success");
     } else {
       setOtpError("Incorrect verification code. Please try again.");
@@ -205,6 +217,12 @@ function Contact() {
         (result) => {
           console.log(result.text);
           setIsSending(false);
+          if (typeof window !== "undefined" && window.gtag) {
+            window.gtag("event", "generate_lead", {
+              event_category: "Contact",
+              event_label: "Message Sent Successfully",
+            });
+          }
           showAlert("Message sent successfully!", "Success", "success");
           setName("");
           setEmail("");

@@ -4,11 +4,25 @@ import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Blogs from "./pages/Blogs";
 import "./css/App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import React, { useEffect } from "react";
 import Projects from "./pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
 import ShootingStars from "./components/ShootingStars";
+
+function AnalyticsTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("config", "G-XBVFST0ZNZ", {
+        page_path: location.pathname + location.search,
+      });
+    }
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
@@ -16,6 +30,7 @@ function App() {
       <ShootingStars />
       <Router>
         <ScrollToTop />
+        <AnalyticsTracker />
         <Navbar />
         <Routes>
           <Route path="/" element={<AboutMe />} />

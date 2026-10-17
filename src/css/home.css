@@ -64,7 +64,7 @@
 .about-me-page p {
   text-align: center;
   margin: 1.25rem auto 0.5rem auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .container {
   width: 100%;
@@ -204,7 +204,10 @@
 }
 .me-text-primary {
   width: 90%;
-  font-size: large;
+  font-size: 1rem;
+}
+.me-text-primary h2{
+  margin-top: 0 !important;
 }
 .highlight {
   font-weight: bold;
@@ -306,7 +309,7 @@
   }
   .socials-container {
     width: 60%;
-    margin: 1rem auto 0 auto;
+    margin: 0.6rem auto 0.6rem auto;
     font-size: 18px;
   }
   .line {
@@ -323,7 +326,7 @@
     gap: 1rem;
   }
   .profile-card {
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 0rem auto;
   }
   .sub-container {
     width: 100%;
@@ -334,12 +337,12 @@
     text-align: left;
     margin-top: 0;
     padding: 0 0.5rem;
-    font-size: 1.2rem;
   }
+  .about-me .me-text-primary,
   .about-me p {
     background-color: var(--secondary-color);
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 6px;
   }
   .tag-bottom{

@@ -229,3 +229,13 @@
     }
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .stars-1,
+  .stars-2,
+  .stars-3,
+  .stars-4,
+  .shooting-star {
+    animation: none !important;
+  }
+}

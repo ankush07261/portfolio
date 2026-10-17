@@ -64,7 +64,7 @@ function Navbar() {
               />
             )}
             {"   "}
-            <span style={{ marginLeft: "10px" }}>Ankush Hegde</span>
+            <span style={{ marginLeft: "5px" }}>Ankush Hegde</span>
           </p>
         </Link>
 

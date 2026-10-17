@@ -57,8 +57,6 @@ function Home() {
               <div className="tag tag-bottom">
                 <p className="typing-text">AR, AI</p>
               </div>
-              <div className="curve-one"></div>
-              <div className="curve-two"></div>
             </div>
             <div className="socials-container">
               {links.map((link, index) => (
@@ -77,8 +75,7 @@ function Home() {
         <div className="line"></div>
         <div className="sub-container about-me">
           <div className="me-text-primary">
-            <h1>Hey there folks<span className="hello">👋🏻</span>,</h1>
-            <br />
+            <h2>Hey there folks<span className="hello">👋🏻</span>,</h2>
             {/* I'm a <span className="highlight">Software Developer, Cybersecurity Sleuth,</span> and <span className="highlight">AI/ML Explorer</span> on a mission to craft sleek digital experiences, train machines to be smarter (but not smarter than me), and keep cyber threats crying in a corner. */}
             I’m a <span className="highlight">Software Developer</span> specializing in{" "}
             <span className="highlight">Full-Stack Development</span>,{" "}

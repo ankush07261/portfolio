@@ -44,10 +44,11 @@ function Contact() {
   ];
 
   const performLocalCheck = (emailVal) => {
-    if (!emailRegex.test(emailVal)) {
+    const trimmed = (emailVal || "").trim();
+    if (!emailRegex.test(trimmed)) {
       return { valid: false, message: "Please enter a valid email format." };
     }
-    const domain = emailVal.split("@")[1]?.toLowerCase();
+    const domain = trimmed.split("@")[1]?.toLowerCase();
     if (DISPOSABLE_DOMAINS.includes(domain)) {
       return { valid: false, message: "Temporary or disposable email addresses are not allowed." };
     }
@@ -55,7 +56,8 @@ function Contact() {
   };
 
   const verifyEmail = async (emailVal) => {
-    const localResult = performLocalCheck(emailVal);
+    const trimmed = (emailVal || "").trim();
+    const localResult = performLocalCheck(trimmed);
     if (!localResult.valid) {
       return localResult;
     }
@@ -68,7 +70,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        `https://emailvalidation.abstractapi.com/v1/?api_key=${apiKey}&email=${encodeURIComponent(emailVal)}`
+        `https://emailvalidation.abstractapi.com/v1/?api_key=${apiKey}&email=${encodeURIComponent(trimmed)}`
       );
       if (!response.ok) {
         throw new Error(`API returned status ${response.status}`);
@@ -99,14 +101,17 @@ function Contact() {
     setValidationError("");
     setOtpError("");
 
-    if (!name || !email) {
+    const trimmedName = name.trim();
+    const trimmedEmail = email.trim();
+
+    if (!trimmedName || !trimmedEmail) {
       showAlert("Please fill in your name and email to proceed with verification.", "Error", "error");
       return;
     }
 
     setIsValidating(true);
     setIsSendingOtp(true);
-    const verification = await verifyEmail(email);
+    const verification = await verifyEmail(trimmedEmail);
     setIsValidating(false);
 
     if (!verification.valid) {
@@ -153,8 +158,8 @@ function Contact() {
         serviceId,
         otpTemplateId,
         {
-          user_name: name,
-          user_email: email,
+          user_name: trimmedName,
+          user_email: trimmedEmail,
           otp: code,
           passcode: code,
         },
@@ -166,7 +171,7 @@ function Contact() {
           event_label: "OTP Sent",
         });
       }
-      showAlert(`A verification code has been sent to ${email}. Please check your inbox!`, "OTP Sent", "success");
+      showAlert(`A verification code has been sent to ${trimmedEmail}. Please check your inbox!`, "OTP Sent", "success");
       setIsOtpSent(true);
     } catch (error) {
       console.error("Failed to send OTP:", error);
@@ -200,7 +205,11 @@ function Contact() {
     e.preventDefault();
     setValidationError("");
 
-    if (!name || !email || !msg) {
+    const trimmedName = name.trim();
+    const trimmedEmail = email.trim();
+    const trimmedMsg = msg.trim();
+
+    if (!trimmedName || !trimmedEmail || !trimmedMsg) {
       showAlert("Please fill out all the fields.", "Warning", "warning");
       return;
     }
@@ -251,9 +260,11 @@ function Contact() {
           setIsOtpSent(false);
           setOtpCode("");
           setUserEnteredOtp("");
-          const homeEl = document.getElementById('home');
-          if (homeEl) {
-            homeEl.scrollIntoView({ behavior: 'smooth' });
+          const contactEl = document.getElementById('contact');
+          if (contactEl) {
+            contactEl.scrollIntoView({ behavior: 'smooth' });
+          } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
           }
         },
         (error) => {
@@ -269,9 +280,8 @@ function Contact() {
   };
 
   return (
-    <div className="contact" id="contact" style={{ paddingTop: "80px" }}>
-      <h3 style={{ paddingTop: "60px" }}>Connect with me by filling out this form...</h3>
-      <br />
+    <div className="contact" id="contact">
+      <h3 className="contact-heading">Connect with me by filling out this form</h3>
       <form ref={form} onSubmit={sendEmail} className="contact-container">
         <label htmlFor="user_name">Your name</label>
         <input

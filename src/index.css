@@ -1,4 +1,6 @@
 :root {
+  color-scheme: dark;
+  color-scheme: only dark;
   --primary-color: #0f1a2a;
   --secondary-color: #28303f;
   --ternary-color: #ffd369;
@@ -6,6 +8,8 @@
   --shadow: #ffe5a8;
 }
 html {
+  color-scheme: dark;
+  color-scheme: only dark;
   scroll-behavior: smooth;
   font-size: 16px;
 }
@@ -44,6 +48,8 @@ h4 {
 }
 
 body {
+  color-scheme: dark;
+  color-scheme: only dark;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;

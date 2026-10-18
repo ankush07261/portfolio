@@ -1,4 +1,6 @@
 .shooting-stars-bg {
+  color-scheme: dark;
+  color-scheme: only dark;
   position: fixed;
   top: 0;
   left: 0;

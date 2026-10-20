@@ -12,6 +12,18 @@ export const webDev = [
     value: "85%",
   },
   {
+    title: "JavaScript",
+    value: "75%",
+  },
+  {
+    title: "React.JS",
+    value: "92%",
+  },
+  {
+    title: "Next.JS",
+    value: "55%",
+  },
+  {
     title: "MongoDB",
     value: "75%",
   },
@@ -20,12 +32,8 @@ export const webDev = [
     value: "75%",
   },
   {
-    title: "JavaScript",
+    title: "Redis",
     value: "75%",
-  },
-  {
-    title: "ReactJS",
-    value: "92%",
   },
   {
     title: "ThreeJS",
@@ -122,8 +130,20 @@ export const cyberSecurity = [
     value: "75%",
   },
   {
-    title: "Redis",
-    value: "75%",
+    title: "Github Actions",
+    value: "70%",
+  },
+  {
+    title: "Git & Github",
+    value: "60%",
+  },
+  {
+    title: "AWS EC2",
+    value: "30%",
+  },
+  {
+    title: "AWS S3",
+    value: "30%",
   },
   {
     title: "Kali Linux",
@@ -132,18 +152,6 @@ export const cyberSecurity = [
   {
     title: " Ubuntu",
     value: "75%",
-  },
-  {
-    title: "Nessus",
-    value: "70%",
-  },
-  {
-    title: "Wireshark",
-    value: "60%",
-  },
-  {
-    title: "Burpsuit",
-    value: "30%",
   },
 ];
 // export const others = [

@@ -32,6 +32,7 @@
   border-top-right-radius: 8px;
   width: fit-content !important;
   font-size: medium;
+  border: none !important;
 }
 .react-tabs__tab-list {
   text-decoration: none !important;
@@ -50,10 +51,21 @@
 }
 .react-tabs__tab--selected {
   background-color: var(--ternary-color) !important;
-  border: none;
+  border: none !important;
   color: black !important;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px !important;
+}
+.react-tabs__tab:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.react-tabs__tab:after,
+.react-tabs__tab:focus:after,
+.react-tabs__tab--selected:after {
+  display: none !important;
+  content: none !important;
 }
 .skill-container {
   margin: 0rem auto 0rem auto;
